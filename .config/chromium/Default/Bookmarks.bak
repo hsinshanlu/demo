@@ -1,0 +1,118 @@
+{
+   "checksum": "e6f13cec4b41e6946ec18ed9079c2220",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13252428998762501",
+            "guid": "e2028789-da65-421e-b633-57bf6fb3004c",
+            "id": "5",
+            "name": "What is Data Science? - Home | Coursera",
+            "type": "url",
+            "url": "https://www.coursera.org/learn/what-is-datascience/home/welcome"
+         }, {
+            "date_added": "13252429127034388",
+            "guid": "ad031890-a42f-47de-bde3-09b1a9988b52",
+            "id": "6",
+            "name": "Professional Certificate Community | Coursera Community",
+            "type": "url",
+            "url": "https://coursera.community/professional-certificate-community-61"
+         }, {
+            "date_added": "13252429138083638",
+            "guid": "f0afe8ea-fc5e-4608-bef7-1bf014c7f3fb",
+            "id": "7",
+            "name": "Data Science | Coursera Community",
+            "type": "url",
+            "url": "https://coursera.community/data-science-8"
+         }, {
+            "date_added": "13252608440006932",
+            "guid": "d0883def-d10c-4fc4-9536-01531c2024cd",
+            "id": "11",
+            "name": "Practice Python",
+            "type": "url",
+            "url": "https://www.practicepython.org/"
+         }, {
+            "date_added": "13253123992207480",
+            "guid": "b1da0a7f-34a1-4547-9d75-3f416bfb3d96",
+            "id": "13",
+            "name": "SuperRare | Authentic Digital Art Marketplace",
+            "type": "url",
+            "url": "https://superrare.co/"
+         }, {
+            "date_added": "13253125370268972",
+            "guid": "3e9b8f6a-b31f-4c4c-a149-ee2b787f0af5",
+            "id": "14",
+            "name": "GitHub - IBM/MAX-Object-Detector: Localize and identify multiple objects in a single image.",
+            "type": "url",
+            "url": "https://github.com/IBM/MAX-Object-Detector"
+         } ],
+         "date_added": "13252428672184878",
+         "date_modified": "13253125370268972",
+         "guid": "00000000-0000-4000-A000-000000000002",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13252428672184894",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-A000-000000000003",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13207754188269077",
+            "guid": "8762c2e2-75d8-4930-94fd-d9b987f2f36f",
+            "id": "16",
+            "name": "少年謝爾頓 第一季 Young Sheldon Season 1 - 第09集 - 奔騰雲 - 美劇 - 高清免費線上看 - Gimy TV 劇迷",
+            "type": "url",
+            "url": "https://gimy.tv/vod-play-id-70128-src-1-num-9.html"
+         }, {
+            "date_added": "13207754384046282",
+            "guid": "bfd50f77-e651-4409-892e-71b5ec12ee24",
+            "id": "17",
+            "name": "良醫墨非第二季 - 第12集 - 順暢雲 - 美劇 - 高清免費線上看 - Gimy TV 劇迷",
+            "type": "url",
+            "url": "https://gimy.tv/vod-play-id-85834-src-1-num-12.html"
+         }, {
+            "date_added": "13207754589937888",
+            "guid": "9f12f67d-9ac7-4d5a-87fb-6556604520b7",
+            "id": "18",
+            "name": "她她戀曲電影版線上看 - 電影 - Gimy TV 劇迷",
+            "type": "url",
+            "url": "https://v.gimy.tv/video/57169.html"
+         }, {
+            "date_added": "13207754625577797",
+            "guid": "1c9cf5da-2bd8-42e3-b4d4-541d5fc85845",
+            "id": "19",
+            "name": "密室綁架線上看 - 電影 - Gimy TV 劇迷",
+            "type": "url",
+            "url": "https://v.gimy.tv/video/61930.html"
+         }, {
+            "date_added": "13207754660441654",
+            "guid": "3db4d120-e50b-4a5e-8179-dc85d4bda685",
+            "id": "20",
+            "name": "馬大姐線上看 - 電影 - Gimy TV 劇迷",
+            "type": "url",
+            "url": "https://v.gimy.tv/video/58582.html"
+         }, {
+            "date_added": "13214209772574315",
+            "guid": "fa32f94c-fd40-4e0e-bcd3-44eb5cf60239",
+            "id": "21",
+            "name": "Watch The L Word Online Free on 123Movies",
+            "type": "url",
+            "url": "https://www3.123movies.la/serie/the-l-word-l4doxey"
+         } ],
+         "date_added": "13252428672184899",
+         "date_modified": "13214209772574315",
+         "guid": "00000000-0000-4000-A000-000000000004",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CscBCqYBCIiBAhKfARKMAQgCEk4KBgoCYm0QARAzGhIJACtNvUm3BQAhACtNvUm3BQAiFAlusfDMSbcFABAPGa2CbYo4hR5BMhgKFggCEWLv+sxJtwUAGAAhAAAAAAAAAAASOAoGCgJiZBAAEDMaEgkAK029SbcFACEAK029SbcFADIYChYIAhFi7/rMSbcFABgAIQAAAAAAAAAAIABIvre+0OkucOGevtDpLhIAIAEqGGpjR2FiWGhDaHZBUUdEYkZMRm9sNGc9PRLGAQgCEsEBEmZaOkFEcXRBWnhoUHZSNXY4bEwwaU53T05HVnE4aUlKQk5UZE1rMU5aeE1XbndrcWJzbG1yMWxxcGYzUUlLK0lTQVFSRlNxdUJWTUhNMWdVMEdlSXRiSENEdHM5a3hzMkw5TDBRPT0YACAAKAAwwqez5pzp7QI4AEAAShw1dXN5L2NwZnBpMUV0b0JIRGdYSXMwcWI0ckE9WiYiJIAAAAAAAAAAa30ZT8JED5Ap/o9eDkY/iootCruxQQtZFzNCfxKKAggREoUCEqYBWjpBRHF0QVp5Qk9mWEF4TWM3YWQ2VENDSzBiMVJLV201djlWOUh2VjB5dytKZUJuYWZVZzN0cUFvbjhMV3pZT0Fsa09pSEJxZTJxcVBRWlZ2VnVuYTNBM1BHeG9mTmdQSjBDQU1Weks4TlFxZHc2UU1CUStncGx1VjRtN0w4b1VVQ1hvTkl1emY2TGljWjlYZ3JkbmlOT3hqVWdZVkJyM1VsY1E9PRgAIAEoATDt4sLnnOntAjiz9a7Wvy1AibC+0OkuShxydmJleUpWTXVvWUhtK1FDaGQ4MkkxalJ3RjQ9Wh8iHdZ3bWpKTStCUk91M0FWbXJIN2NkODdGbTc4Sjg9EooCCBUShQISpgFaOkFEcXRBWnlCT2ZYQXhNYzdhZDZUQ0NLMGIxUktXbTV2OVY5SHZWMHl3K0plQm5hZlVoUEZHTVN2K1QxRldYYWhUSzczS3U0Ni9yZ0J4ZzMyY3c0RFpmajhPb3pBRmlQNWgvK3JxMjVIYWFZVjlYa3N0WE9zVGU3a1ZWRmV4TGtRbkFtYUYxWDJyZXNOUEJKS1BVTDRxMnYvQWhGVEx3MjJPdz09GAAgASgBMO3iwuec6e0COKjIxNzXLUCQsL7Q6S5KHFBZc3ZJL2pBVzU3bFJEVTJtVDdtaWpFV3NRND1aHyId/VBjT0drU3QxbGFuZFBmdUFWUXhxS1ZiLzluWT0SigIIExKFAhKmAVo6QURxdEFaeUJPZlhBeE1jN2FkNlRDQ0swYjFSS1dtNXY5VjlIdlYweXcrSmVCbmFmVWhVODEyQ214Uk11R0lCZUJRY3RtaUJlaHI4NC9zOXZjSkpkMyt3ZmJQY2paS01ER0hvRmVEMDJNZDlVMFpsTzZqT293ZnZXMTlqNUhnUi90OGhnTFVsa0pZL3ZzREMrVmx5RjlJOXUzeWtPZFF0aFp3PT0YACABKAEw7eLC55zp7QI4rtS91r8tQI2wvtDpLkocejB1NStrSEQ2RkpKOXE3SHREcFN4Y1ZLcjJJPVofIh31am5OcXM5ZEJIdWdqalJGRGl3V1R3bGlRNVVJPRKKAggUEoUCEqYBWjpBRHF0QVp5Qk9mWEF4TWM3YWQ2VENDSzBiMVJLV201djlWOUh2VjB5dytKZUJuYWZVa1FLOVVVY0ROcE5MYzZ6Uks4a3J3Kys5UDlST3gxT21Wa2MwS1lnSTBDTVdWa0toRll1L25Sanc0d0ZmTzl5QXdDWnVROVFoQWxhTkZIMkNlY2w5L3hkcTRzT2JCQmN4dDRhMVhDbHd6L2NqbG5uMHc9PRgAIAEoATDt4sLnnOntAjjb5L/Wvy1AjrC+0OkuShx3ZllDOVEyVno2ZFBlZWxQZmowdUZMS3ErNG89Wh8iHfpzTmhmYzBEREtzT1Vra1ZtdnZ0UVJKSThnVmM9EooCCBIShQISpgFaOkFEcXRBWnlCT2ZYQXhNYzdhZDZUQ0NLMGIxUktXbTV2OVY5SHZWMHl3K0plQm5hZlV0SEhmYXBpdEhBOUpJTmp4SE82OEo5b25UU0dnZ0FleXFkcU9xdFV3Rk9pYWNiK3dweERzREc0TUdxdFNSQjNKRmNuRDBSS0E4RUZNei9FdEhMZGVhei9JUW9RbWxvSkdIdEZqSUEvMkhIcDRqTEVNUT09GAAgASgBMO3iwuec6e0COPa9u9a/LUCLsL7Q6S5KHGJtQnNnWFNnTzhHaDZuTkh1ZTN6UmsrUVMrVT1aHyId63pYOG1ETmhaU3ZXQ1Y5OWZxWDhLVGVJM3lDMD0SigIIEBKFAhKmAVo6QURxdEFaeUJPZlhBeE1jN2FkNlRDQ0swYjFSS1dtNXY5VjlIdlYweXcrSmVCbmFmVXU0Qk1wZ3lNR2p0YjR5UXcwcDFJVmZ6MDUwWmhpTDNtTHRqdS8rLzhnNmk4ajNpZ3AvU0F5VFN6M1dzSGQ2V0F5SGtucTZpb3JzWkZoRjRPdUMxS0lrRUx1NkFMZlBxR0pNWXpYQmdMV21Kb3E3VmtnPT0YACABKAEw7eLC55zp7QI4m4Cj1r8tQIawvtDpLkocaE4rU3F1S3VWSlVaY1Z5OExpUHJ1MnQwTkRRPVofIh2sVDZSZ1Z2UE9ScUFCaHk4MXJOU3UyUzZBckc0PRKKAggHEoUCEqYBWjpBRHF0QVp5Qk9mWEF4TWM3YWQ2VENDSzBiMVJLZTExYmdZVjFtQStHL1FENjNoamxJaHFQWld1MTV0UTBwVWJsRlR1cFpLeXVMWWh0RkZCZU51VzRQVXBFZUpIZXEyNDd6T1ZLZkxIMEtaL1l5OGQ2b3FBYms5Z01hbzZDZXdmc0VUVHJWVnRSWWJaUitzOFpkU2hLMFhEK2xZMldPVllTNmc9PRgAIAEoATDt4sLnnOntAjjjrr7Q6S5A466+0OkuShxwYUtPUGJBOURFeWRRVkQ3WjJhc3VsTHRQclk9Wh8iHbtZVXlGbU9zdGUxbUovdkVIWFNFek5xS1ZaZjA9EooCCA4ShQISpgFaOkFEcXRBWnlCT2ZYQXhNYzdhZDZUQ0NLMGIxUktlMTFiZ1lWMW1BK0cvUUQ2M2hqbElpeVJraEs2OWx0Uy9JZ3VnRFlxa0NEK0RqYzE3aEVveVZUc1BMVFNnN3BkZldsUzRjeWhGZ1NRM3dvZTdvczM2S3BRYXdveXRhcU1qRmlibEg0RlMvVUlRekpkNGlBRmJCOFNiRTNnQlpZVFI5bjk4UT09GAAgASgBMO3iwuec6e0COOOuvtDpLkDjrr7Q6S5KHHNZMnZQaVRHckdsOEM3MGlRdGxEb1pGb1FMOD1aHyId91B6L3RMMXorZTF2cUVrMlZ3WS9rZFFHNHJIdz0SiQIIBRKEAhKmAVo6QURxdEFaeUJPZlhBeE1jN2FkNlRDQ0swYjFSS2UxMWJnWVYxbUErRy9RRDYzaGpsSWxRejVYT1p0WHEycHgvWi80azhic1JQeEVhS2lqWENKNVY2UFRVM2Nzd3JxZk52bHFYSmtYb2h2WTZvWC9SVDFUQ0huNVRsWkpEVEowc2M2emo1Z0RlSTV4ZEhIMERnYXd2RmRyeXQwSm9YckxhaUhnPT0YACABKAEw7eLC55zp7QI44q6+0OkuQOKuvtDpLkocNEQzdW9ybWxtSWJ0QTJpdmo3ODZOTlhyaXhFPVoeIhxlajJCeFA4OVhJc3lVdzBJbjYxYlM4SXp0dWM9EooCCA0ShQISpgFaOkFEcXRBWnlCT2ZYQXhNYzdhZDZUQ0NLMGIxUktlMTFiZ1lWMW1BK0cvUUQ2M2hqbElzTzUxdVFEUVJPSzhWakhGUTAxWVl5LzFDaFRUSk9hLzFnc0xKNm8yazVLSjVxT3p5ZlM3UzB4K3E2Z1NJMThyWXhlK0RtdlFoYkhucTFsSU9ObDRGald6aVh3Z0RPMHpldnd2Ni9xSnVyaDRET21odz09GAAgASgBMO3iwuec6e0COOOuvtDpLkDjrr7Q6S5KHDU5Uko1V1hnVldkUTZXeTJST2hpODFINGNKND1aHyId7nk1c0w4ZStVR096cks5Vmd6ZldrU0gvY3R4bz0SigIICxKFAhKmAVo6QURxdEFaeUJPZlhBeE1jN2FkNlRDQ0swYjFSS2UxMWJnWVYxbUErRy9RRDYzaGpsSXR5TEx1Q29CdlE5ZnFkVnZTUDRhR0Q1Ukd0b2FsMWlYWmE4bTRhbmpWMmJ2aXQva2d6b2RCREZSQVlvTEt1VTU2M1lTYUhvMmFjTEh3M0JaNU5hbVNzNGZyeFFOdG9PdCtjdmoyRndhd25HOUdFdG9nPT0YACABKAEw7eLC55zp7QI4466+0OkuQOOuvtDpLkocL2MrU0ZjemhVOHoyNmpKakYyc0lXb1J0Q2RZPVofIh3dQVBDcGdZV0MrbzEvazFVUitJc1pTbUhjV01zPRKJAggGEoQCEqYBWjpBRHF0QVp5Qk9mWEF4TWM3YWQ2VENDSzBiMVJLZTExYmdZVjFtQStHL1FENjNoamxJdTE3L0I3dzhOSjl0cEZqMUlGUjR6ZHpJa0xrdXVoTEIvbHVmUng5YW9MaFdtMlpJNG8xNlR4azJPTWlvckNqa1E5R1A3K0VVRWlYUkREMklYY0ZRdzN2WktzZHFRV1ptT2FmWG9HL2dpNlBjL0lLMWc9PRgAIAEoATDt4sLnnOntAjjirr7Q6S5A4q6+0OkuShxheG9QTzlQa1d4bFhjc2ZiZW5kOERINlVZZVE9Wh4iHHdIdVdnTDRoWUltWG10SzVSeEJ4YWtLVWp6az0SxgEIAxLBARJmWjpBRHF0QVp6TWZNQnFVMGVJNHRBU2dxRmdMelF5SVM0YndIa05HcHZTNEl3YUhnd0YxTHhyZUQrNXZWVGdibVFrcWYrOWwzUzkvdGgwenlhREEva1NEOVRGek9CNGprdjNyUT09GAAgACgAMMKns+ac6e0COABAAEocNzlsK0xSRVVwaWFFdkREK0c0M2NwWFN0d0JjPVomIiSAAAAAAAAAAHOL4sfP+VjAwSKGvtHdU51F4kvuo38c7yIvUn8SrgEIARKpARJOWjpBRHF0QVp6Uk9TL0gzcy9iTU5YVTg4Mm8wV3BoRjFYdjJleVZjTy9HM25OR1FQY2xsOE9Td2M5MDJXZC9DWS95d0FKSjM1SHVxVnVnGAAgACgAMMKns+ac6e0COABAAEocVStHR0l0WkVEcFpzSVNsT1VhSVR1SUxkTW5JPVomIiSAAAAAAAAAANSzKwEP6X1UoSe6B0pM7R3NYqBssau3sghrj38=",
+   "version": 1
+}

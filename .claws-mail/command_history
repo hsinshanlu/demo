@@ -1,0 +1,2 @@
+qpdfview %s
+xdg-open '%s'

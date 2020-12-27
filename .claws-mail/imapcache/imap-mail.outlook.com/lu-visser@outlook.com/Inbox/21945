@@ -1,0 +1,211 @@
+Received: from BN8NAM11HT120.eop-nam11.prod.protection.outlook.com
+ (2603:10a6:4:67::28) by DB8PR06MB6553.eurprd06.prod.outlook.com with HTTPS
+ via DB6PR0501CA0042.EURPRD05.PROD.OUTLOOK.COM; Wed, 2 Dec 2020 02:01:38 +0000
+Received: from BN8NAM11FT048.eop-nam11.prod.protection.outlook.com
+ (2a01:111:e400:fc4b::4c) by
+ BN8NAM11HT120.eop-nam11.prod.protection.outlook.com (2a01:111:e400:fc4b::384)
+ with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3611.25; Wed, 2 Dec
+ 2020 02:01:37 +0000
+Authentication-Results: spf=pass (sender IP is 61.222.59.186)
+ smtp.mailfrom=ls3c.com.tw; outlook.com; dkim=pass (signature was verified)
+ header.d=ls3c.com.tw;outlook.com; dmarc=pass action=none
+ header.from=ls3c.com.tw;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of ls3c.com.tw designates
+ 61.222.59.186 as permitted sender) receiver=protection.outlook.com;
+ client-ip=61.222.59.186; helo=ls3c.com.tw;
+Received: from ls3c.com.tw (61.222.59.186) by
+ BN8NAM11FT048.mail.protection.outlook.com (10.13.177.117) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.3632.17 via Frontend Transport; Wed, 2 Dec 2020 02:01:36 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:DBF49B685B29D793E2B4BDEA54B52C68DB3F6190CB437FBA7CF6DCCD4C50D3D5;UpperCasedChecksum:4C53AF3F4DCB9D81A7DF15C8D52BC7D17DBCD495EDE7FFDB3F1A847B51FD5087;SizeAsReceived:974;Count:13
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=ls3c.com.tw; h=date:from; s=s2016012909; 
+	bh=oEG0tr4yicO2lDkYrsJPP4dY1x055vk9FBjKd0SofEw=; 
+	b=Lpm9jYfUVN9ynZmPSPA3Napz8irIDsJUUjssVMlK9rwvRdyODd8zaKXijcu6uocYUcJUFkU2yq/mEw7VkpreYMMFG9pT57vnA5VnenPLEcI1IJpMRGReMWqgmF5KXt7lFSDFCed5gjs5cdZEsenGQie37IlO7I3oe57bEkrR3zI=
+Received: from Schedule ([210.61.23.144])
+	by ls3c.com.tw ([10.2.1.2]);
+	Wed, 2 Dec 2020 10:01:34 +0800
+Subject: =?big5?Q?=A8}=BF=B3EcLife=C1=CA=AA=AB=BA=F4=5F=B9q=A4l=B5o=B2=BC=B6}=A5=DF=B3q=AA=BE?=
+Sender: "=?big5?Q?=A8}=BF=B3EcLife=C1=CA=AA=AB=BA=F4?=" <services@ls3c.com.tw>
+From: "=?big5?Q?=A8}=BF=B3EcLife=C1=CA=AA=AB=BA=F4?=" <services@ls3c.com.tw>
+Date: Wed, 2 Dec 2020 10:01:33 +0800
+To: "=?big5?Q?lu-visser@outlook=2Ecom?=" <lu-visser@outlook.com>
+Content-Transfer-Encoding: Quoted-Printable
+X-Mailer: JMail 4.4 by Dimac
+Content-Type: text/html;
+	charset="big5"
+X-IncomingHeaderCount: 13
+Message-ID:
+ <fbb89af9-0af9-4313-9b40-240c3f5618ba@BN8NAM11FT048.eop-nam11.prod.protection.outlook.com>
+Return-Path: services@ls3c.com.tw
+X-MS-Exchange-Organization-ExpirationStartTime: 02 Dec 2020 02:01:37.0615
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 3c490b95-bbcd-483f-3b50-08d8966633ab
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ BN8NAM11FT048.eop-nam11.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 12/2/2020 1:33:14 AM
+X-MS-Office365-Filtering-Correlation-Id: 3c490b95-bbcd-483f-3b50-08d8966633ab
+X-MS-TrafficTypeDiagnostic: BN8NAM11HT120:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 61.222.59.186
+X-SID-PRA: SERVICES@LS3C.COM.TW
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:1;
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 02 Dec 2020 02:01:36.2980
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 3c490b95-bbcd-483f-3b50-08d8966633ab
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ BN8NAM11FT048.eop-nam11.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN8NAM11HT120
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.0528888
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.3632.017
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000282)(90000117)(90010023)(91010020)(91040095)(9000001)(9050020)(9100272)(5061607266)(5061608174)(4900115)(98391011)(4920090)(6515079)(4950131)(4990090);
+X-Message-Info:
+	5vMbyqxGkddhh69sIkKp9jThlfIEJ4jjt3rrEWZXFw5VkBADP159b7AuOvZg09j0z4pkZzpaxAiA4G9wejPNQ6CMAa//Rt73M1xsRQndWICKEu9r92J6HasgytC5XXr2ca6xELmRxJwVQWJxTOGhcOBwEZKIhzcSuU8XlPqSh7/LkTyUPpBgBAwQ0kYjUgqFugRADMKFrraxzxc6mu47Jw==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?big5?B?ZzVHM0ZtcVQ3QmFPSEp1V3h4UjRWekF4SE51d1MrSHBCZzc1M1VCWExsSWlWV3Jz?=
+ =?big5?B?TElHRkx5NkJvL1BONVpRdkFSRXhVQzR0ZWp3TldEZk1qSC9nSDFXSVczZ29mWEFC?=
+ =?big5?B?VG1tRmd4L05QZFFpWU9nc3BxblFyZW9VQ3NsUjBybG1GMUZzNlRZUkpnSmFKNklR?=
+ =?big5?B?ZGd6RVU1L0RES1BodHpJa3BBRkRCRkNOanJhVU1aZjZwbFVDb2FabnRhS1JVNTdm?=
+ =?big5?B?TWlsK21CT25nTUZ5MS91T0RBY0VEUXNacU5CdGlwaU5SYjA3ZjhtN2t5NTQybUZx?=
+ =?big5?B?R20wWG1hcnh0ZWxMSWJpcmoxUmdHZWN3TjA2Ynl4MEc0aVN1Nm1XV3doVUZzMzZ4?=
+ =?big5?B?UUFqN3gwczFHOGtYNEMyQ3BVSlRPZUZRMGllL1lGMXpHR3M4UnZSS0t1RjBYTmd1?=
+ =?big5?B?OS83ck5jUlR6eFJ2M0pTWTdpNzhFeVdwNGlHZWoyRXFGSG9XSGlaMXRQaXNHNGdq?=
+ =?big5?B?c1c4eGtOZ1JxekpZSTdNSkZUUmRHbGFNc1VVR25TYUxwK1NBT0RCS25wUjRzSExm?=
+ =?big5?B?cEtscXJiUjZ0SGFlcGxGdzFzdmJVenRGdzdZUkR4RlFhV0NJdWpmd3VuSWRncjdz?=
+ =?big5?B?RHQrRUovTVpDSDZ3NldaWGJLdnNkY0NTbUJxNlFjWDZYbWpTdFdPaC9yVDhLNjNn?=
+ =?big5?B?cE85R3FhcVZFdndFdHd6QjFFNkxKcjA4Q01qS2thd0dCY3o0WW9xNkdnVTF1MUw0?=
+ =?big5?B?SnJ4aGk4ZDlQMUM0ZHBBOEpidjlNWTJja3lRZUtEUlFCZmI5WnltWlNjRnNXRmwz?=
+ =?big5?B?VnVjU3FkY1JSNTJCMUR3YkM5QWJWbXY0R0ZNaTYzTEN0RnZUYVdkdTczOG93MEVZ?=
+ =?big5?B?WXZBYVUxOE9hd2toOHE2N3gyNVNKamZ1MkdYQmZDNnEvZlFFNzlFTkNmRXNMT0xV?=
+ =?big5?B?b2dFUTh6RjVGMmVyb0NOTUp5WEZBd0Juei9TaUFtQmJYZU9lSXFseGpYOUJpSUZ1?=
+ =?big5?B?UTIyRVJObnJCY1NHSndqMEJaZWY5UHVDRTMwUkMzYm50V2poNmRRTUdaQUhWcFZY?=
+ =?big5?B?N0laVGZDR211RjRJUXkzeUhCa2RKSy9QMWhvTVdzQ2laWEpTcEZvY1Q2Slhlb2FP?=
+ =?big5?B?U09KVkcyUGNTMDZKVWlBUHVNcVhSZWpSVFhzVTdQVkdnaG80SDRiblFEMCtXaVAv?=
+ =?big5?B?ZmlRRUpoY2ZKU04xcXkra3pQajJ0WmdvLzRrS0lnVWRFVGNyd1BtU1hLWmdWdC9t?=
+ =?big5?Q?Zw2MUYIhEgdGovNuvLgKJI+eRCg0MugimOlR/6BWHE8=3D?=
+MIME-Version: 1.0
+
+<!DOCTYPE html><html lang=3D"en"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dbig5">
+    <title>=B9q=A4l=B5o=B2=BC=B6}=A5=DF=B3q=AA=BE</title>
+</head>
+
+<body topmargin=3D"0" rightmargin=3D"0" bottommargin=3D"0" leftmargin=3D"0"=
+ bgcolor=3D"#f5f5f5">
+    <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"800" a=
+lign=3D"center" bgcolor=3D"#ffffff" style=3D"font-family: =B7L=B3n=A5=BF=B6=
+=C2=C5=E9, Microsoft JhengHei, =B7s=B2=D3=A9=FA=C5=E9, PMingLiU, Verdana, s=
+ans-serif; line-height: 100%">
+        <tr>
+            <td width=3D"30" height=3D"50" style=3D"line-height: 50px">&nbs=
+p;</td>
+            <td></td>
+            <td></td>
+            <td width=3D"120"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td width=3D"20"><img src=3D"http://www.eclife.com.tw/Order/tem=
+plate/images/icon-typ.png"></td>
+            <td style=3D"color: #2c7cc3; font-size: 150%; letter-spacing: 0=
+.05em"><b>=B9q=A4l=B5o=B2=BC=B6}=A5=DF=B3q=AA=BE</b></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>
+                <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" sty=
+le=3D"font-family: =B7L=B3n=A5=BF=B6=C2=C5=E9, Microsoft JhengHei, =B7s=B2=
+=D3=A9=FA=C5=E9, PMingLiU, Verdana, sans-serif; line-height: 100%; font-siz=
+e: 95%; color: #333">
+                    <tr>
+                        <td height=3D"20" style=3D"line-height: 20px">&nbsp=
+;</td>
+                    </tr>
+                    <tr>
+                        <td>=B1z=A6n=A1G</td>
+                    </tr>
+                    <tr>
+                        <td><p style=3D"letter-spacing:0.05em;line-height:1=
+.5em">
+=B7P=C1=C2=B1z=ADq=C1=CA=A8}=BF=B3EcLife=C1=CA=AA=AB=BA=F4=AA=BA=C0u=BD=E8=
+=B2=A3=AB~=A1I
+<br>
+=B1z=AA=BA=ADq=B3=E6=BDs=B8=B9=A1G001201056101=B5o=B2=BC=A4w=B8g=B6}=A5=DF=
+=A1A=B9q=A4l=B5o=B2=BC=A4=A3=AA=BD=B1=B5=B1H=B0e=A1A
+<br>=BD=D0=A6=DC
+<a href=3D"http://www.eclife.com.tw//personal/orderhistory.aspx" target=3D"=
+_blank">=A1u=ADq=B3=E6=ACd=B8=DF=A1v</a>
+=ACd=AC=DD=B5o=B2=BC=A4=BA=AEe<br>
+(=ADY=B1z=A6=B3=AF=C1=A8=FA=A5=BF=A5=BB=A9=CE=ACO=A6=B3=B5o=B2=BC=A4=A4=BC=
+=FA=AA=BA=B1=A1=A7=CE=A1A=A7=DA=AD=CC=B7|=B1H=B5o=AF=C8=A5=BB=A6=DC=ADq=C1=
+=CA=A4H=A6a=A7})
+<br></p></td>
+
+                        <!--<td>
+                            <table width=3D"100%" border=3D"0" bgcolor=3D"#=
+ececec" cellpadding=3D"8" cellspacing=3D"1" style=3D"color: #595757; font-s=
+ize: 90%; font-family: =B7L=B3n=A5=BF=B6=C2=C5=E9, Microsoft JhengHei, =B7s=
+=B2=D3=A9=FA=C5=E9, PMingLiU, Verdana, sans-serif">
+                                <tr>
+                                    <td bgcolor=3D"#ffffff" style=3D"border=
+-bottom: #ececec 1px solid; line-height: normal">
+                                        <ol style=3D"margin:0; padding-left=
+:15px">
+                                           =20
+                                        </ol>
+                                    </td>
+                                </tr>
+                            </table>                           =20
+                        </td>-->
+                    </tr>
+                    <tr></tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"30" colspan=3D"4" bgcolor=3D"#0080cc" align=3D"ce=
+nter">
+                <table width=3D"98%" style=3D"font-size: 12px; font-family:=
+ =B7L=B3n=A5=BF=B6=C2=C5=E9, Microsoft JhengHei, =B7s=B2=D3=A9=FA=C5=E9, PM=
+ingLiU, Verdana, sans-serif">
+                    <tr>
+                        <td style=3D"color: #ffffff">=A6=B9=B6l=A5=F3=A5=D1=
+=A8t=B2=CE=A6=DB=B0=CA=B5o=B0e  =BD=D0=A4=C5=AA=BD=B1=B5=A6^=C2=D0</td>
+                        <td style=3D"color: #ffffff" align=3D"right">
+                            <a href=3D"http://www.eclife.com.tw/" target=3D=
+"_blank" style=3D"text-decoration: none; color: #ffffff">=A8}=BF=B3EcLife=
+=C1=CA=AA=AB=BA=F4</a> =A2x
+                            <a href=3D"http://www.eclife.com.tw//Service/ot=
+her-question.aspx" target=3D"_blank" style=3D"text-decoration: none; color:=
+ #ffffff">=C1p=B5=B8=A7=DA=AD=CC</a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

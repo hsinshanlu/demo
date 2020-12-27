@@ -1,0 +1,409 @@
+[22:10:22] * message: Account 'Outlook': Connecting to IMAP server: imap-mail.outlook.com:993...
+[22:10:22] IMAP< * OK The Microsoft Exchange IMAP4 service is ready. [SABLADIAUABSADAANgBDAEEAMAAwADIAMAAuAGEAcABjAHAAcgBkADAANgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A] 
+[22:10:22] * message: IMAP connection is un-authenticated
+[22:10:23] IMAP> 1 CAPABILITY 
+[22:10:23] IMAP< * CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN AUTH=XOAUTH2 SASL-IR UIDPLUS MOVE ID UNSELECT CHILDREN IDLE NAMESPACE LITERAL+ 
+[22:10:23] IMAP< 1 OK CAPABILITY completed. 
+[22:10:23] IMAP> Logging lu-visser@outlook.com to imap-mail.outlook.com using PLAIN
+[22:10:23] IMAP< CAPABILITY completed.
+[22:10:23] ** warning: IMAP error on imap-mail.outlook.com: LOGIN error
+[22:10:23] IMAP< Error logging in to imap-mail.outlook.com
+[22:10:23] IMAP> Logging lu-visser@outlook.com to imap-mail.outlook.com using plaintext
+[22:10:25] IMAP< LOGIN completed.
+[22:10:25] IMAP< Login to imap-mail.outlook.com successful
+[22:10:25] IMAP> 3 LIST "" "" 
+[22:10:25] IMAP< * LIST (\Noselect \HasChildren) "/" "" 
+[22:10:25] IMAP< 3 OK LIST completed. 
+[22:10:25] IMAP> 4 STATUS Inbox (MESSAGES UIDNEXT UIDVALIDITY UNSEEN) 
+[22:10:25] IMAP< * STATUS Inbox (MESSAGES 37 UIDNEXT 22328 UIDVALIDITY 14 UNSEEN 1)  
+[22:10:25] IMAP< 4 OK STATUS completed. 
+[22:10:25] IMAP> 5 SELECT Inbox 
+[22:10:25] IMAP< * 37 EXISTS 
+[22:10:25] IMAP< * 1 RECENT 
+[22:10:25] IMAP< * FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent) 
+[22:10:25] IMAP< * OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags 
+[22:10:25] IMAP< * OK [UNSEEN 37] Is the first unseen message 
+[22:10:25] IMAP< * OK [UIDVALIDITY 14] UIDVALIDITY value 
+[22:10:25] IMAP< * OK [UIDNEXT 22328] The next unique identifier value 
+[22:10:25] IMAP< 5 OK [READ-WRITE] SELECT completed. 
+[22:10:25] IMAP- [fetching UIDs...]
+[22:10:25] IMAP> 6 UID FETCH 1:* (UID) 
+[22:10:26] IMAP< * 1 FETCH (UID 4808) 
+[22:10:26] IMAP< [FETCH data - 876 bytes]
+[22:10:26] IMAP> 7 UID FETCH 22326 (UID FLAGS RFC822.SIZE BODY.PEEK[HEADER.FIELDS (Date From To Cc Subject Message-ID References In-Reply-To)]) 
+[22:10:26] IMAP< [FETCH data - 454 bytes]
+[22:10:26] IMAP< 7 OK FETCH completed. 
+[22:10:26] IMAP- [fetching flags...]
+[22:10:26] IMAP> 8 UID FETCH 1:* (FLAGS UID) 
+[22:10:27] IMAP< * 1 FETCH (FLAGS (\Seen) UID 4808) 
+[22:10:27] IMAP< [FETCH data - 1399 bytes]
+[22:10:27] IMAP< 8 OK FETCH completed. 
+[22:11:22] IMAP> 9 NOOP 
+[22:11:23] IMAP< 9 OK NOOP completed. 
+[22:12:22] IMAP> 10 NOOP 
+[22:12:23] IMAP< 10 OK NOOP completed. 
+[22:13:22] IMAP> 11 NOOP 
+[22:13:23] IMAP< 11 OK NOOP completed. 
+[22:14:23] IMAP> 12 NOOP 
+[22:14:24] IMAP< 12 OK NOOP completed. 
+[22:15:24] IMAP> 13 NOOP 
+[22:15:25] IMAP< 13 OK NOOP completed. 
+[22:16:24] IMAP> 14 NOOP 
+[22:16:25] IMAP< 14 OK NOOP completed. 
+[22:17:25] IMAP> 15 NOOP 
+[22:17:26] IMAP< 15 OK NOOP completed. 
+[22:18:25] IMAP> 16 NOOP 
+[22:18:26] IMAP< 16 OK NOOP completed. 
+[22:19:26] IMAP> 17 NOOP 
+[22:19:27] IMAP< 17 OK NOOP completed. 
+[22:20:27] IMAP> 18 NOOP 
+[22:20:28] IMAP< 18 OK NOOP completed. 
+[22:21:28] IMAP> 19 NOOP 
+[22:21:29] IMAP< 19 OK NOOP completed. 
+[22:22:28] IMAP> 20 NOOP 
+[22:22:29] IMAP< 20 OK NOOP completed. 
+[22:23:29] IMAP> 21 NOOP 
+[22:23:30] IMAP< 21 OK NOOP completed. 
+[22:24:30] IMAP> 22 NOOP 
+[22:24:31] IMAP< 22 OK NOOP completed. 
+[22:25:31] IMAP> 23 NOOP 
+[22:25:32] IMAP< 23 OK NOOP completed. 
+[22:26:32] IMAP> 24 NOOP 
+[22:26:33] IMAP< 24 OK NOOP completed. 
+[22:27:32] IMAP> 25 NOOP 
+[22:27:33] IMAP< 25 OK NOOP completed. 
+[22:28:33] IMAP> 26 NOOP 
+[22:28:34] IMAP< 26 OK NOOP completed. 
+[22:29:34] IMAP> 27 NOOP 
+[22:29:35] IMAP< 27 OK NOOP completed. 
+[22:30:34] IMAP> 28 NOOP 
+[22:30:35] IMAP< 28 OK NOOP completed. 
+[22:31:35] IMAP> 29 NOOP 
+[22:31:36] IMAP< 29 OK NOOP completed. 
+[22:32:36] IMAP> 30 NOOP 
+[22:32:37] IMAP< 30 OK NOOP completed. 
+[22:33:37] IMAP> 31 NOOP 
+[22:33:38] IMAP< 31 OK NOOP completed. 
+[22:34:38] IMAP> 32 NOOP 
+[22:34:39] IMAP< 32 OK NOOP completed. 
+[22:35:39] IMAP> 33 NOOP 
+[22:35:40] IMAP< 33 OK NOOP completed. 
+[22:36:40] IMAP> 34 NOOP 
+[22:36:41] IMAP< 34 OK NOOP completed. 
+[22:37:41] IMAP> 35 NOOP 
+[22:37:42] IMAP< 35 OK NOOP completed. 
+[22:38:42] IMAP> 36 NOOP 
+[22:38:43] IMAP< 36 OK NOOP completed. 
+[22:39:43] IMAP> 37 NOOP 
+[22:39:44] IMAP< 37 OK NOOP completed. 
+[22:40:44] IMAP> 38 NOOP 
+[22:40:45] IMAP< 38 OK NOOP completed. 
+[22:41:45] IMAP> 39 NOOP 
+[22:41:46] IMAP< 39 OK NOOP completed. 
+[22:42:46] IMAP> 40 NOOP 
+[22:42:47] IMAP< 40 OK NOOP completed. 
+[22:43:47] IMAP> 41 NOOP 
+[22:43:48] IMAP< 41 OK NOOP completed. 
+[22:44:48] IMAP> 42 NOOP 
+[22:44:49] IMAP< 42 OK NOOP completed. 
+[22:45:49] IMAP> 43 NOOP 
+[22:45:50] IMAP< 43 OK NOOP completed. 
+[22:46:50] IMAP> 44 NOOP 
+[22:46:51] IMAP< 44 OK NOOP completed. 
+[22:47:51] IMAP> 45 NOOP 
+[22:47:52] IMAP< 45 OK NOOP completed. 
+[22:48:52] IMAP> 46 NOOP 
+[22:48:53] IMAP< 46 OK NOOP completed. 
+[22:49:53] IMAP> 47 NOOP 
+[22:49:54] IMAP< 47 OK NOOP completed. 
+[22:50:54] IMAP> 48 NOOP 
+[22:50:55] IMAP< 48 OK NOOP completed. 
+[22:51:55] IMAP> 49 NOOP 
+[22:51:56] IMAP< 49 OK NOOP completed. 
+[22:52:56] IMAP> 50 NOOP 
+[22:52:57] IMAP< 50 OK NOOP completed. 
+[22:53:57] IMAP> 51 NOOP 
+[22:53:58] IMAP< 51 OK NOOP completed. 
+[22:54:58] IMAP> 52 NOOP 
+[22:54:59] IMAP< 52 OK NOOP completed. 
+[22:55:59] IMAP> 53 NOOP 
+[22:56:00] IMAP< 53 OK NOOP completed. 
+[22:57:00] IMAP> 54 NOOP 
+[22:57:01] IMAP< 54 OK NOOP completed. 
+[22:58:01] IMAP> 55 NOOP 
+[22:58:02] IMAP< 55 OK NOOP completed. 
+[22:59:01] IMAP> 56 NOOP 
+[22:59:02] IMAP< 56 OK NOOP completed. 
+[23:00:02] IMAP> 57 NOOP 
+[23:00:03] IMAP< 57 OK NOOP completed. 
+[23:01:02] IMAP> 58 NOOP 
+[23:01:03] IMAP< 58 OK NOOP completed. 
+[23:02:03] IMAP> 59 NOOP 
+[23:02:04] IMAP< 59 OK NOOP completed. 
+[23:03:04] IMAP> 60 NOOP 
+[23:03:05] IMAP< 60 OK NOOP completed. 
+[23:04:05] IMAP> 61 NOOP 
+[23:04:06] IMAP< 61 OK NOOP completed. 
+[23:05:06] IMAP> 62 NOOP 
+[23:05:07] IMAP< 62 OK NOOP completed. 
+[23:06:06] IMAP> 63 NOOP 
+[23:06:07] IMAP< 63 OK NOOP completed. 
+[23:07:07] IMAP> 64 NOOP 
+[23:07:08] IMAP< 64 OK NOOP completed. 
+[23:08:08] IMAP> 65 NOOP 
+[23:08:09] IMAP< 65 OK NOOP completed. 
+[23:09:09] IMAP> 66 NOOP 
+[23:09:10] IMAP< 66 OK NOOP completed. 
+[23:10:10] IMAP> 67 NOOP 
+[23:10:11] IMAP< 67 OK NOOP completed. 
+[23:11:11] IMAP> 68 NOOP 
+[23:11:12] IMAP< 68 OK NOOP completed. 
+[23:12:11] IMAP> 69 NOOP 
+[23:12:12] IMAP< 69 OK NOOP completed. 
+[23:13:12] IMAP> 70 NOOP 
+[23:13:13] IMAP< 70 OK NOOP completed. 
+[23:14:13] IMAP> 71 NOOP 
+[23:14:14] IMAP< 71 OK NOOP completed. 
+[23:15:14] IMAP> 72 NOOP 
+[23:15:15] IMAP< 72 OK NOOP completed. 
+[23:16:15] IMAP> 73 NOOP 
+[23:16:16] IMAP< 73 OK NOOP completed. 
+[23:17:15] IMAP> 74 NOOP 
+[23:17:16] IMAP< 74 OK NOOP completed. 
+[23:18:16] IMAP> 75 NOOP 
+[23:18:17] IMAP< 75 OK NOOP completed. 
+[23:19:17] IMAP> 76 NOOP 
+[23:19:18] IMAP< 76 OK NOOP completed. 
+[23:20:18] IMAP> 77 NOOP 
+[23:20:19] IMAP< 77 OK NOOP completed. 
+[23:21:19] IMAP> 78 NOOP 
+[23:21:20] IMAP< 78 OK NOOP completed. 
+[23:22:20] IMAP> 79 NOOP 
+[23:22:21] IMAP< 79 OK NOOP completed. 
+[23:23:20] IMAP> 80 NOOP 
+[23:23:21] IMAP< 80 OK NOOP completed. 
+[23:24:21] IMAP> 81 NOOP 
+[23:24:22] IMAP< 81 OK NOOP completed. 
+[23:25:22] IMAP> 82 NOOP 
+[23:25:23] IMAP< 82 OK NOOP completed. 
+[23:26:23] IMAP> 83 NOOP 
+[23:26:24] IMAP< 83 OK NOOP completed. 
+[23:27:24] IMAP> 84 NOOP 
+[23:27:25] IMAP< 84 OK NOOP completed. 
+[23:28:25] IMAP> 85 NOOP 
+[23:28:26] IMAP< 85 OK NOOP completed. 
+[23:29:26] IMAP> 86 NOOP 
+[23:29:27] IMAP< 86 OK NOOP completed. 
+[23:30:27] IMAP> 87 NOOP 
+[23:30:28] IMAP< 87 OK NOOP completed. 
+[23:31:28] IMAP> 88 NOOP 
+[23:31:29] IMAP< 88 OK NOOP completed. 
+[23:32:29] IMAP> 89 NOOP 
+[23:32:30] IMAP< 89 OK NOOP completed. 
+[23:33:30] IMAP> 90 NOOP 
+[23:33:31] IMAP< 90 OK NOOP completed. 
+[23:34:31] IMAP> 91 NOOP 
+[23:34:32] IMAP< 91 OK NOOP completed. 
+[23:35:32] IMAP> 92 NOOP 
+[23:35:33] IMAP< 92 OK NOOP completed. 
+[23:36:33] IMAP> 93 NOOP 
+[23:36:34] IMAP< 93 OK NOOP completed. 
+[23:37:34] IMAP> 94 NOOP 
+[23:37:35] IMAP< 94 OK NOOP completed. 
+[23:38:34] IMAP> 95 NOOP 
+[23:38:35] IMAP< 95 OK NOOP completed. 
+[23:38:48] IMAP> 96 LIST "" "Inbox/Statements" 
+[23:38:48] IMAP< 96 OK LIST completed. 
+[23:38:48] IMAP> 97 CREATE "Inbox/Statements" 
+[23:38:48] IMAP< 97 OK CREATE completed. 
+[23:38:48] IMAP> 98 LIST "" "Inbox/Statements" 
+[23:38:48] IMAP< * LIST (\HasNoChildren) "/" Inbox/Statements 
+[23:38:48] IMAP< 98 OK LIST completed. 
+[23:38:48] IMAP> 99 SUBSCRIBE "Inbox/Statements" 
+[23:38:49] IMAP< 99 OK SUBSCRIBE completed. 
+[23:38:51] IMAP> 100 STATUS "Inbox/Statements" (MESSAGES UIDNEXT UIDVALIDITY UNSEEN) 
+[23:38:52] IMAP< * STATUS Inbox/Statements (MESSAGES 0 UIDNEXT 1 UIDVALIDITY 678 UNSEEN 0)  
+[23:38:52] IMAP< 100 OK STATUS completed. 
+[23:38:52] IMAP> 101 SELECT "Inbox/Statements" 
+[23:38:52] IMAP< * 0 EXISTS 
+[23:38:52] IMAP< * 0 RECENT 
+[23:38:52] IMAP< * FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent) 
+[23:38:52] IMAP< * OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags 
+[23:38:52] IMAP< * OK [UIDVALIDITY 678] UIDVALIDITY value 
+[23:38:52] IMAP< * OK [UIDNEXT 1] The next unique identifier value 
+[23:38:52] IMAP< 101 OK [READ-WRITE] SELECT completed. 
+[23:38:52] IMAP- [fetching UIDs...]
+[23:38:52] IMAP> 102 UID FETCH 1:* (UID) 
+[23:38:52] IMAP< 102 OK FETCH completed. 
+[23:39:05] IMAP> 103 STATUS Inbox (MESSAGES UIDNEXT UIDVALIDITY UNSEEN) 
+[23:39:05] IMAP< * STATUS Inbox (MESSAGES 37 UIDNEXT 22328 UIDVALIDITY 14 UNSEEN 1)  
+[23:39:05] IMAP< 103 OK STATUS completed. 
+[23:39:06] IMAP> 104 SELECT Inbox 
+[23:39:06] IMAP< * 37 EXISTS 
+[23:39:06] IMAP< * 0 RECENT 
+[23:39:06] IMAP< * FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent) 
+[23:39:06] IMAP< * OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags 
+[23:39:06] IMAP< * OK [UNSEEN 37] Is the first unseen message 
+[23:39:06] IMAP< * OK [UIDVALIDITY 14] UIDVALIDITY value 
+[23:39:06] IMAP< * OK [UIDNEXT 22328] The next unique identifier value 
+[23:39:06] IMAP< 104 OK [READ-WRITE] SELECT completed. 
+[23:39:06] IMAP- [fetching flags...]
+[23:39:06] IMAP> 105 UID FETCH 1:* (FLAGS UID) 
+[23:39:06] IMAP< * 1 FETCH (FLAGS (\Seen) UID 4808) 
+[23:39:06] IMAP< [FETCH data - 1392 bytes]
+[23:39:06] IMAP< 105 OK FETCH completed. 
+[23:39:12] IMAP> 106 UID COPY 22182 "Inbox/Statements" 
+[23:39:12] IMAP< 106 OK [COPYUID 678 22182 1] COPY completed. 
+[23:39:12] IMAP> 107 STATUS "Inbox/Statements" (MESSAGES UIDNEXT UIDVALIDITY UNSEEN) 
+[23:39:12] IMAP< * STATUS Inbox/Statements (MESSAGES 1 UIDNEXT 2 UIDVALIDITY 678 UNSEEN 0)  
+[23:39:12] IMAP< 107 OK STATUS completed. 
+[23:39:12] IMAP> 108 UID STORE 22182 +FLAGS.SILENT (\Deleted) 
+[23:39:13] IMAP< 108 OK STORE completed. 
+[23:39:13] IMAP> 109 EXPUNGE 
+[23:39:13] IMAP< * 37 EXISTS 
+[23:39:13] IMAP< * 36 EXPUNGE 
+[23:39:13] IMAP< * 36 EXISTS 
+[23:39:13] IMAP< 109 OK EXPUNGE completed. 
+[23:39:13] IMAP> 110 SELECT "Inbox/Statements" 
+[23:39:13] IMAP< * 1 EXISTS 
+[23:39:13] IMAP< * 1 RECENT 
+[23:39:13] IMAP< * FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent) 
+[23:39:13] IMAP< * OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags 
+[23:39:13] IMAP< * OK [UIDVALIDITY 678] UIDVALIDITY value 
+[23:39:13] IMAP< * OK [UIDNEXT 2] The next unique identifier value 
+[23:39:13] IMAP< 110 OK [READ-WRITE] SELECT completed. 
+[23:39:13] IMAP> 111 UID FETCH 1 (UID FLAGS RFC822.SIZE BODY.PEEK[HEADER.FIELDS (Date From To Cc Subject Message-ID References In-Reply-To)]) 
+[23:39:14] IMAP< [FETCH data - 457 bytes]
+[23:39:14] IMAP< 111 OK FETCH completed. 
+[23:39:16] IMAP> 112 SELECT Inbox 
+[23:39:16] IMAP< * 36 EXISTS 
+[23:39:16] IMAP< * 0 RECENT 
+[23:39:16] IMAP< * FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent) 
+[23:39:16] IMAP< * OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags 
+[23:39:16] IMAP< * OK [UNSEEN 36] Is the first unseen message 
+[23:39:16] IMAP< * OK [UIDVALIDITY 14] UIDVALIDITY value 
+[23:39:16] IMAP< * OK [UIDNEXT 22328] The next unique identifier value 
+[23:39:16] IMAP< 112 OK [READ-WRITE] SELECT completed. 
+[23:39:16] IMAP> 113 UID FETCH 21945 BODY.PEEK[] 
+[23:39:16] IMAP< [FETCH data - 8192 bytes]
+[23:39:16] IMAP< [FETCH data - 2888 bytes]
+[23:39:16] IMAP< 113 OK FETCH completed. 
+[23:39:22] IMAP> 114 UID COPY 22123 "Inbox/Statements" 
+[23:39:22] IMAP< 114 OK [COPYUID 678 22123 2] COPY completed. 
+[23:39:22] IMAP> 115 UID STORE 22123 +FLAGS.SILENT (\Deleted) 
+[23:39:23] IMAP< 115 OK STORE completed. 
+[23:39:23] IMAP> 116 EXPUNGE 
+[23:39:23] IMAP< * 36 EXISTS 
+[23:39:23] IMAP< * 35 EXPUNGE 
+[23:39:23] IMAP< * 35 EXISTS 
+[23:39:23] IMAP< 116 OK EXPUNGE completed. 
+[23:39:23] IMAP> 117 SELECT "Inbox/Statements" 
+[23:39:23] IMAP< * 2 EXISTS 
+[23:39:23] IMAP< * 1 RECENT 
+[23:39:23] IMAP< * FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent) 
+[23:39:23] IMAP< * OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags 
+[23:39:23] IMAP< * OK [UIDVALIDITY 678] UIDVALIDITY value 
+[23:39:23] IMAP< * OK [UIDNEXT 3] The next unique identifier value 
+[23:39:23] IMAP< 117 OK [READ-WRITE] SELECT completed. 
+[23:39:23] IMAP> 118 UID FETCH 2 (UID FLAGS RFC822.SIZE BODY.PEEK[HEADER.FIELDS (Date From To Cc Subject Message-ID References In-Reply-To)]) 
+[23:39:23] IMAP< [FETCH data - 650 bytes]
+[23:39:24] IMAP< 118 OK FETCH completed. 
+[23:39:27] IMAP- [fetching UIDs...]
+[23:39:27] IMAP> 119 UID FETCH 1:* (UID) 
+[23:39:27] IMAP< * 1 FETCH (UID 1) 
+[23:39:27] IMAP< * 2 FETCH (UID 2) 
+[23:39:27] IMAP< 119 OK FETCH completed. 
+[23:39:27] IMAP- [fetching flags...]
+[23:39:27] IMAP> 120 UID FETCH 1:* (FLAGS UID) 
+[23:39:27] IMAP< * 1 FETCH (FLAGS (\Seen) UID 1) 
+[23:39:28] IMAP< * 2 FETCH (FLAGS (\Seen \Recent) UID 2) 
+[23:39:28] IMAP< 120 OK FETCH completed. 
+[23:39:33] IMAP> 121 UID FETCH 1 BODY.PEEK[] 
+[23:39:33] IMAP< [FETCH data - 8192 bytes]
+[23:39:33] IMAP< [FETCH data - 8192 bytes]
+[23:39:33] IMAP< [FETCH data - 16384 bytes]
+[23:39:33] IMAP< 0=20=20=20=20=20=20= 
+[23:39:33] IMAP< =20=20=
+[23:39:33] IMAP< [FETCH data - 16384 bytes]
+[23:39:33] IMAP< [FETCH data - 16384 bytes]
+[23:39:33] IMAP< [FETCH data - 16384 bytes]
+[23:39:33] IMAP< [FETCH data - 16384 bytes]
+[23:39:33] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:34] IMAP< [FETCH data - 16384 bytes]
+[23:39:35] IMAP< [FETCH data - 16384 bytes]
+[23:39:35] IMAP< [FETCH data - 16384 bytes]
+[23:39:35] IMAP< [FETCH data - 16384 bytes]
+[23:39:35] IMAP< [FETCH data - 16384 bytes]
+[23:39:35] IMAP< [FETCH data - 16384 bytes]
+[23:39:35] IMAP< [FETCH data - 16384 bytes]
+[23:39:35] IMAP< [FETCH data - 16384 bytes]
+[23:39:35] IMAP< [FETCH data - 16384 bytes]
+[23:39:35] IMAP< [FETCH data - 16384 bytes]
+[23:39:35] IMAP< [FETCH data - 16384 bytes]
+[23:39:35] IMAP< [FETCH data - 16384 bytes]
+[23:39:35] IMAP< [FETCH data - 16384 bytes]
+[23:39:35] IMAP< [FETCH data - 7237 bytes]
+[23:40:34] IMAP> 122 NOOP 
+[23:40:35] IMAP< 122 OK NOOP completed. 
+[23:41:34] IMAP> 123 NOOP 
+[23:41:35] IMAP< 123 OK NOOP completed. 
+[23:42:34] IMAP> 124 NOOP 
+[23:42:35] IMAP< 124 OK NOOP completed. 
+[23:42:48] IMAP> 125 SELECT Inbox 
+[23:42:48] IMAP< * 35 EXISTS 
+[23:42:48] IMAP< * 0 RECENT 
+[23:42:48] IMAP< * FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent) 
+[23:42:48] IMAP< * OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags 
+[23:42:48] IMAP< * OK [UNSEEN 35] Is the first unseen message 
+[23:42:48] IMAP< * OK [UIDVALIDITY 14] UIDVALIDITY value 
+[23:42:48] IMAP< * OK [UIDNEXT 22328] The next unique identifier value 
+[23:42:48] IMAP< 125 OK [READ-WRITE] SELECT completed. 
+[23:42:48] IMAP- [fetching UIDs...]
+[23:42:48] IMAP> 126 UID FETCH 1:* (UID) 
+[23:42:48] IMAP< * 1 FETCH (UID 4808) 
+[23:42:48] IMAP< [FETCH data - 830 bytes]
+[23:42:48] IMAP- [fetching flags...]
+[23:42:48] IMAP> 127 UID FETCH 1:* (FLAGS UID) 
+[23:42:48] IMAP< * 1 FETCH (FLAGS (\Seen) UID 4808) 
+[23:42:48] IMAP< [FETCH data - 1341 bytes]

@@ -1,0 +1,247 @@
+2020-12-16 23:46:26,947 - root:112(run) INFO: 
+
+-----------------
+
+Starting Mu 1.0.2
+2020-12-16 23:46:26,948 - root:113(run) INFO: uname_result(system='Linux', node='raspberrypi', release='5.4.51-v7l+', version='#1333 SMP Mon Aug 10 16:51:40 BST 2020', machine='armv7l', processor='')
+2020-12-16 23:46:26,948 - root:114(run) INFO: Python path: ['/usr/share/mu-editor', '/usr/lib/python37.zip', '/usr/lib/python3.7', '/usr/lib/python3.7/lib-dynload', '/usr/local/lib/python3.7/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3/dist-packages/IPython/extensions']
+2020-12-16 23:46:26,948 - root:115(run) INFO: Language code: en_US
+2020-12-16 23:46:27,891 - mu.logic:543(__init__) INFO: Setting up editor.
+2020-12-16 23:46:27,892 - mu.logic:562(__init__) INFO: Settings path: /home/pi/.local/share/mu/settings.json
+2020-12-16 23:46:27,892 - mu.logic:563(__init__) INFO: Session path: /home/pi/.local/share/mu/session.json
+2020-12-16 23:46:27,892 - mu.logic:564(__init__) INFO: Log directory: /home/pi/.cache/mu/log
+2020-12-16 23:46:27,892 - mu.logic:565(__init__) INFO: Data directory: /home/pi/.local/share/mu
+2020-12-16 23:46:27,950 - mu.logic:578(setup) INFO: Available modes: python, adafruit, microbit, debugger, pygamezero
+2020-12-16 23:46:28,206 - mu.logic:1148(change_mode) INFO: Workspace directory: /home/pi/mu_code
+2020-12-16 23:46:28,209 - mu.logic:625(restore_session) INFO: Restoring session from: /home/pi/.local/share/mu/session.json
+2020-12-16 23:46:28,210 - mu.logic:626(restore_session) DEBUG: {'theme': 'day', 'mode': 'python', 'paths': [], 'envars': [], 'minify': False, 'microbit_runtime': '', 'zoom_level': 2}
+2020-12-16 23:46:28,210 - mu.logic:647(restore_session) INFO: Loaded files.
+2020-12-16 23:46:28,210 - mu.logic:651(restore_session) INFO: User defined environment variables: []
+2020-12-16 23:46:28,210 - mu.logic:655(restore_session) INFO: Minify scripts on micro:bit? False
+2020-12-16 23:46:28,340 - mu.logic:678(restore_session) INFO: Starting with blank file.
+2020-12-16 23:46:28,386 - mu.logic:1148(change_mode) INFO: Workspace directory: /home/pi/mu_code
+2020-12-16 23:48:48,731 - mu.logic:809(get_dialog_directory) INFO: Using path for file dialog: /home/pi/mu_code
+2020-12-16 23:48:53,753 - mu.interface.main:263(get_save_path) DEBUG: Getting save path: 
+2020-12-16 23:49:00,652 - mu.logic:979(check_code) INFO: Checking code.
+2020-12-16 23:49:05,518 - mu.logic:809(get_dialog_directory) INFO: Using path for file dialog: /home/pi/mu_code
+2020-12-16 23:49:28,564 - mu.interface.main:263(get_save_path) DEBUG: Getting save path: /Character Input Solutions
+2020-12-16 23:49:28,566 - mu.logic:903(check_for_shadow_module) INFO: Checking path "/Character Input Solutions" for shadow module.
+2020-12-16 23:49:28,566 - mu.logic:869(save_tab_to_file) INFO: Saving script to: /Character Input Solutions.py
+2020-12-16 23:49:28,566 - mu.logic:870(save_tab_to_file) DEBUG: # Write your code here :-)
+name = input("What is your name: ")
+age = int(input("How old are you: "))
+year = str((2020 - age)+100)
+print(name + " will be 100 years old in the year " + year)
+
+2020-12-16 23:49:28,567 - mu.logic:874(save_tab_to_file) ERROR: [Errno 13] Permission denied: '/Character Input Solutions.py'
+2020-12-16 23:49:28,750 - mu.interface.main:723(show_message) DEBUG: Could not save file (disk problem)
+2020-12-16 23:49:28,750 - mu.interface.main:724(show_message) DEBUG: Error saving file to disk. Ensure you have permission to write the file and sufficient disk space.
+2020-12-16 23:49:28,776 - mu.logic:869(save_tab_to_file) INFO: Saving script to: /Character Input Solutions.py
+2020-12-16 23:49:28,777 - mu.logic:870(save_tab_to_file) DEBUG: # Write your code here :-)
+name = input("What is your name: ")
+age = int(input("How old are you: "))
+year = str((2020 - age)+100)
+print(name + " will be 100 years old in the year " + year)
+
+2020-12-16 23:49:28,777 - mu.logic:874(save_tab_to_file) ERROR: [Errno 13] Permission denied: '/Character Input Solutions.py'
+2020-12-16 23:49:28,781 - mu.interface.main:723(show_message) DEBUG: Could not save file (disk problem)
+2020-12-16 23:49:28,781 - mu.interface.main:724(show_message) DEBUG: Error saving file to disk. Ensure you have permission to write the file and sufficient disk space.
+2020-12-16 23:49:33,237 - mu.logic:1176(autosave) INFO: Autosave detected and saved changes in /Character Input Solutions.py.
+2020-12-16 23:49:33,610 - mu.logic:869(save_tab_to_file) INFO: Saving script to: /Character Input Solutions.py
+2020-12-16 23:49:33,610 - mu.logic:870(save_tab_to_file) DEBUG: # Write your code here :-)
+name = input("What is your name: ")
+age = int(input("How old are you: "))
+year = str((2020 - age)+100)
+print(name + " will be 100 years old in the year " + year)
+
+2020-12-16 23:49:33,615 - mu.logic:874(save_tab_to_file) ERROR: [Errno 13] Permission denied: '/Character Input Solutions.py'
+2020-12-16 23:49:33,619 - mu.interface.main:723(show_message) DEBUG: Could not save file (disk problem)
+2020-12-16 23:49:33,619 - mu.interface.main:724(show_message) DEBUG: Error saving file to disk. Ensure you have permission to write the file and sufficient disk space.
+2020-12-16 23:49:33,832 - mu.logic:1176(autosave) INFO: Autosave detected and saved changes in /Character Input Solutions.py.
+2020-12-16 23:49:34,986 - mu.logic:869(save_tab_to_file) INFO: Saving script to: /Character Input Solutions.py
+2020-12-16 23:49:34,987 - mu.logic:870(save_tab_to_file) DEBUG: # Write your code here :-)
+name = input("What is your name: ")
+age = int(input("How old are you: "))
+year = str((2020 - age)+100)
+print(name + " will be 100 years old in the year " + year)
+
+2020-12-16 23:49:34,988 - mu.logic:874(save_tab_to_file) ERROR: [Errno 13] Permission denied: '/Character Input Solutions.py'
+2020-12-16 23:49:34,997 - mu.interface.main:723(show_message) DEBUG: Could not save file (disk problem)
+2020-12-16 23:49:34,997 - mu.interface.main:724(show_message) DEBUG: Error saving file to disk. Ensure you have permission to write the file and sufficient disk space.
+2020-12-16 23:49:36,304 - mu.interface.panes:651(start_process) INFO: Running script: /Character Input Solutions.py
+2020-12-16 23:49:36,304 - mu.interface.panes:653(start_process) INFO: Running with interactive mode.
+2020-12-16 23:49:36,304 - mu.interface.panes:656(start_process) INFO: Command args: []
+2020-12-16 23:49:36,305 - mu.interface.panes:714(start_process) INFO: Working directory: /home/pi/mu_code
+2020-12-16 23:49:36,306 - mu.interface.panes:719(start_process) INFO: Python path: ['/usr/share/mu-editor', '/usr/lib/python37.zip', '/usr/lib/python3.7', '/usr/lib/python3.7/lib-dynload', '/usr/local/lib/python3.7/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3/dist-packages/IPython/extensions']
+2020-12-16 23:49:38,610 - mu.logic:869(save_tab_to_file) INFO: Saving script to: /Character Input Solutions.py
+2020-12-16 23:49:38,610 - mu.logic:870(save_tab_to_file) DEBUG: # Write your code here :-)
+name = input("What is your name: ")
+age = int(input("How old are you: "))
+year = str((2020 - age)+100)
+print(name + " will be 100 years old in the year " + year)
+
+2020-12-16 23:49:38,613 - mu.logic:874(save_tab_to_file) ERROR: [Errno 13] Permission denied: '/Character Input Solutions.py'
+2020-12-16 23:49:38,616 - mu.interface.main:723(show_message) DEBUG: Could not save file (disk problem)
+2020-12-16 23:49:38,616 - mu.interface.main:724(show_message) DEBUG: Error saving file to disk. Ensure you have permission to write the file and sufficient disk space.
+2020-12-16 23:49:40,085 - mu.logic:1176(autosave) INFO: Autosave detected and saved changes in /Character Input Solutions.py.
+2020-12-16 23:49:43,610 - mu.logic:869(save_tab_to_file) INFO: Saving script to: /Character Input Solutions.py
+2020-12-16 23:49:43,612 - mu.logic:870(save_tab_to_file) DEBUG: # Write your code here :-)
+name = input("What is your name: ")
+age = int(input("How old are you: "))
+year = str((2020 - age)+100)
+print(name + " will be 100 years old in the year " + year)
+
+2020-12-16 23:49:43,612 - mu.logic:874(save_tab_to_file) ERROR: [Errno 13] Permission denied: '/Character Input Solutions.py'
+2020-12-16 23:49:43,616 - mu.interface.main:723(show_message) DEBUG: Could not save file (disk problem)
+2020-12-16 23:49:43,616 - mu.interface.main:724(show_message) DEBUG: Error saving file to disk. Ensure you have permission to write the file and sufficient disk space.
+2020-12-16 23:49:45,031 - mu.logic:1176(autosave) INFO: Autosave detected and saved changes in /Character Input Solutions.py.
+2020-12-16 23:49:46,931 - mu.modes.python3:201(stop_script) DEBUG: Stopping script.
+2020-12-16 23:49:48,609 - mu.logic:869(save_tab_to_file) INFO: Saving script to: /Character Input Solutions.py
+2020-12-16 23:49:48,610 - mu.logic:870(save_tab_to_file) DEBUG: # Write your code here :-)
+name = input("What is your name: ")
+age = int(input("How old are you: "))
+year = str((2020 - age)+100)
+print(name + " will be 100 years old in the year " + year)
+
+2020-12-16 23:49:48,615 - mu.logic:874(save_tab_to_file) ERROR: [Errno 13] Permission denied: '/Character Input Solutions.py'
+2020-12-16 23:49:48,618 - mu.interface.main:723(show_message) DEBUG: Could not save file (disk problem)
+2020-12-16 23:49:48,618 - mu.interface.main:724(show_message) DEBUG: Error saving file to disk. Ensure you have permission to write the file and sufficient disk space.
+2020-12-16 23:49:50,356 - mu.logic:1176(autosave) INFO: Autosave detected and saved changes in /Character Input Solutions.py.
+2020-12-16 23:49:52,264 - mu.logic:869(save_tab_to_file) INFO: Saving script to: /Character Input Solutions.py
+2020-12-16 23:49:52,265 - mu.logic:870(save_tab_to_file) DEBUG: # Write your code here :-)
+name = input("What is your name: ")
+age = int(input("How old are you: "))
+year = str((2020 - age)+100)
+print(name + " will be 100 years old in the year " + year)
+
+2020-12-16 23:49:52,265 - mu.logic:874(save_tab_to_file) ERROR: [Errno 13] Permission denied: '/Character Input Solutions.py'
+2020-12-16 23:49:52,269 - mu.interface.main:723(show_message) DEBUG: Could not save file (disk problem)
+2020-12-16 23:49:52,270 - mu.interface.main:724(show_message) DEBUG: Error saving file to disk. Ensure you have permission to write the file and sufficient disk space.
+2020-12-16 23:49:53,610 - mu.logic:869(save_tab_to_file) INFO: Saving script to: /Character Input Solutions.py
+2020-12-16 23:49:53,610 - mu.logic:870(save_tab_to_file) DEBUG: # Write your code here :-)
+name = input("What is your name: ")
+age = int(input("How old are you: "))
+year = str((2020 - age)+100)
+print(name + " will be 100 years old in the year " + year)
+
+2020-12-16 23:49:53,612 - mu.logic:874(save_tab_to_file) ERROR: [Errno 13] Permission denied: '/Character Input Solutions.py'
+2020-12-16 23:49:53,615 - mu.interface.main:723(show_message) DEBUG: Could not save file (disk problem)
+2020-12-16 23:49:53,615 - mu.interface.main:724(show_message) DEBUG: Error saving file to disk. Ensure you have permission to write the file and sufficient disk space.
+2020-12-16 23:49:54,386 - mu.logic:1176(autosave) INFO: Autosave detected and saved changes in /Character Input Solutions.py.
+2020-12-16 23:49:55,542 - mu.interface.panes:651(start_process) INFO: Running script: /Character Input Solutions.py
+2020-12-16 23:49:55,542 - mu.interface.panes:653(start_process) INFO: Running with interactive mode.
+2020-12-16 23:49:55,543 - mu.interface.panes:656(start_process) INFO: Command args: []
+2020-12-16 23:49:55,543 - mu.interface.panes:714(start_process) INFO: Working directory: /home/pi/mu_code
+2020-12-16 23:49:55,544 - mu.interface.panes:719(start_process) INFO: Python path: ['/usr/share/mu-editor', '/usr/lib/python37.zip', '/usr/lib/python3.7', '/usr/lib/python3.7/lib-dynload', '/usr/local/lib/python3.7/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3/dist-packages/IPython/extensions']
+2020-12-16 23:49:58,610 - mu.logic:869(save_tab_to_file) INFO: Saving script to: /Character Input Solutions.py
+2020-12-16 23:49:58,611 - mu.logic:870(save_tab_to_file) DEBUG: # Write your code here :-)
+name = input("What is your name: ")
+age = int(input("How old are you: "))
+year = str((2020 - age)+100)
+print(name + " will be 100 years old in the year " + year)
+
+2020-12-16 23:49:58,613 - mu.logic:874(save_tab_to_file) ERROR: [Errno 13] Permission denied: '/Character Input Solutions.py'
+2020-12-16 23:49:58,616 - mu.interface.main:723(show_message) DEBUG: Could not save file (disk problem)
+2020-12-16 23:49:58,617 - mu.interface.main:724(show_message) DEBUG: Error saving file to disk. Ensure you have permission to write the file and sufficient disk space.
+2020-12-16 23:50:01,676 - mu.logic:1176(autosave) INFO: Autosave detected and saved changes in /Character Input Solutions.py.
+2020-12-16 23:50:02,693 - mu.modes.python3:201(stop_script) DEBUG: Stopping script.
+2020-12-16 23:50:03,609 - mu.logic:869(save_tab_to_file) INFO: Saving script to: /Character Input Solutions.py
+2020-12-16 23:50:03,610 - mu.logic:870(save_tab_to_file) DEBUG: # Write your code here :-)
+name = input("What is your name: ")
+age = int(input("How old are you: "))
+year = str((2020 - age)+100)
+print(name + " will be 100 years old in the year " + year)
+
+2020-12-16 23:50:03,610 - mu.logic:874(save_tab_to_file) ERROR: [Errno 13] Permission denied: '/Character Input Solutions.py'
+2020-12-16 23:50:03,613 - mu.interface.main:723(show_message) DEBUG: Could not save file (disk problem)
+2020-12-16 23:50:03,613 - mu.interface.main:724(show_message) DEBUG: Error saving file to disk. Ensure you have permission to write the file and sufficient disk space.
+2020-12-16 23:50:05,905 - mu.logic:1176(autosave) INFO: Autosave detected and saved changes in /Character Input Solutions.py.
+2020-12-16 23:50:08,310 - mu.logic:1105(select_mode) INFO: Showing available modes: ['python', 'adafruit', 'microbit', 'debugger', 'pygamezero']
+2020-12-16 23:50:08,610 - mu.logic:869(save_tab_to_file) INFO: Saving script to: /Character Input Solutions.py
+2020-12-16 23:50:08,610 - mu.logic:870(save_tab_to_file) DEBUG: # Write your code here :-)
+name = input("What is your name: ")
+age = int(input("How old are you: "))
+year = str((2020 - age)+100)
+print(name + " will be 100 years old in the year " + year)
+
+2020-12-16 23:50:08,611 - mu.logic:874(save_tab_to_file) ERROR: [Errno 13] Permission denied: '/Character Input Solutions.py'
+2020-12-16 23:50:08,614 - mu.interface.main:723(show_message) DEBUG: Could not save file (disk problem)
+2020-12-16 23:50:08,614 - mu.interface.main:724(show_message) DEBUG: Error saving file to disk. Ensure you have permission to write the file and sufficient disk space.
+2020-12-16 23:50:11,255 - mu.logic:1176(autosave) INFO: Autosave detected and saved changes in /Character Input Solutions.py.
+2020-12-16 23:50:13,610 - mu.logic:869(save_tab_to_file) INFO: Saving script to: /Character Input Solutions.py
+2020-12-16 23:50:13,610 - mu.logic:870(save_tab_to_file) DEBUG: # Write your code here :-)
+name = input("What is your name: ")
+age = int(input("How old are you: "))
+year = str((2020 - age)+100)
+print(name + " will be 100 years old in the year " + year)
+
+2020-12-16 23:50:13,612 - mu.logic:874(save_tab_to_file) ERROR: [Errno 13] Permission denied: '/Character Input Solutions.py'
+2020-12-16 23:50:13,615 - mu.interface.main:723(show_message) DEBUG: Could not save file (disk problem)
+2020-12-16 23:50:13,615 - mu.interface.main:724(show_message) DEBUG: Error saving file to disk. Ensure you have permission to write the file and sufficient disk space.
+2020-12-16 23:50:14,382 - mu.logic:1176(autosave) INFO: Autosave detected and saved changes in /Character Input Solutions.py.
+2020-12-16 23:50:18,610 - mu.logic:869(save_tab_to_file) INFO: Saving script to: /Character Input Solutions.py
+2020-12-16 23:50:18,610 - mu.logic:870(save_tab_to_file) DEBUG: # Write your code here :-)
+name = input("What is your name: ")
+age = int(input("How old are you: "))
+year = str((2020 - age)+100)
+print(name + " will be 100 years old in the year " + year)
+
+2020-12-16 23:50:18,616 - mu.logic:874(save_tab_to_file) ERROR: [Errno 13] Permission denied: '/Character Input Solutions.py'
+2020-12-16 23:50:18,619 - mu.interface.main:723(show_message) DEBUG: Could not save file (disk problem)
+2020-12-16 23:50:18,619 - mu.interface.main:724(show_message) DEBUG: Error saving file to disk. Ensure you have permission to write the file and sufficient disk space.
+2020-12-16 23:50:19,846 - mu.logic:1176(autosave) INFO: Autosave detected and saved changes in /Character Input Solutions.py.
+2020-12-16 23:50:23,258 - mu.interface.main:751(show_confirmation) DEBUG: There is un-saved work, exiting the application will cause you to lose it.
+2020-12-16 23:50:23,258 - mu.interface.main:752(show_confirmation) DEBUG: None
+2020-12-16 23:50:23,610 - mu.logic:869(save_tab_to_file) INFO: Saving script to: /Character Input Solutions.py
+2020-12-16 23:50:23,610 - mu.logic:870(save_tab_to_file) DEBUG: # Write your code here :-)
+name = input("What is your name: ")
+age = int(input("How old are you: "))
+year = str((2020 - age)+100)
+print(name + " will be 100 years old in the year " + year)
+
+2020-12-16 23:50:23,612 - mu.logic:874(save_tab_to_file) ERROR: [Errno 13] Permission denied: '/Character Input Solutions.py'
+2020-12-16 23:50:23,615 - mu.interface.main:723(show_message) DEBUG: Could not save file (disk problem)
+2020-12-16 23:50:23,615 - mu.interface.main:724(show_message) DEBUG: Error saving file to disk. Ensure you have permission to write the file and sufficient disk space.
+2020-12-16 23:50:25,090 - mu.logic:1176(autosave) INFO: Autosave detected and saved changes in /Character Input Solutions.py.
+2020-12-16 23:50:26,230 - mu.logic:1051(quit) DEBUG: Session: {'theme': 'day', 'mode': 'python', 'paths': ['/Character Input Solutions.py'], 'envars': [], 'minify': False, 'microbit_runtime': '', 'zoom_level': 2}
+2020-12-16 23:50:26,231 - mu.logic:1052(quit) DEBUG: Saving session to: /home/pi/.local/share/mu/session.json
+2020-12-16 23:50:26,232 - mu.logic:1066(quit) INFO: Quitting.
+
+
+2020-12-16 23:57:24,785 - root:112(run) INFO: 
+
+-----------------
+
+Starting Mu 1.0.2
+2020-12-16 23:57:24,785 - root:113(run) INFO: uname_result(system='Linux', node='raspberrypi', release='5.4.51-v7l+', version='#1333 SMP Mon Aug 10 16:51:40 BST 2020', machine='armv7l', processor='')
+2020-12-16 23:57:24,786 - root:114(run) INFO: Python path: ['/usr/share/mu-editor', '/usr/lib/python37.zip', '/usr/lib/python3.7', '/usr/lib/python3.7/lib-dynload', '/usr/local/lib/python3.7/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3/dist-packages/IPython/extensions']
+2020-12-16 23:57:24,786 - root:115(run) INFO: Language code: en_US
+2020-12-16 23:57:25,415 - mu.logic:543(__init__) INFO: Setting up editor.
+2020-12-16 23:57:25,416 - mu.logic:562(__init__) INFO: Settings path: /home/pi/.local/share/mu/settings.json
+2020-12-16 23:57:25,416 - mu.logic:563(__init__) INFO: Session path: /home/pi/.local/share/mu/session.json
+2020-12-16 23:57:25,416 - mu.logic:564(__init__) INFO: Log directory: /home/pi/.cache/mu/log
+2020-12-16 23:57:25,416 - mu.logic:565(__init__) INFO: Data directory: /home/pi/.local/share/mu
+2020-12-16 23:57:25,452 - mu.logic:578(setup) INFO: Available modes: python, adafruit, microbit, debugger, pygamezero
+2020-12-16 23:57:25,566 - mu.logic:1148(change_mode) INFO: Workspace directory: /home/pi/mu_code
+2020-12-16 23:57:25,568 - mu.logic:625(restore_session) INFO: Restoring session from: /home/pi/.local/share/mu/session.json
+2020-12-16 23:57:25,568 - mu.logic:626(restore_session) DEBUG: {'theme': 'day', 'mode': 'python', 'paths': ['/Character Input Solutions.py'], 'envars': [], 'minify': False, 'microbit_runtime': '', 'zoom_level': 2}
+2020-12-16 23:57:25,568 - mu.logic:713(_load) INFO: Loading script from: /Character Input Solutions.py
+2020-12-16 23:57:25,569 - mu.logic:722(_load) INFO: The file /Character Input Solutions.py does not exist.
+2020-12-16 23:57:25,569 - mu.logic:647(restore_session) INFO: Loaded files.
+2020-12-16 23:57:25,569 - mu.logic:651(restore_session) INFO: User defined environment variables: []
+2020-12-16 23:57:25,569 - mu.logic:655(restore_session) INFO: Minify scripts on micro:bit? False
+2020-12-16 23:57:25,679 - mu.logic:678(restore_session) INFO: Starting with blank file.
+2020-12-16 23:57:25,727 - mu.logic:1148(change_mode) INFO: Workspace directory: /home/pi/mu_code
+2020-12-16 23:57:53,943 - mu.logic:809(get_dialog_directory) INFO: Using path for file dialog: /home/pi/mu_code
+2020-12-16 23:58:04,184 - mu.interface.main:263(get_save_path) DEBUG: Getting save path: /home/pi/mu_code/hello
+2020-12-16 23:58:04,184 - mu.logic:903(check_for_shadow_module) INFO: Checking path "/home/pi/mu_code/hello" for shadow module.
+2020-12-16 23:58:04,185 - mu.logic:869(save_tab_to_file) INFO: Saving script to: /home/pi/mu_code/hello.py
+2020-12-16 23:58:04,185 - mu.logic:870(save_tab_to_file) DEBUG: # Write your code here :-)
+print("Hello world")
+
+2020-12-16 23:58:12,636 - mu.interface.panes:651(start_process) INFO: Running script: /home/pi/mu_code/hello.py
+2020-12-16 23:58:12,636 - mu.interface.panes:653(start_process) INFO: Running with interactive mode.
+2020-12-16 23:58:12,637 - mu.interface.panes:656(start_process) INFO: Command args: []
+2020-12-16 23:58:12,638 - mu.interface.panes:714(start_process) INFO: Working directory: /home/pi/mu_code
+2020-12-16 23:58:12,639 - mu.interface.panes:719(start_process) INFO: Python path: ['/usr/share/mu-editor', '/usr/lib/python37.zip', '/usr/lib/python3.7', '/usr/lib/python3.7/lib-dynload', '/usr/local/lib/python3.7/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3/dist-packages/IPython/extensions']
+2020-12-16 23:58:18,874 - mu.logic:700(new) INFO: Added a new tab.

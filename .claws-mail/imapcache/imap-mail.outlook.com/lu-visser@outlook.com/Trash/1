@@ -1,0 +1,1187 @@
+Received: from VE1EUR01HT093.eop-EUR01.prod.protection.outlook.com
+ (2603:10a6:10:231::23) by DB8PR06MB6553.eurprd06.prod.outlook.com with HTTPS
+ via DU2PR04CA0138.EURPRD04.PROD.OUTLOOK.COM; Sun, 20 Dec 2020 13:02:37 +0000
+Received: from VE1EUR01FT007.eop-EUR01.prod.protection.outlook.com
+ (2a01:111:e400:7e19::46) by
+ VE1EUR01HT093.eop-EUR01.prod.protection.outlook.com (2a01:111:e400:7e19::192)
+ with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3676.25; Sun, 20 Dec
+ 2020 13:02:36 +0000
+Authentication-Results: spf=pass (sender IP is 68.232.203.163)
+ smtp.mailfrom=bounce.email.gapcanada.ca; outlook.com; dkim=pass (signature
+ was verified) header.d=email.gapcanada.ca;outlook.com; dmarc=pass action=none
+ header.from=email.gapcanada.ca;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of
+ bounce.email.gapcanada.ca designates 68.232.203.163 as permitted sender)
+ receiver=protection.outlook.com; client-ip=68.232.203.163;
+ helo=mta2.email.gapcanada.ca;
+Received: from mta2.email.gapcanada.ca (68.232.203.163) by
+ VE1EUR01FT007.mail.protection.outlook.com (10.152.2.88) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.3676.25 via Frontend Transport; Sun, 20 Dec 2020 13:02:35 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:1FE42A350D2855151AD05D94A59212B0550FA6126EC7409B425322FB4183581C;UpperCasedChecksum:268185BA55302EFCCE16654A6A194DD69A22DA6234EA29A796523DBDFEB86F23;SizeAsReceived:1372;Count:15
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=200608; d=email.gapcanada.ca;
+ h=From:To:Subject:Date:List-Unsubscribe:MIME-Version:Reply-To:List-ID:
+ X-CSA-Complaints:Message-ID:Content-Type; i=gap@email.gapcanada.ca;
+ bh=fvZoE2q1ZV51yiTw/WOfZ8Dcplmx5+b60tsP0ci6lQ0=;
+ b=R8WxhJSBXctibLJ4jLC2xUPikrtyqegXrovhQYqaf77RHN8DM3HvlnZaFGe5YLe/8+8fBcXjZgdp
+   ai9JPkMOGQ9rjqkKCfEpqVTNBFNBVbGr412a15rVej5j+Esr18H/v6w2q5+7Z1fRX26VCrs7HpZ+
+   gNZRx1GD4raiY0rKEx8=
+Received: by mta2.email.gapcanada.ca id hrt5mo2fmd4e for <lu-visser@outlook.com>; Sun, 20 Dec 2020 13:02:31 +0000 (envelope-from <bounce-450_HTML-391810719-3921863-7000711-1773@bounce.email.gapcanada.ca>)
+From: "Gap Canada" <gap@email.gapcanada.ca>
+To: <lu-visser@outlook.com>
+Subject: Order your gifts TODAY + get up to 60% off!
+Date: Sun, 20 Dec 2020 07:02:32 -0600
+List-Unsubscribe: <mailto:leave-fd521075750b5c392848-fe281779746c057d721579-fe8f177977650c7b76-fe9f13707564037c74-ff2d15777267@leave.email.gapcanada.ca>
+Reply-To: "Gap" <reply-fe8f177977650c7b76-450_HTML-391810719-7000711-1773@email.gapcanada.ca>
+List-ID: <7000682.xt.local>
+X-CSA-Complaints: whitelist-complaints@eco.de
+X-SFMC-Stack: 6
+x-job: 7000711_3921863
+Message-ID: <d1decdce-aedf-4c83-bf7a-0f07c443c1af@ind1s06mta1495.xt.local>
+Content-Type: multipart/alternative;
+	boundary="kDutMTz9oCPx=_?:"
+X-IncomingHeaderCount: 15
+Return-Path:
+ bounce-450_HTML-391810719-3921863-7000711-1773@bounce.email.gapcanada.ca
+X-MS-Exchange-Organization-ExpirationStartTime: 20 Dec 2020 13:02:36.2373
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 643b8add-d213-4b5f-b67a-08d8a4e785d0
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ VE1EUR01FT007.eop-EUR01.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 12/20/2020 12:23:35 PM
+X-MS-Office365-Filtering-Correlation-Id: 643b8add-d213-4b5f-b67a-08d8a4e785d0
+X-MS-TrafficTypeDiagnostic: VE1EUR01HT093:
+X-MS-Exchange-MinimumUrlDomainAge: gapcanada.ca#5959
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 68.232.203.163
+X-SID-PRA: GAP@EMAIL.GAPCANADA.CA
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:2;
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 20 Dec 2020 13:02:35.8525
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 643b8add-d213-4b5f-b67a-08d8a4e785d0
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ VE1EUR01FT007.eop-EUR01.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: VE1EUR01HT093
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.4315904
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.3676.033
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000282)(90000117)(90012020)(91020020)(91040095)(9000001)(9050020)(9100272)(5061607266)(5061608174)(4900115)(98391011)(4920090)(6515079)(4950131)(4990090);
+X-Message-Info:
+	5vMbyqxGkddJ2CxZzA4vXYRr4nrZtUVzrTGZig1jAjZVwUO1RWPWv5XA0/H64wpN98egaKODHNZqcFvXnp3MueF/nvoLhl/rUn28lcTPHeEeznlqhEWV9vEVr4TpOQzmCXVs43fEGr/o5mMMYG8EGTP9fq6rNUT8U8dy1bgPzkLogzbrdEKS494CwAW60ekdk2SI9q/1ehoOAlHWIvauPA==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?cVVaYUxGanhQdllYZmxJL3pWekIwdFhSNTRWTGlHNjNsK3FMREdKWElMRm9P?=
+ =?utf-8?B?RTBMMWpJK2VEUXBUODg5ak9QaThzRy8vK0hOeWFaUEVuOENhSXZQUGh5TXA4?=
+ =?utf-8?B?aWRsNzlpNGZvT0laQms5Vkd0bWFmdS9zbFZZTEo3RmZiYkRKVkcwdmdCSDBk?=
+ =?utf-8?B?UncyZFljR29UNDc2S2tHK0pHZmorVmwzdUtaNDkyRS9Wam93TFQrNUZiMUVJ?=
+ =?utf-8?B?VDFLanJGdy9kUFFFaW13d2ozLzAvYmFXQjJHV1JQdllvLytqL1RWUmVWb0pz?=
+ =?utf-8?B?YzF3L2UwZ0V2SFVzZEFKdTJCeFhJdzhRQy9BZWtEVWR0TWtvdmw0VXNxOVFh?=
+ =?utf-8?B?bGYyMnYzYnlyU2lkQnNHT1hpdTZEamNjNUhBQ2E5QlB0M0hpOXorN2xsWXpN?=
+ =?utf-8?B?VU9hZlM2T0FzUGl2ZEx2ZTVsTmJ2a0dBZjZzMGp3c0RpM2JsSU9wdHJDRklE?=
+ =?utf-8?B?alI3NmdSbytJTGhpRXdzUjFDN1BFaC9wQ2hPKzcza0JDWmYxUnRBWWZ0enBF?=
+ =?utf-8?B?RStNczYyWUZrM2txYmd4WTR1S3NlVnJlcEtHZ2l1N0hpNUlRMkt5S0szaXVs?=
+ =?utf-8?B?T1hmK01OUXd4NnROSlZqcElhNU5hZVFla0VJRnp6YWRhL0J4blhheHVHcUdH?=
+ =?utf-8?B?M1BDN0IvSDljTm1qS09CSUh2UC9jWHVlNld3RXI5RXhTRTA0Y3IxRURZeURq?=
+ =?utf-8?B?LzNhQzJLellBR2UrWEthbHhqWjlsSE5qaVN2anZqQ1ZTdGptanAxSm5jNFN0?=
+ =?utf-8?B?a0RsOUZ1MXZBZy8rdFc3RlM3UHo0OHVIVkdZamFkQkFNeTBhSGd0aDBpQ25n?=
+ =?utf-8?B?YkQ2YW5wOGZnTkwyZHlqY053ZFlIbFl0dDdlTGlab0ZGZUFTUjRIZGYydEpI?=
+ =?utf-8?B?Z3Y4Q3M1QUJ3WVcxU2Vtd1NFdGQ1Q2lBaEw1VU5WSFY3K2ZaWDZRMWM0MmtT?=
+ =?utf-8?B?ZHRZMHhJdzFLclIvNDZFY1Y0aUErektSY200NHpXTVk0TndLVzZ4VDhhdTFC?=
+ =?utf-8?B?WFVTSG9pM1pNVlVoNkg5Y3FFdXQ1YldEeHA4RUFmL2t4dEdHTVkrVHRHd1pv?=
+ =?utf-8?B?YnFGbTNrTk5BVERxMVZ2ZmlZUVFaViswUWVReHkxd0JhR2kyczlqNDdraVQ4?=
+ =?utf-8?B?TUtNL0x3clp1ZTdJUWNKaFBROFNwLzZLNVhoQitzcVIyOVgrdWE2bDExaS9q?=
+ =?utf-8?B?WERVUEpJVGhxV2xzMjVOSEM3dEJyK01WLzd5Tlh2QThOcnRYb0x4T0NCZHlk?=
+ =?utf-8?B?bGpybFdKNWRNdHFMTG9VZVc1ZmVzR0lmZmk3SjdHN1VPRjN2VnROVHFnOXNQ?=
+ =?utf-8?B?elpnTFlVV3ZJbmhXZ1dWaGNQMXV3MGkxNnpBS3hqaXc4WGtEN2R4T2poTlU3?=
+ =?utf-8?B?ZEFiNDRHNkxwQisvS0lmQ2RLZjF6ZUcwNFpXcG9FblVNK3lpKzlpWlZRM2Ra?=
+ =?utf-8?Q?NBiwGLTP?=
+MIME-Version: 1.0
+
+--kDutMTz9oCPx=_?:
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+ 
+Gap
+https://click.email.gapcanada.ca/?qs=70d79fbfb365de6e6b9fe175cb3eaf35283108c4d702aa5c2116696b27e3bec2b8b5bf4e9a9f2fc2242a489efbfc7c1decdc8de645a3eeb1
+
+----------------------------------------------------------------------
+
+Click below to view this message from Gap in a web browser:
+https://view.email.gapcanada.ca/?qs=81c264f91cb46b26a25f7bfb48bfdfe6afdfec2cde782e2c943d2ef38dbdb5c1eac08e5acb39a46560547caaf1a96ebd8fd0d9f2446890bd9f423b71a6d5c2ea2268e6dac4c63e67f39f25579b694785
+
+----------------------------------------------------------------------
+
+Privacy Policy:
+https://click.email.gapcanada.ca/?qs=70d79fbfb365de6e34c729fdb02abe8489eb22bb7a38217bb6f41e75b0f46172306ddfff987a368a25371a94238c60fc679bfef1a7fa4701
+
+Unsubscribe:
+https://click.email.gapcanada.ca/?qs=70d79fbfb365de6e992119860b1074b90684b6908145f859e5c405cf0ec9bd570401240df784db0e4e57428668746b8e502b0629e21b3986
+
+Gap Customer Service, 13153 Coleraine Dr., Suite 1501, Bolton, Ontario L7E 3B6, Canada.
+
+
+--kDutMTz9oCPx=_?:
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title></title>
+<!--[if gt mso 13]> <style type="text/css" media="all">  /* Outlook 2013+ Height Fix */  table, tr, td {border-collapse: collapse;}  td { line-height:0px; mso-line-height-rule:exactly } </style> <![endif]-->   
+<style>img[class="photo"], .photo {width: 100%; height: auto; display: block;}</style>   
+<style type="text/css">
+  @media only screen and (max-width: 480px) {
+    table[class="wrapper"], .wrapper {width: 100% !important;}
+    div[class="show"] img {width: 100% !important; }    
+    *[class].flyOut {left: 30px !important; top: -22px !important}
+    #legal {padding: 0 10px}
+  }
+ </style>   
+ <style type="text/css">
+  /* Begin Reset */
+  body {width: 100% !important; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; margin: 0; padding: 0;}
+  .ExternalClass { width: 100%;}
+  .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass a, .ExternalClass td, .ExternalClass div { line-height: 100%;}
+  #backgroundTable, #footerTable {margin: 0; padding: 0; width: 100% !important; line-height: 100% !important;}
+  #outlook a {padding: 0;}
+  
+  /* End Reset */
+  
+  table td {border-collapse: collapse;}
+   @-ms-viewport {width:device-width;}
+  
+</style>
+<style>
+  @media only screen and (max-width: 480px) {
+   table[class="wrapper"] {width: 320px !important;}
+   .wrapper {width: 640px !important;}
+   table[class="wrapper2"] {width: 160px !important;}
+   td[class="paddingreset"] {padding: 0 !important;}
+   td[class="padding-half"] {padding: 0.5em !important;}
+   td[class="pad-half-top"] {padding-top: 0.5em !important;}
+   td[class="pad-half-right"] {padding-right: 0.5em !important;}
+   td[class="pad-half-bottom"] {padding-bottom: 0.5em !important;}
+   td[class="pad-half-left"] {padding-left: 0.5em !important;}
+   td[class="MspaceTop"] {padding-top: 10px !important;}
+   td[class="MspaceBot"] {padding-bottom: 10px !important;}
+   
+   /* Hide from mobile. */
+   *[class*="mobile-hidden"] {display: none;}
+   
+   /* Hide from desktop. */
+   div[class="show"], div[class="show"] img {display: block !important; margin: 0 !important; padding: 0 !important; overflow: visible !important; width: auto !important; max-height: inherit !important; height: auto !important;}
+   
+   /* Scale images or text. */
+   img[class="photo"] {width: 100% !important; height: auto !important;}
+   img[class="photoS1"] {width: 100% !important; height: 24px !important;}
+   img[class="photo90"] {width: 90% !important; margin: 0 auto !important;}
+   img[class="photo60"] {width: 60% !important; margin: 0 auto !important;}
+   *[class*="text1"] {font-size: 1em !important; line-height: 1em !important;}
+   *[class*="text-75"] {font-size: 0.75em !important; line-height: 1.8em !important;}
+   *[class*="text-half"] {font-size: 0.5em !important; line-height: 0.5em !important;}
+   *[class*="code"] {font-size: 12px !important; line-height: 1 !important;}
+   *[class*="footertext"] {font-size: 10px !important; line-height: 8px !important;}
+    /* Change font-size size as needed per email. Default is 10px; */
+   
+   /* Stack elements. */
+   *[class].block { width: 100% !important; display: block !important;}
+   span[class="block"] {display: block !important;}
+   td[class="reset"] {border: none !important; margin: 0 !important; padding: 0 !important; width: 100% !important;}
+   table[class="tableXC"] {height: 12px !important;}
+   td[class="textXC"] {font-size: 0.45em !important; line-height: 8px !important;}
+   img[class="photo32"] {width: 160px !important; height: 32px !important;}
+   
+   /* custom */
+     
+   td[class="cardholder-container"] {padding: 0 77px;}
+    td[class="MspaceTop25"] {padding-top: 25px !important;}
+    td[class="MspaceBot25"] {padding-bottom: 25px !important;}
+    *[class*="drop"] { float:left !important; width:100% !important; }
+  }
+  
+  
+  </style>
+<!--[if gte mso 9]>
+<xml>
+  <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+ </o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+<style>
+ @media only screen and (max-width: 480px) {
+   td[class="MspaceTop15"], .MspaceTop15 {padding-top: 15px !important;}
+  }
+</style>  
+</head>
+<body>
+<!-- Start Gmail Promo Tab annotations code -->
+<div itemscope="" itemtype="http://schema.org/Organization">
+
+  <meta itemprop="name" content="Gmail">
+
+  <meta itemprop="logo" content="">
+</div>
+<div itemscope="" itemtype="http://schema.org/EmailMessage">
+  <meta itemprop="subjectLine" content="">
+</div>
+<div itemscope="" itemtype="http://schema.org/DiscountOffer">
+  <meta itemprop="description" content="">
+  <meta itemprop="discountCode" content="">
+  <meta itemprop="availabilityStarts" content="">
+  <meta itemprop="availabilityEnds" content="">
+</div>
+<div itemscope="" itemtype="http://schema.org/PromotionCard">
+  <meta itemprop="image" content="">
+</div>
+
+<!-- End Gmail Promo Tab annotations code --> 
+
+
+<!-- Begin container and wrapper tables -->
+<table border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#FFFFFF" id="backgroundTable">
+ <tr>
+  <td align="center">
+   <table border="0" cellpadding="0" cellspacing="0" width="640" align="center" class="wrapper">
+    <!-- Begin header -->
+    <tr>
+     <td>
+      
+
+<style type="text/css">
+  .color_000d42 a:link {color:#000d42 !important}
+  .color_000d42 a:visited {color:#000d42 !important}
+  .color_000d42 a:link:active {color:#000d42 !important}
+  .color_000d42 a:visited:active {color:#000d42 !important}
+ 
+  /* Flyout Menu */    
+    *[class].flyOut {position: relative; width:320px; height:0px; top: -6px; margin:0 auto; padding: 0; z-index: 9;}
+    *[class].flyOut ul {max-height: 0; overflow: hidden; transition: max-height 0.25s linear; margin: 0; padding: 0;}
+    *[class].flyOut li {visibility: hidden; display: block; border: none; background-color:#ebeff2; border-bottom:1px solid #ffffff;}
+    *[class].flyOut li { float:left;}        
+    *[class].flyOut *[class].navigation-handle {display: block; background-image: url('https://image.email.gap.com/lib/fe9b13707564037c70/m/69/GP_menu_open_60x60.jpg') !important; background-size: 30px 30px !important;}
+    #navigation-checkbox:checked + *[class].flyOut ul {max-height: 700px;}
+    #navigation-checkbox:checked + *[class].flyOut li {visibility: visible;}
+    #navigation-checkbox:checked + *[class].flyOut *[class].navigation-handle,
+    #navigation-checkbox:checked + *[class].flyOut *[class].navigation-handle:after,
+    #navigation-checkbox:checked + *[class].flyOut *[class].navigation-handle:before {
+    background-image: url('https://image.email.gap.com/lib/fe9b13707564037c70/m/69/GP_menu_close_60x60.jpg') !important; background-size: 30px 30px !important;}
+    *[class].navigation-checkbox {display: none;}
+    *[class].navigation-handle {display: none; cursor: pointer; padding: 0; height: 30px; width: 30px; border-top: 0;  }
+    *[class].navigation-handle:before,
+    *[class].navigation-handle:after { position: absolute; content: ' ';  }
+    *[class].flyOut *[class].navigation-handle { position: absolute; top: -37px; z-index: 10; }
+    /* end Flyout Menu */
+        /* Use element[class="className"] instead of .className */
+        @media only screen and (max-width: 480px) {
+   table[class="wrapper"] {width: 320px !important;}
+   img[class="photo20"] {width: 20% !important; height: auto !important;}
+   *[class*="mobile-hidden"] { display: none; }
+   *[class*="show"] {display: block !important; margin: 0 !important; padding: 0 !important; overflow: visible !important; width: auto !important; max-height: inherit !important; height: auto !important;}
+
+body[data-outlook-cycle] .hideOL { display: none; }
+body[data-outlook-cycle] .wrapper  {width: 640px !important;}
+#MessageViewBody .wrapper  {width: 640px !important;}
+  }
+  
+    </style>
+
+<table border="0" cellpadding="0" cellspacing="0" width="640" class="wrapper" align="center">
+ <tr>
+  <td align="center" style="font-family:Arial,Helvetica,sans-serif; font-size:12px; mso-line-height-rule:exactly; line-height:15px; color:#666666;"> 
+   <a href="https://click.email.gapcanada.ca/?qs=98aa86d54748918888ff40bb78aba84eb4dc6b159efb3c800efab3cc705321aeb9b0cd5f613557a7aecb1341685663f0cde2e8b43c7fc08fe09576d59ff31bab" target="_blank" style="color:#0033FF; text-decoration:underline;"><span class="mobile-hidden">Up to 60% off our most popular gifts.</span></a><span class="mobile-hidden"><br>
+   </span>
+   
+    <span style="font-size:9px; mso-line-height-rule:exactly; line-height:15px;"> 
+   Pour regarder ce courriel en français, <a href="https://pages.email.gapinc.com/page.aspx?qs=38dfbe491fab00eae0cee67d71727ca291f191915672a0649655921d0618ae79346929769cfce99ac35079450dd928edfba8a219dbc28acb4fb3208e12254382652ffce770d1f562b63a05094938f520c0d3de9812b3cce246e2d902b58cc34aa31de3aacba0508733bd296b85ebe022381d4d92bf04b74fb97a25cf43b22b92467761fd1828836a1b95d089090353f0a88229aba236a7954a38e14775b26dbd86a5133b2653b584048b0b29e13b62b5a9e375f4dc68659dc29e348d401c401f9d355344918bfaaa5134b00dae5304de6c36e68edb67d687a94ee39b1c8800d710561883e997fcc38c44693785dfce87a0b91fe3a87bddafb4cd0b6cfa583e4dc4b4a958809ec799a93ee934fe9c6dade2965f19dce2978bc20cb6bfb119d129ddc7a42c26e0f9993b2e16d063ad400e043452e7cc3bc46dcffa6c37a736076b7eef0863f7628cf9e21fb42eca577a423f5def9178f16251beee141cf0176f1f63b5cfa8c66d999bc070bc3d1c7cb17b93b3b64c26bbe970a0a0b6847958d270fdc5148adab762de" target="_blank" style="color:#0033FF; text-decoration:underline;">
+<span style="color:#0033FF;">cliquez ici</span></a>. Pour modifier votre préférence de langue, <a href="https://click.email.gapcanada.ca/?qs=98aa86d547489188536ed72c90d7d72c592953272ba545bc77375daa83e5fd3e97e28302859b20ed7096ec7fe38982d2de148021b7cd097f493349e09bfa66b3" target="_blank" style="color:#0033FF; text-decoration:underline;"><span style="color:#0033FF;">cliquez ici</span></a>.
+    </span> </td>
+ </tr>
+ <tr>
+  <td align="center" style="padding-bottom:5px; padding-top:20px;"><table border="0" cellpadding="0" cellspacing="0" align="center">
+    
+    <tr>
+     <td align="center"><a href="https://click.email.gapcanada.ca/?qs=98aa86d54748918818d3780f8c2536baf7e7abb771a51c28a2d08252894d2e3378bfb9623bda9e269719444f0b6cc4e7f7807b4ab41c1fff7c20ba3b8bf85fb1" target="_blank"><img alt="GAP" src="https://image.email.gap.com/lib/fe9b13707564037c70/m/69/20190823_GPUS_LOGO.png" width="108" height="108" border="0" style="display:block; font-family:Arial,Helvetica,sans-serif; font-size:10px; color:#000001;" class="photo20"></a></td>
+    </tr>
+    
+   </table></td>
+ </tr>
+
+ 
+<!-- begin EN Desktop Menu-->
+ <tr>
+    <td align="center" class="mobile-hidden" bgcolor="#FFFFFF">
+      <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="640" align="center" nowrap="nowrap">
+            <table border="0" cellpadding="0" cellspacing="0" align="center">
+              <tr>
+                <td nowrap="nowrap" align="center" style="font-family: Arial, Helvetica, sans-serif; color:#000d42; font-weight:bold; font-size:14px; letter-spacing: .03em; line-height:normal; mso-line-height-rule:exactly; padding:10px 13px 10px 10px;"><a href="https://click.email.gapcanada.ca/?qs=98aa86d5474891884ee105f60402629e487830b1fcbeead7cd12ed9432cda7c882d4591d5dd98b969e84e4c29e6f1a784a3182f37bec68cc7043dce76bf7fb3f" target="_blank" style="text-decoration:none; font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:14px; letter-spacing: .07em; color:#000d42;" class="color_000d42">WOMEN</a></td>
+                <td nowrap="nowrap" align="center" style="font-family: Arial, Helvetica, sans-serif; color:#000d42; font-weight:bold; font-size:14px; letter-spacing: .03em; line-height:normal; mso-line-height-rule:exactly; padding:10px 13px 10px 13px;"><a href="https://click.email.gapcanada.ca/?qs=98aa86d5474891887dfebae95d2388f4bf5a0624652ed9198d50f14f6d48e48aedf2171e89a30d95a8e2b5138103c62f716396882380f21a9779b412dab709ca" target="_blank" style="text-decoration:none; font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:14px; letter-spacing: .07em; color:#000d42;" class="color_000d42">MATERNITY</a></td>
+       <td nowrap="nowrap" align="center" style="font-family: Arial, Helvetica, sans-serif; color:#000d42; font-weight:bold; font-size:14px; letter-spacing: .03em; line-height:normal; mso-line-height-rule:exactly; padding:10px 13px 10px 13px;"><a href="https://click.email.gapcanada.ca/?qs=98aa86d5474891886c063f991e38115e5c304eafc16e6629b9c164bbfe91e3b23b6698167310b3191cfe625459f49b2e03775da52a5b1682ecad8ae700421376" target="_blank" style="text-decoration:none; font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:14px; letter-spacing: .07em; color:#000d42;" class="color_000d42">MEN</a></td>
+       <td nowrap="nowrap" align="center" style="font-family: Arial, Helvetica, sans-serif; color:#000d42; font-weight:bold; font-size:14px; letter-spacing: .03em; line-height:normal; mso-line-height-rule:exactly; padding:10px 13px 10px 13px;"><a href="https://click.email.gapcanada.ca/?qs=98aa86d5474891883f2095a39d30c98bc8df488df7c36cb3a7347f9834c85059dc3fd7eb2fdc07a597fdf0d234f805f550bff1309c503ceda771b9e11c357fc6" target="_blank" style="text-decoration:none; font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:14px; letter-spacing: .07em; color:#000d42;" class="color_000d42">GIRLS</a></td>
+       <td nowrap="nowrap" align="center" style="font-family: Arial, Helvetica, sans-serif; color:#000d42; font-weight:bold; font-size:14px; letter-spacing: .03em; line-height:normal; mso-line-height-rule:exactly; padding:10px 13px 10px 13px;"><a href="https://click.email.gapcanada.ca/?qs=98aa86d5474891880f5c707dbf404f883595462d54b0c5cf57e48cfd9f538163094d1be29ab9c2579b2e7ecea81cc0a049811d5883084bd9a359814d880e6aae" target="_blank" style="text-decoration:none; font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:14px; letter-spacing: .07em; color:#000d42;" class="color_000d42">BOYS</a></td>
+       <td nowrap="nowrap" align="center" style="font-family: Arial, Helvetica, sans-serif; color:#000d42; font-weight:bold; font-size:14px; letter-spacing: .03em; line-height:normal; mso-line-height-rule:exactly; padding:10px 13px 10px 13px;"><a href="https://click.email.gapcanada.ca/?qs=3fb1daf6fcbcac64d0f597454f0f9edebd61407a89e92b2aaa185ddf2451a35735cacbd163dab7b4aa6d1a16ee8293f0688a2adf01ceefe190862da4aa3ba03d" target="_blank" style="text-decoration:none; font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:14px; letter-spacing: .07em; color:#000d42;" class="color_000d42">TODDLER</a></td>
+       <td nowrap="nowrap" align="center" style="font-family: Arial, Helvetica, sans-serif; color:#000d42; font-weight:bold; font-size:14px; letter-spacing: .03em; line-height:normal; mso-line-height-rule:exactly; padding:10px 13px 10px 10px;"><a href="https://click.email.gapcanada.ca/?qs=3fb1daf6fcbcac64f3c61bc91380a92ba1729a0c138fd4a8899659784cdbbf18f75b19244902c1064df0254c0ddcd6e53a56adbdc4345573e073e06118a13376" target="_blank" style="text-decoration:none; font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:14px; letter-spacing: .07em; color:#000d42;" class="color_000d42">BABY</a></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td style="font-size:1px; line-height:1px;" height="10" class="mobile-hidden">&nbsp;
+    </td>
+  </tr>
+  <!--end EN Desktop Menu-->
+ <!-- begin EN Flyout menu-->
+  <tr>
+    <td style="font-size:0px; mso-line-height-rule:exactly; line-height:0px;">
+      <!--[if !mso]><!-->
+      <div class="show hideOL" style="display:none; float:left; overflow:hidden; width:0; max-height:0; line-height:0;">
+        <table cellpadding="0" cellspacing="0" border="0">
+          <tr>
+            <td align="center" valign="top">
+              <form style="border:0 !important; height: 0px !important;">
+                <input type="checkbox" id="navigation-checkbox" class="navigation-checkbox">
+                <div class="flyOut hideOL">
+                  <ul>
+                    <li>
+                      <table cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td width="180" height="30" align="left" valign="middle">
+                          <a href="https://click.email.gapcanada.ca/?qs=3fb1daf6fcbcac64c6833d595419ff51c781417bdb6b328086856547c67f11187674ee4885246a68f032d321f8541fb6deb4021dfa2e8f4a3e44366081d8bcee" style="color:#003764; font-family:Arial, Helvetica, sans-serif; font-size:11px; line-height:14px; letter-spacing:0.0625em; text-decoration:none; padding-left:17px;">WOMEN</a>
+                        </td>
+                        <td width="20" height="30" align="left" valign="middle">
+                          <a href="https://click.email.gapcanada.ca/?qs=3fb1daf6fcbcac64c6833d595419ff51c781417bdb6b328086856547c67f11187674ee4885246a68f032d321f8541fb6deb4021dfa2e8f4a3e44366081d8bcee" style="font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#003764; line-height:14px; font-weight:bold; text-decoration: none;"><span style="color:#003764; line-height:14px; font-weight:bold; text-decoration: none;"> ►</span></a>
+                        </td>
+                      </tr>
+                      </table>
+                    </li>
+                    <li>
+                     <table cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td width="180" height="30" align="left" valign="middle">
+                          <a href="https://click.email.gapcanada.ca/?qs=3fb1daf6fcbcac64ec682e5c202b1c36e17933e13759ea05278a230b38aa13b8bac3056ab5daaadb9757ae7a225061056e9b0b817947f5030ad15d2aaa1b7000" style="color:#003764; font-family:Arial, Helvetica, sans-serif; font-size:11px; line-height:14px; letter-spacing:0.0625em; text-decoration:none; padding-left:17px;">MATERNITY</a>
+                        </td>
+                        <td width="20" height="30" align="left" valign="middle">
+                          <a href="https://click.email.gapcanada.ca/?qs=3fb1daf6fcbcac64ec682e5c202b1c36e17933e13759ea05278a230b38aa13b8bac3056ab5daaadb9757ae7a225061056e9b0b817947f5030ad15d2aaa1b7000" style="font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#003764; line-height:14px; font-weight:bold; text-decoration: none;"><span style="color:#003764; line-height:14px; font-weight:bold; text-decoration: none;"> ►</span></a>
+                        </td>
+                      </tr>
+                      </table>
+                    </li>
+                    <li>
+                     <table cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td width="180" height="30" align="left" valign="middle">
+                          <a href="https://click.email.gapcanada.ca/?qs=3fb1daf6fcbcac64899aafde6005a7fd40c76863ffcfd81ea05e77f23041288caee9a57b37071fc0efa60d6f4b15e865606314c9328bff33728a2a787e7c96b8" style="color:#003764; font-family:Arial, Helvetica, sans-serif; font-size:11px; line-height:14px; letter-spacing:0.0625em; text-decoration:none; padding-left:17px;">MEN</a>
+                        </td>
+                        <td width="20" height="30" align="left" valign="middle">
+                          <a href="https://click.email.gapcanada.ca/?qs=3fb1daf6fcbcac64899aafde6005a7fd40c76863ffcfd81ea05e77f23041288caee9a57b37071fc0efa60d6f4b15e865606314c9328bff33728a2a787e7c96b8" style="font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#003764; line-height:14px; font-weight:bold; text-decoration: none;"><span style="color:#003764; line-height:14px; font-weight:bold; text-decoration: none;"> ►</span></a>
+                        </td>
+                      </tr>
+                      </table>
+                    </li>
+                    <li>
+                     <table cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td width="180" height="30" align="left" valign="middle">
+                          <a href="https://click.email.gapcanada.ca/?qs=3fb1daf6fcbcac64b75e8cf92e5ace0e5597f1b8fbffbec1d2d7f87486c6d2a8ccc4c5b1dff9970797c40930cbc808944e678597f59ebd9159479ecec30f1e92" style="color:#003764; font-family:Arial, Helvetica, sans-serif; font-size:11px; line-height:14px; letter-spacing:0.0625em; text-decoration:none; padding-left:17px;">GIRLS</a>
+                        </td>
+                        <td width="20" height="30" align="left" valign="middle">
+                          <a href="https://click.email.gapcanada.ca/?qs=3fb1daf6fcbcac64b75e8cf92e5ace0e5597f1b8fbffbec1d2d7f87486c6d2a8ccc4c5b1dff9970797c40930cbc808944e678597f59ebd9159479ecec30f1e92" style="font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#003764; line-height:14px; font-weight:bold; text-decoration: none;"><span style="color:#003764; line-height:14px; font-weight:bold; text-decoration: none;"> ►</span></a>
+                        </td>
+                      </tr>
+                      </table>
+                    </li>
+                    <li>
+                    <table cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td width="180" height="30" align="left" valign="middle">
+                          <a href="https://click.email.gapcanada.ca/?qs=3fb1daf6fcbcac641bf30dec1589feab076c5f6ebebee29f20cac22e91ecae9cdec5b139e92c1786fe3e12e698a00b650050a1a9b1fe0f089c9b47984c0fdccd" style="color:#003764; font-family:Arial, Helvetica, sans-serif; font-size:11px; line-height:14px; letter-spacing:0.0625em; text-decoration:none; padding-left:17px;">BOYS</a>
+                        </td>
+                        <td width="20" height="30" align="left" valign="middle">
+                          <a href="https://click.email.gapcanada.ca/?qs=3fb1daf6fcbcac641bf30dec1589feab076c5f6ebebee29f20cac22e91ecae9cdec5b139e92c1786fe3e12e698a00b650050a1a9b1fe0f089c9b47984c0fdccd" style="font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#003764; line-height:14px; font-weight:bold; text-decoration: none;"><span style="color:#003764; line-height:14px; font-weight:bold; text-decoration: none;"> ►</span></a>
+                        </td>
+                      </tr>
+
+                      </table>
+                    </li>
+                    <li>
+                     <table cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td width="180" height="30" align="left" valign="middle">
+                          <a href="https://click.email.gapcanada.ca/?qs=3fb1daf6fcbcac64afc7e0091176123411eb146a83971087ce9bafa5699e1b94421b8d44d5ff6bfdd6b1ff306f481cefa28520957ce0e3de69e7741add4fcfd2" style="color:#003764; font-family:Arial, Helvetica, sans-serif; font-size:11px; line-height:14px; letter-spacing:0.0625em; text-decoration:none; padding-left:17px;">TODDLER</a>
+                        </td>
+                        <td width="20" height="30" align="left" valign="middle">
+                          <a href="https://click.email.gapcanada.ca/?qs=3fb1daf6fcbcac64afc7e0091176123411eb146a83971087ce9bafa5699e1b94421b8d44d5ff6bfdd6b1ff306f481cefa28520957ce0e3de69e7741add4fcfd2" style="font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#003764; line-height:14px; font-weight:bold; text-decoration: none;"><span style="color:#003764; line-height:14px; font-weight:bold; text-decoration: none;"> ►</span></a>
+                        </td>
+                      </tr>
+                      </table>
+                    </li>
+                    <li>
+                     <table cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td width="180" height="30" align="left" valign="middle">
+                          <a href="https://click.email.gapcanada.ca/?qs=3fb1daf6fcbcac647028a57b2aface2246c371332c7f9d4872032089e30d4e2da7ab1b60229c8ab4e569fed3d1ad08c87921faa9b3c1a65b951db477d1d8b04b" style="color:#003764; font-family:Arial, Helvetica, sans-serif; font-size:11px; line-height:14px; letter-spacing:0.0625em; text-decoration:none; padding-left:17px;">BABY</a>
+                        </td>
+                        <td width="20" height="30" align="left" valign="middle">
+                          <a href="https://click.email.gapcanada.ca/?qs=3fb1daf6fcbcac647028a57b2aface2246c371332c7f9d4872032089e30d4e2da7ab1b60229c8ab4e569fed3d1ad08c87921faa9b3c1a65b951db477d1d8b04b" style="font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#003764; line-height:14px; font-weight:bold; text-decoration: none;"><span style="color:#003764; line-height:14px; font-weight:bold; text-decoration: none;"> ►</span></a>
+                        </td>
+                      </tr>
+                      </table>
+                    </li>
+                  </ul>
+                  <label for="navigation-checkbox" class="navigation-handle"></label>
+                </div>
+                <input type="hidden" name="__HIDDEN_FIELD_NAMES__" value="__HIDDEN_FIELD_NAMES__">
+                <input type="hidden" name="charset_" value="UTF-8">
+              </form>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <!--<![endif]-->
+    </td>
+  </tr>
+  <!--end EN Flyout menu-->
+
+
+</table>
+
+
+       <img src="https://click.email.gapcanada.ca/open.aspx?ffcb10-fe8f177977650c7b76-fe2117787464017a7d1d75-fe9f13707564037c74-ff66107575-fe281779746c057d721579-ff2d15777267&amp;d=60134" width="1" height="1">
+     </td>
+    </tr>
+    <!-- End header --> 
+    
+    <!-- Main content goes here e.g. ProofBanner -->
+    <tr>
+  <td>
+    
+
+
+
+<table class="wrapper" width="640" cellspacing="0" cellpadding="0" border="0" align="center">
+  <tbody>
+    <tr>
+      <td valign="top" align="center">
+        <a href="https://click.email.gapcanada.ca/?qs=721a84410e66bae845a38be36b2eca32d6b2265f4f1c56d50ccde9d12888242f683d304c5d803900def5ca9937ed4a0d6d5143dfbc45191ba9a07372a995f1c1" style="display: block" target="_blank">
+          <img alt="Display images to show real-time content" style="border: 0; display: block;" border="0" src="https://mi.gap.com/p/rp/0d60986b9ed66707.png?mi_u=249269698&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;cvosrc=&amp;EV_segment=GPCANUNK&amp;EV_locale=English&amp;tid=gpemmain1&amp;mi_now=" class="photo" width="640">
+        </a>
+      </td>
+   </tr>
+  </tbody>
+</table>
+
+
+  </td>
+</tr>
+
+<tr>
+  <td style="padding-top:50px;" class="MspaceTop25">
+    
+
+
+
+<table class="wrapper" width="640" cellspacing="0" cellpadding="0" border="0" align="center">
+  <tbody>
+    <tr>
+      <td valign="top" align="center">
+        <a href="https://click.email.gapcanada.ca/?qs=721a84410e66bae8231275d85974fecf6dca81996f7ec0a21afc1ea5ce9c184be96e83c1eac5bbaf26b199f3ebe0b29b394273e121d109a157f693bbc16a3477" style="display: block" target="_blank">
+          <img alt="Display images to show real-time content" style="border: 0; display: block;" border="0" src="https://mi.gap.com/p/rp/06526de6828af66f.png?mi_u=249269698&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;cvosrc=&amp;EV_segment=GPCANUNK&amp;EV_locale=English&amp;mi_card=" class="photo" width="640">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" align="center">
+        <a href="https://click.email.gapcanada.ca/?qs=721a84410e66bae8f85acb0ce0705b15b60d0d3b213f4d17799b26e69477f16d7fb3f78cb419f6f556245e6da91daba56af3a4e1c687a19035341a965b50bc6b" style="display: block" target="_blank">
+          <img alt="Display images to show real-time content" style="border: 0; display: block;" border="0" src="https://mi.gap.com/p/rp/cbb272a572d72d92.png?mi_u=249269698&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;cvosrc=&amp;EV_segment=GPCANUNK&amp;EV_locale=English&amp;mi_card=" class="photo" width="640">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" align="center">
+        <a href="https://click.email.gapcanada.ca/?qs=721a84410e66bae82d1afb607551f977b9c1ac28e666dc475c4a974054e348b3b2eabf98226e9b4d8c39b6ca20c202ec7bb9fc54dc4649473950c88cad3c3be2" style="display: block" target="_blank">
+          <img alt="Display images to show real-time content" style="border: 0; display: block;" border="0" src="https://mi.gap.com/p/rp/a647ad5b0e79d8a8.png?mi_u=249269698&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;cvosrc=&amp;EV_segment=GPCANUNK&amp;EV_locale=English&amp;mi_card=" class="photo" width="640">
+        </a>
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+<table class="wrapper" width="640" cellspacing="0" cellpadding="0" border="0" align="center">
+  <tbody>
+    <tr>
+  <td style="padding-top:20px;">
+        <table cellspacing="0" cellpadding="0" border="0" align="center">
+          <tbody>
+            <tr>
+              <td valign="top" align="center">
+                <a href="https://click.email.gapcanada.ca/?qs=721a84410e66bae8ed4348f96ab81b905e9882cdfe9a7ce853661325958098d31e195eb63fc441522049d9ca10aae41322de699fa642096414da6bc67996ff4a" style="display: block" target="_blank">
+                  <img alt="Display images to show real-time content" style="border: 0; display: block;" border="0" src="https://mi.gap.com/p/rp/386c27bd2eb20bae.png?mi_u=249269698&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;cvosrc=&amp;EV_segment=GPCANUNK&amp;EV_locale=English&amp;mi_card=" class="photo" width="320">
+                </a>
+              </td>
+              <td valign="top" align="center">
+                <a href="https://click.email.gapcanada.ca/?qs=e0378595f3f56e98cff272d8d06c39b741bd82a252bd81509799f069593f8af20c0c965a90da88d9ba25fbcfd592169824c1e49f258b6cf2bceab8678eea438b" style="display: block" target="_blank">
+                  <img alt="Display images to show real-time content" style="border: 0; display: block;" border="0" src="https://mi.gap.com/p/rp/5a2d54242fc61849.png?mi_u=249269698&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;cvosrc=&amp;EV_segment=GPCANUNK&amp;EV_locale=English&amp;mi_card=" class="photo" width="320">
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <table cellspacing="0" cellpadding="0" border="0" align="center">
+          <tbody>
+            <tr>
+              <td valign="top" align="center">
+                <a href="https://click.email.gapcanada.ca/?qs=e0378595f3f56e983b1bf82fde179118298d1faa19a9a0c4ef3441946eb9c3d38fabdee4d83c1b42c8846869d47af2e25ceda613136488fedb02b157b1d34c56" style="display: block" target="_blank">
+                  <img alt="Display images to show real-time content" style="border: 0; display: block;" border="0" src="https://mi.gap.com/p/rp/ba478ef91369a6ea.png?mi_u=249269698&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;cvosrc=&amp;EV_segment=GPCANUNK&amp;EV_locale=English&amp;mi_card=" class="photo" width="320">
+                </a>
+              </td>
+              <td valign="top" align="center">
+                <a href="https://click.email.gapcanada.ca/?qs=e0378595f3f56e98b4eed1398ba5162fe4dbf76d93024a271d1d1d7c65f69d079db275ed62b1e63f9f13b10e4b1f8d52fb13ed04f6da2be457ed32c4d20effb5" style="display: block" target="_blank">
+                  <img alt="Display images to show real-time content" style="border: 0; display: block;" border="0" src="https://mi.gap.com/p/rp/6f7290d4fb06db87.png?mi_u=249269698&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;cvosrc=&amp;EV_segment=GPCANUNK&amp;EV_locale=English&amp;mi_card=" class="photo" width="320">
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <table cellspacing="0" cellpadding="0" border="0" align="center">
+          <tbody>
+            <tr>
+              <td valign="top" align="center">
+                <a href="https://click.email.gapcanada.ca/?qs=e0378595f3f56e98074c5b1bef92770bd305ae16c651568698860483ca6e0f8c4a1dd46a9e5f7f4b0ce1701287e665226cb0604afe49208ab36dbd7755bd2a47" style="display: block" target="_blank">
+                  <img alt="Display images to show real-time content" style="border: 0; display: block;" border="0" src="https://mi.gap.com/p/rp/42a46eda05dade46.png?mi_u=249269698&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;cvosrc=&amp;EV_segment=GPCANUNK&amp;EV_locale=English&amp;mi_card=" class="photo" width="320">
+                </a>
+              </td>
+              <td valign="top" align="center">
+                <a href="https://click.email.gapcanada.ca/?qs=e0378595f3f56e98e55b956fcc143a5589a6875b2a0456f20ee658f05a118601661b1ecca258e9f623dd5bb6cdcbb64ef80e427189b9eb0d107add485164c7f6" style="display: block" target="_blank">
+                  <img alt="Display images to show real-time content" style="border: 0; display: block;" border="0" src="https://mi.gap.com/p/rp/7df057ef10a3960d.png?mi_u=249269698&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;cvosrc=&amp;EV_segment=GPCANUNK&amp;EV_locale=English&amp;mi_card=" class="photo" width="320">
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <table cellspacing="0" cellpadding="0" border="0" align="center">
+          <tbody>
+            <tr>
+              <td valign="top" align="center">
+                <a href="https://click.email.gapcanada.ca/?qs=e0378595f3f56e980ddc12d60b9d56364fad659695ea6418fcf43583d7458b00b4756984218a2b859135ab34df4cd5a32cedc2aa6241b52261306b6be6bf1d14" style="display: block" target="_blank">
+                  <img alt="Display images to show real-time content" style="border: 0; display: block;" border="0" src="https://mi.gap.com/p/rp/375c6d27baa717c7.png?mi_u=249269698&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;cvosrc=&amp;EV_segment=GPCANUNK&amp;EV_locale=English&amp;mi_card=" class="photo" width="320">
+                </a>
+              </td>
+              <td valign="top" align="center">
+                <a href="https://click.email.gapcanada.ca/?qs=e0378595f3f56e981485e337867c22e122c9b45016517afe4f11e078f2156044ec8fa97db87899a2df45f33dde765415bdad589636d66395db522e67d30892a4" style="display: block" target="_blank">
+                  <img alt="Display images to show real-time content" style="border: 0; display: block;" border="0" src="https://mi.gap.com/p/rp/e4d784c9da1105a8.png?mi_u=249269698&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;cvosrc=&amp;EV_segment=GPCANUNK&amp;EV_locale=English&amp;mi_card=" class="photo" width="320">
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" align="center">
+        <a href="https://click.email.gapcanada.ca/?qs=e0378595f3f56e98d11cc8db20bdf8323eafd1957a84618901a13272de69c0410c47600d597dd83dfff49f2d14d1d8a1be7c43642fc4876ed096ddce8368c0d4" style="display: block" target="_blank">
+          <img alt="Display images to show real-time content" style="border: 0; display: block;" border="0" src="https://mi.gap.com/p/rp/f7274c7583272dec.png?mi_u=249269698&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;cvosrc=&amp;EV_segment=GPCANUNK&amp;EV_locale=English&amp;mi_card=" class="photo" width="640">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" align="center" style="padding-top: 30px;" class="MspaceTop15">
+        <a href="https://click.email.gapcanada.ca/?qs=e0378595f3f56e9883771a626f260dbf880d0872ae79247016ee86f01010db003e21e47c8e6f2578760b540cf7025872a0e87efa6c216c3ba54f5a686e9a1b8a" style="display: block" target="_blank">
+          <img alt="Display images to show real-time content" style="border: 0; display: block;" border="0" src="https://mi.gap.com/p/rp/cc1cca599f6ebcfd.png?mi_u=249269698&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;cvosrc=&amp;EV_segment=GPCANUNK&amp;EV_locale=English&amp;mi_card=" class="photo" width="640">
+        </a>
+      </td>
+    </tr>   
+  </tbody>
+</table>
+  </td>
+</tr>
+
+<tr>
+  <td style="padding-top:50px;" class="MspaceTop25">
+     
+
+
+<style type="text/css">     
+      @media only screen and (max-width: 640px) {
+   td[class="width-1-30"], .width-1-30 {width: 30px }
+   td[class="width-16-30"], .width-16-30 {width: 30px  }
+   td[class="height-30"], .height-30 {height: 30px !important; }
+  }
+   body[data-outlook-cycle] td[class="width-1-30"], body[data-outlook-cycle] .width-1-30 {width: 1px !important}
+   body[data-outlook-cycle] td[class="width-16-30"], body[data-outlook-cycle] .width-16-30 {width: 16px !important}
+
+</style>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper" width="640">
+ <tr>
+  <td valign="top"> <a href="https://click.email.gapcanada.ca/?qs=94cbe2e4601aa4e74e3ef27193dbab09253355675e11b85b574825ba961e3505d2228a3f2af146c4854db4ba8b27dfd7268ab9b6729637a72882f359c8a086de" style="display: block" target="_blank"><img alt="Best of sale" style="border: 0; display: block;" border="0" src="http://mi.gap.com/p/rp/97d9c7c0a573bd44.png?mi_u=249269698&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;cvosrc=&amp;EV_segment=GPCANUNK&amp;EV_locale=English&amp;mi_card=&amp;certona_headline=Best of sale&amp;certona_headline2=" class="photo" width="640"></a> </td>
+ </tr>
+ <tr>
+  <td>
+   <table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper">
+    <tr>
+     <td class="block">
+      <table align="center" border="0" cellpadding="0" cellspacing="0">
+       <tr>
+        <td width="1" class="width-1-30"> </td>
+        <td align="center"> <a href="https://click.email.gapcanada.ca/?qs=94cbe2e4601aa4e7494b87f90d391882092d1e9316736143dfabd3ae1a115e30217a0e68e4858fb75653fe409346c8aea1d416b78ffbee053dc6559636477ba9" style="display: block;" target="_blank"><img src="http://ris.res-x.com/image.aspx?appid=gapcanada01&amp;userid=249269698&amp;scheme=GPCA_16PROD_Sale_EN&amp;campaignid=GPCA_CERTONA_16PROD_SALE_NEW_202001&amp;gender=Women&amp;locale=en_CA&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;index=1" width="147" border="0" style="display:block" class="photo"></a> </td>
+        <td width="17" class="width-16-30"> </td>
+        <td align="center"> <a href="https://click.email.gapcanada.ca/?qs=94cbe2e4601aa4e7ffcf243c38c58764060dbfdc2d1c952eecdcb2c5f63052bf76501285836ed9e49fc20b9d2a7b46c77783779f696cf7797136e629e9804e2e" style="display: block;" target="_blank"><img src="http://ris.res-x.com/image.aspx?appid=gapcanada01&amp;userid=249269698&amp;scheme=GPCA_16PROD_Sale_EN&amp;campaignid=GPCA_CERTONA_16PROD_SALE_NEW_202001&amp;gender=Women&amp;locale=en_CA&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;index=2" width="147" border="0" style="display:block" class="photo"></a> </td>
+        <td width="16" class="width-16-30"> </td>
+       </tr>
+       <tr>
+        <td> <img alt="" src="http://image.email.gap.com/lib/fe9b13707564037c70/m/56/GPUS_CERT_SPACER.gif" width="1" height="16" border="0" style="display:block;" class="height-30"> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+       </tr>
+      </table>
+     </td>
+     <td class="block">
+      <table align="center" border="0" cellpadding="0" cellspacing="0">
+       <tr>
+        <td width="1" class="width-1-30"> </td>
+        <td align="center"> <a href="https://click.email.gapcanada.ca/?qs=94cbe2e4601aa4e7d17577470f285e5e5db5f2a280a367e9f0f6e0a9540be7c1e7a8ac73c4940fbed41f1fb90aaaf93245b3c62c47ecc28fa932b7c368181a00" style="display: block;" target="_blank"><img src="http://ris.res-x.com/image.aspx?appid=gapcanada01&amp;userid=249269698&amp;scheme=GPCA_16PROD_Sale_EN&amp;campaignid=GPCA_CERTONA_16PROD_SALE_NEW_202001&amp;gender=Women&amp;locale=en_CA&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;index=3" width="147" border="0" style="display:block" class="photo"></a> </td>
+        <td width="17" class="width-16-30"> </td>
+        <td align="center"> <a href="https://click.email.gapcanada.ca/?qs=94cbe2e4601aa4e7cff8f2c14894caabe8e8ccc73e5273f6c98af159e507749554712b67ce12860ee19f809dc1c8e8b6770bc5b3c916a64a0d17e4c2744ac366" style="display: block;" target="_blank"><img src="http://ris.res-x.com/image.aspx?appid=gapcanada01&amp;userid=249269698&amp;scheme=GPCA_16PROD_Sale_EN&amp;campaignid=GPCA_CERTONA_16PROD_SALE_NEW_202001&amp;gender=Women&amp;locale=en_CA&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;index=4" width="147" border="0" style="display:block" class="photo"></a> </td>
+        <td width="1" class="width-1-30"> </td>
+       </tr>
+       <tr>
+        <td> <img alt="" src="http://image.email.gap.com/lib/fe9b13707564037c70/m/56/GPUS_CERT_SPACER.gif" width="1" height="16" border="0" style="display:block;" class="height-30"> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr>
+  <td>
+   <table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper">
+    <tr>
+     <td class="block">
+      <table align="center" border="0" cellpadding="0" cellspacing="0">
+       <tr>
+        <td width="1" class="width-1-30"> </td>
+        <td align="center"> <a href="https://click.email.gapcanada.ca/?qs=94cbe2e4601aa4e78bf50dc3b0ff5f75671f508611a9124f6b59ba631c466c0cc95aa47592f2ca9946aae848ee84718310fb351130f7f0570fcfe32f25f0e646" style="display: block;" target="_blank"><img src="http://ris.res-x.com/image.aspx?appid=gapcanada01&amp;userid=249269698&amp;scheme=GPCA_16PROD_Sale_EN&amp;campaignid=GPCA_CERTONA_16PROD_SALE_NEW_202001&amp;gender=Women&amp;locale=en_CA&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;index=5" width="147" border="0" style="display:block" class="photo"></a> </td>
+        <td width="17" class="width-16-30"> </td>
+        <td align="center"> <a href="https://click.email.gapcanada.ca/?qs=94cbe2e4601aa4e7101e3fc7281986d7dfc4996d0486988879ff1fe29c101677c7c174d67666f0c8ddff91fc6aa187c9e476e4f2b79add8578682ab1a742b2d1" style="display: block;" target="_blank"><img src="http://ris.res-x.com/image.aspx?appid=gapcanada01&amp;userid=249269698&amp;scheme=GPCA_16PROD_Sale_EN&amp;campaignid=GPCA_CERTONA_16PROD_SALE_NEW_202001&amp;gender=Women&amp;locale=en_CA&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;index=6" width="147" border="0" style="display:block" class="photo"></a> </td>
+        <td width="16" class="width-16-30"> </td>
+       </tr>
+       <tr>
+        <td> <img alt="" src="http://image.email.gap.com/lib/fe9b13707564037c70/m/56/GPUS_CERT_SPACER.gif" width="1" height="16" border="0" style="display:block;" class="height-30"> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+       </tr>
+      </table>
+     </td>
+     <td class="block">
+      <table align="center" border="0" cellpadding="0" cellspacing="0">
+       <tr>
+        <td width="1" class="width-1-30"> </td>
+        <td align="center"> <a href="https://click.email.gapcanada.ca/?qs=19d0f2ab3800db79a678abb29609f52c592e5dc166948fa8107cb0c0a5c7f98542cfe89a603176d352fb83d3c1dcb70f1e56afd248845476dc2d26131ce8714d" style="display: block;" target="_blank"><img src="http://ris.res-x.com/image.aspx?appid=gapcanada01&amp;userid=249269698&amp;scheme=GPCA_16PROD_Sale_EN&amp;campaignid=GPCA_CERTONA_16PROD_SALE_NEW_202001&amp;gender=Women&amp;locale=en_CA&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;index=7" width="147" border="0" style="display:block" class="photo"></a> </td>
+        <td width="17" class="width-16-30"> </td>
+        <td align="center"> <a href="https://click.email.gapcanada.ca/?qs=19d0f2ab3800db79a507b614e98def0b7fda03b63c112eac35c7d59a51451f2bbdba79008267e301c95fa13a791f8bba294bbfa7848ef9a1e69a247c324c7f0d" style="display: block;" target="_blank"><img src="http://ris.res-x.com/image.aspx?appid=gapcanada01&amp;userid=249269698&amp;scheme=GPCA_16PROD_Sale_EN&amp;campaignid=GPCA_CERTONA_16PROD_SALE_NEW_202001&amp;gender=Women&amp;locale=en_CA&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;index=8" width="147" border="0" style="display:block" class="photo"></a> </td>
+        <td width="1" class="width-1-30"> </td>
+       </tr>
+       <tr>
+        <td> <img alt="" src="http://image.email.gap.com/lib/fe9b13707564037c70/m/56/GPUS_CERT_SPACER.gif" width="1" height="16" border="0" style="display:block;" class="height-30"> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr>
+  <td>
+   <table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper">
+    <tr>
+     <td class="block">
+      <table align="center" border="0" cellpadding="0" cellspacing="0">
+       <tr>
+        <td width="1" class="width-1-30"> </td>
+        <td align="center"> <a href="https://click.email.gapcanada.ca/?qs=19d0f2ab3800db799649a971e13dc68629b6bd635b4ae91cac46314ac5bb049d22d4209472545e55977cb60024f00e6dfd999676d792b8ec620dcd19ad729a1e" style="display: block;" target="_blank"><img src="http://ris.res-x.com/image.aspx?appid=gapcanada01&amp;userid=249269698&amp;scheme=GPCA_16PROD_Sale_EN&amp;campaignid=GPCA_CERTONA_16PROD_SALE_NEW_202001&amp;gender=Women&amp;locale=en_CA&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;index=9" width="147" border="0" style="display:block" class="photo"></a> </td>
+        <td width="17" class="width-16-30"> </td>
+        <td align="center"> <a href="https://click.email.gapcanada.ca/?qs=19d0f2ab3800db799e8a779d0e3a33c7d57d0e8d91b1c878686b5704b09be7b65c8bc69cdbc7cb81d94acaf869249546bb5f65ba04b696e908886e75f52fced0" style="display: block;" target="_blank"><img src="http://ris.res-x.com/image.aspx?appid=gapcanada01&amp;userid=249269698&amp;scheme=GPCA_16PROD_Sale_EN&amp;campaignid=GPCA_CERTONA_16PROD_SALE_NEW_202001&amp;gender=Women&amp;locale=en_CA&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;index=10" width="147" border="0" style="display:block" class="photo"></a> </td>
+        <td width="16" class="width-16-30"> </td>
+       </tr>
+       <tr>
+        <td> <img alt="" src="http://image.email.gap.com/lib/fe9b13707564037c70/m/56/GPUS_CERT_SPACER.gif" width="1" height="16" border="0" style="display:block;" class="height-30"> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+       </tr>
+      </table>
+     </td>
+     <td class="block">
+      <table align="center" border="0" cellpadding="0" cellspacing="0">
+       <tr>
+        <td width="1" class="width-1-30"> </td>
+        <td align="center"> <a href="https://click.email.gapcanada.ca/?qs=19d0f2ab3800db79c6d2e25b3b9df8d372939af3814298a1be26bde573b22f7866e5d635393c083c4006fd0008947491aae2882522a8dd9616beee8a3aee20a2" style="display: block;" target="_blank"><img src="http://ris.res-x.com/image.aspx?appid=gapcanada01&amp;userid=249269698&amp;scheme=GPCA_16PROD_Sale_EN&amp;campaignid=GPCA_CERTONA_16PROD_SALE_NEW_202001&amp;gender=Women&amp;locale=en_CA&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;index=11" width="147" border="0" style="display:block" class="photo"></a> </td>
+        <td width="17" class="width-16-30"> </td>
+        <td align="center"> <a href="https://click.email.gapcanada.ca/?qs=19d0f2ab3800db795a0d0e478ace5b49417cdf872fab859537f8e1fb45ee96b8d1db70edb2d01f5a1ac8a02a81f03d9f006b10ea52caa630c8777d47c31286af" style="display: block;" target="_blank"><img src="http://ris.res-x.com/image.aspx?appid=gapcanada01&amp;userid=249269698&amp;scheme=GPCA_16PROD_Sale_EN&amp;campaignid=GPCA_CERTONA_16PROD_SALE_NEW_202001&amp;gender=Women&amp;locale=en_CA&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;index=12" width="147" border="0" style="display:block" class="photo"></a> </td>
+        <td width="1" class="width-1-30"> </td>
+       </tr>
+       <tr>
+        <td> <img alt="" src="http://image.email.gap.com/lib/fe9b13707564037c70/m/56/GPUS_CERT_SPACER.gif" width="1" height="16" border="0" style="display:block;" class="height-30"> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr>
+  <td>
+   <table align="center" border="0" cellpadding="0" cellspacing="0" class="wrapper">
+    <tr>
+     <td class="block">
+      <table align="center" border="0" cellpadding="0" cellspacing="0">
+       <tr>
+        <td width="1" class="width-1-30"> </td>
+        <td align="center"> <a href="https://click.email.gapcanada.ca/?qs=19d0f2ab3800db79027e793cee34618b4968c8112023ab3e28cc05b1eef04bb61ed15371de61fe666b52138fab3cfb258ed8e7ee2e6fd18d8d07e520de094ce5" style="display: block;" target="_blank"><img src="http://ris.res-x.com/image.aspx?appid=gapcanada01&amp;userid=249269698&amp;scheme=GPCA_16PROD_Sale_EN&amp;campaignid=GPCA_CERTONA_16PROD_SALE_NEW_202001&amp;gender=Women&amp;locale=en_CA&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;index=13" width="147" border="0" style="display:block" class="photo"></a> </td>
+        <td width="17" class="width-16-30"> </td>
+        <td align="center"> <a href="https://click.email.gapcanada.ca/?qs=19d0f2ab3800db79cf64ff19b2e63933f5ab02ce9d66570f0829e459388e8be7b182a594c2db91a6fced953537fdc40d55b8f998d1773c532db4ac0a129e0fb6" style="display: block;" target="_blank"><img src="http://ris.res-x.com/image.aspx?appid=gapcanada01&amp;userid=249269698&amp;scheme=GPCA_16PROD_Sale_EN&amp;campaignid=GPCA_CERTONA_16PROD_SALE_NEW_202001&amp;gender=Women&amp;locale=en_CA&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;index=14" width="147" border="0" style="display:block" class="photo"></a> </td>
+        <td width="16" class="width-16-30"> </td>
+       </tr>
+       <tr>
+        <td> <img alt="" src="http://image.email.gap.com/lib/fe9b13707564037c70/m/56/GPUS_CERT_SPACER.gif" width="1" height="16" border="0" style="display:block;" class="height-30"> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+       </tr>
+      </table>
+     </td>
+     <td class="block">
+      <table align="center" border="0" cellpadding="0" cellspacing="0">
+       <tr>
+        <td width="1" class="width-1-30"> </td>
+        <td align="center"> <a href="https://click.email.gapcanada.ca/?qs=19d0f2ab3800db79c4229847444fbfd5c1832577fc322cc475ed5653bb98b20cf2e53875160f3b7f8a7dff11729e1e0330b121b37b799a18d8f2d65dc27a66b3" style="display: block;" target="_blank"><img src="http://ris.res-x.com/image.aspx?appid=gapcanada01&amp;userid=249269698&amp;scheme=GPCA_16PROD_Sale_EN&amp;campaignid=GPCA_CERTONA_16PROD_SALE_NEW_202001&amp;gender=Women&amp;locale=en_CA&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;index=15" width="147" border="0" style="display:block" class="photo"></a> </td>
+        <td width="17" class="width-16-30"> </td>
+        <td align="center"> <a href="https://click.email.gapcanada.ca/?qs=19d0f2ab3800db79e438e47f9d1aa70d7b866104586b6ee564add5ddd60cf4cbdbafe3edd50165b4aeebf1a7ea871b53f1e4cb50d1a1bbc151f4ef80490dfd78" style="display: block;" target="_blank"><img src="http://ris.res-x.com/image.aspx?appid=gapcanada01&amp;userid=249269698&amp;scheme=GPCA_16PROD_Sale_EN&amp;campaignid=GPCA_CERTONA_16PROD_SALE_NEW_202001&amp;gender=Women&amp;locale=en_CA&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;index=16" width="147" border="0" style="display:block" class="photo"></a> </td>
+        <td width="1" class="width-1-30"> </td>
+       </tr>
+       <tr class="mobile-hidden">
+        <td> <img alt="" src="http://image.email.gap.com/lib/fe9b13707564037c70/m/56/GPUS_CERT_SPACER.gif" width="1" height="16" border="0" style="display:block;" class="height-30"> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+</table>
+
+  </td>
+</tr>
+
+<tr>
+  <td>
+    
+
+
+
+<table class="wrapper" width="640" cellspacing="0" cellpadding="0" border="0" align="center">
+  <tbody>
+    <tr>
+      <td valign="top" align="center">
+        <a href="https://click.email.gapcanada.ca/?qs=e0378595f3f56e9850b9ee3ae58e0c6032a8f4526b2ede9c74c95bf3aa9c372e7f87610644a0017be1811dac315cd3648cbd0386a53f6ca57205e78473bf3118" style="display: block" target="_blank">
+          <img alt="Display images to show real-time content" style="border: 0; display: block;" border="0" src="https://mi.gap.com/p/rp/f13e3502446cb2ac.png?mi_u=249269698&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;cvosrc=&amp;EV_segment=GPCANUNK&amp;EV_locale=English&amp;mi_card=" class="photo" width="640">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" align="center">
+        <a href="https://click.email.gapcanada.ca/?qs=778ec0c9c047d0696762e8e2a4a2c7db1790e82af5ac81cb6ae80468e0c9cd149e2183ffd5d5a1f96b020805e82f9b4a3e988ba7d03d011f23f33c79549568d4" style="display: block" target="_blank">
+          <img alt="Display images to show real-time content" style="border: 0; display: block;" border="0" src="https://mi.gap.com/p/rp/e84243ddb574ff71.png?mi_u=249269698&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;cvosrc=&amp;EV_segment=GPCANUNK&amp;EV_locale=English&amp;mi_card=" class="photo" width="640">
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+  </td>
+</tr>
+
+
+<tr>
+  <td style="padding-top:50px;" class="MspaceTop25">
+    
+
+
+
+<table class="wrapper" width="640" cellspacing="0" cellpadding="0" border="0" align="center">
+  <tbody>
+    <tr>
+      <td valign="top" align="center">
+        <a href="https://click.email.gapcanada.ca/?qs=778ec0c9c047d069c196f7b53bb574ca88b6d397da51f4b57ccae185153dcbd504bcd9d079500328ebfed86735d3babedf94bca0231eaf4ece96a5b43efa6dfd" style="display: block" target="_blank">
+          <img alt="Display images to show real-time content" style="border: 0; display: block;" border="0" src="https://mi.gap.com/p/rp/697406c8ea8ac044.png?mi_u=249269698&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;cvosrc=&amp;EV_segment=GPCANUNK&amp;EV_locale=English&amp;mi_card=" class="photo" width="640">
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+  </td>
+</tr>
+
+
+
+
+<tr>
+  <td style="padding-top:50px;" class="MspaceTop25">
+    
+
+
+
+<table class="wrapper" width="640" cellspacing="0" cellpadding="0" border="0" align="center">
+  <tbody>
+    <tr>
+      <td valign="top" align="center">
+        <a href="https://click.email.gapcanada.ca/?qs=778ec0c9c047d0698e87fa4cd41116541f3e519dde5ca34e9571241c3a955a74081a0e8cc0e347294e4b475482aea4ddd0148043efc894da584fd8cd111908b2" style="display: block" target="_blank">
+          <img alt="Display images to show real-time content" style="border: 0; display: block;" border="0" src="https://mi.gap.com/p/rp/02fb396938ea4219.png?mi_u=249269698&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;cvosrc=&amp;EV_segment=GPCANUNK&amp;EV_locale=English&amp;tid=gpemmain1&amp;mi_now=" class="photo" width="640">
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+  </td>
+</tr>
+
+<tr>
+  <td style="padding-top:50px;" class="MspaceTop25">
+    
+
+
+
+<table class="wrapper" width="640" cellspacing="0" cellpadding="0" border="0" align="center">
+  <tbody>
+    <tr>
+      <td valign="top" align="center">
+        <a href="https://click.email.gapcanada.ca/?qs=778ec0c9c047d06931fd232f7af3cff2412d09885170e79ff222d51b6ab1dbb4df05e97290b40673d5b367cbf8c9baa9b5e337f5303f8733cb7282275f43ec5c" style="display: block" target="_blank">
+          <img alt="Display images to show real-time content" style="border: 0; display: block;" border="0" src="https://mi.gap.com/p/rp/6b7f4249193d784a.png?mi_u=249269698&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;cvosrc=&amp;tid=gpemmain1&amp;EV_segment=GPCANUNK" class="photo" width="640">
+        </a>
+      </td>
+    </tr>
+   
+   
+   <tr>
+      <td>
+        <table cellspacing="0" cellpadding="0" border="0" align="center">
+          <tbody>
+            <tr>
+              <td valign="top" align="center">
+                <a href="https://click.email.gapcanada.ca/?qs=778ec0c9c047d069106d91c8bdeae16d2779d564224aeee53ff44a7081b20e0d4cd9d6bebf3445c0e83090d666715f22ef64b8d30dfa76d46f674fa5b6e86ae4" style="display: block" target="_blank">
+                  <img alt="Display images to show real-time content" style="border: 0; display: block;" border="0" src="https://mi.gap.com/p/rp/121378ea269c3ed5.png?mi_u=249269698&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;cvosrc=&amp;tid=gpemmain1&amp;EV_segment=GPCANUNK" class="photo" width="320">
+                </a>
+              </td>
+              <td valign="top" align="center">
+                <a href="https://click.email.gapcanada.ca/?qs=778ec0c9c047d069d29abe0be9e4fc4b41b1c49f023c40e442e5d88de15fc518652c2ec6d77c4a5f09a77192fe3607554b0ea56992e7bb87f1b3a7605988695a" style="display: block" target="_blank">
+                  <img alt="Display images to show real-time content" style="border: 0; display: block;" border="0" src="https://mi.gap.com/p/rp/14053bf21f57cd60.png?mi_u=249269698&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;cvosrc=&amp;tid=gpemmain1&amp;EV_segment=GPCANUNK" class="photo" width="320">
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+   
+    <tr>
+      <td valign="top" align="center">
+        <a href="https://click.email.gapcanada.ca/?qs=778ec0c9c047d069ccff135103631e2313620b34c215c376413ab0cb638ab577bc147deacbcabd14acbf7aae8bad1d9ddbdd95cfc40930da2b6cd83748f45717" style="display: block" target="_blank">
+          <img alt="Display images to show real-time content" style="border: 0; display: block;" border="0" src="https://mi.gap.com/p/rp/8f7738edc23d7fbb.png?mi_u=249269698&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;cvosrc=&amp;tid=gpemmain1&amp;EV_segment=GPCANUNK" class="photo" width="640">
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+  </td>
+</tr>
+    <!-- End of main content --> 
+    
+    <!-- Begin footer -->
+    <tr>
+     <td>
+      
+<style>
+@media only screen and (max-width: 480px) {
+ .MobAlignLeft { text-align: left !important; padding-left: 18px !important;  }
+ .MobAlignBottom { padding-bottom: 0px !important;  }
+ .padding-custom-Bottom { padding-bottom: 20px !important;  }
+ .MobileEDFScopy {  font-size: 13px !important }
+}
+</style>
+<table border="0" cellpadding="0" cellspacing="0" width="640" class="wrapper" align="center" style="padding-top:20px;">
+ <!-- Store Locator Banner --> 
+ 
+  
+ <tr>
+  <td align="center">
+   <table border="0" cellpadding="0" cellspacing="0" class="wrapper">
+ 
+     <tr>
+     <td>
+      <a href="https://click.email.gapcanada.ca/?qs=778ec0c9c047d069d7796efe8613bff34eee22806e439ca8d56266c050328e0a5bfbccf502a93def3c22e463fa06c9ccdc9d7f5358c3cbe99ab82d838786a91a" target="_blank"><img alt="Display images to show real-time content" style="border: 0; display: block;" border="0" src="https://mi.gap.com/p/rp/5e4867502a9f8fe7.png?mi_u=249269698&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;cvosrc=&amp;mi_store_id=&amp;mi_country_code=CA&amp;EV_locale=English&amp;key=&amp;mi_now=" width="640" class="photo"></a>
+     </td>
+     </tr>
+ 
+     <tr>
+     <td>
+      <a href="https://click.email.gapcanada.ca/?qs=778ec0c9c047d06947f65bbac2f5653484a4435bb223d5f79821712569d5cc8acf1fd3305d5ea3653d2646fb9dba400e765943a0c78f5e4d34a6820d16d4b5b9" target="_blank"><img alt="Display images to show real-time content" style="border: 0; display: block;" border="0" src="https://mi.gap.com/p/rp/3e631725abf2aaf4.png?mi_u=249269698&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;cvosrc=&amp;mi_store_id=&amp;mi_country_code=CA&amp;EV_locale=English&amp;key=&amp;mi_now=" width="640" class="photo"></a>
+     </td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+  
+ 
+ <!--Free Shipping Banner--> 
+ <tr>
+  <td align="center" style="font-size:0px; mso-line-height-rule:exactly; line-height:0px;">
+   <!--[if !mso]><!-->
+   <div class="show" style="display:none; float:left; overflow:hidden; width:0; max-height:0; line-height:0;">
+    
+     <tr>
+      <td class="show" style="display:none; float:left; overflow:hidden; width:0; max-height:0; line-height:0;">
+       <table border="0" cellpadding="0" cellspacing="0" class="wrapper">
+        <tr>
+         <td>
+          <a href="https://click.email.gapcanada.ca/?qs=778ec0c9c047d0697b34fdcc407058700b82bd071312ce7ab42fe46f69989d4769fb74f48a62942ee6effdb5f69faf025e5993338928fe75e2233c0530993faa" target="_blank"><img alt="Display images to show real-time content" style="border: 0; display: block;" border="0" src="http://mi.gap.com/p/rp/ba367baaffc4b637.png?mi_u=249269698&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;cvosrc=&amp;EV_locale=English" width="320" class="photo"></a>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <a href="https://click.email.gapcanada.ca/?qs=d843509bb59648abb251e8b9fc9f064c48543b1bbed94f0ce378aad1ae84904514b166ae32b26ef9cda7ae16de45847ddb7163dd7d257ba0b2d5fdbaf55f9cdf" target="_blank"><img alt="Display images to show real-time content" style="border: 0; display: block;" border="0" src="http://mi.gap.com/p/rp/4c697ea7736c81a0.png?mi_u=249269698&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;cvosrc=&amp;EV_locale=English" width="320" class="photo"></a>
+         </td>
+        </tr>
+       </table>
+      </td>
+     </tr>
+   </div>
+   <!--<![endif]-->
+   <div class="mobile-hidden">
+    
+     <tr>
+      <td class="mobile-hidden">
+       <table border="0" cellpadding="0" cellspacing="0" class="wrapper">
+        <tr>
+         <td>
+          <a href="https://click.email.gapcanada.ca/?qs=d843509bb59648abf8c09046e451c253f0b1fda44940e8dc1050d510b6cff17e377860b6ac9c5f2e3f596b9e9fbabc0204dcf02c5c6e321f5fae92cfac70d580" target="_blank"><img alt="Display images to show real-time content" style="border: 0; display: block;" border="0" src="http://mi.gap.com/p/rp/a05a76b0ea2b8283.png?mi_u=249269698&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;cvosrc=&amp;EV_locale=English" width="640" class="photo"></a>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <a href="https://click.email.gapcanada.ca/?qs=d843509bb59648ab73fe024e47b5c80c6692c2f097e36977318e0bd3c18b71f13cf0197b1c2f633919b7ebf808f2417acbb72f90bb051fb06918f668c8a03df2" target="_blank"><img alt="Display images to show real-time content" style="border: 0; display: block;" border="0" src="http://mi.gap.com/p/rp/90ac0cf3b4621362.png?mi_u=249269698&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;cvosrc=&amp;EV_locale=English" width="640" class="photo"></a>
+         </td>
+        </tr>
+       </table>
+      </td>
+     </tr>
+   </div>
+  </td>
+ </tr>
+  
+ <!--/Free Shipping Banner-->
+ <tr>
+  <td height="10">
+   <img alt="" src="http://image.email.gapcanada.ca/lib/fe9f13707564037c74/m/10/20140201_GPCA_ResSpacer.gif" width="1" height="1" style="display:block;">
+  </td>
+ </tr>
+ <tr>
+  <td align="center" style="padding-top:20px; padding-bottom:10px;" class="MspaceTop">
+   <table border="0" cellpadding="0" cellspacing="0" align="center">
+    <tr>
+     <td align="center" style="font-family:Arial,Helvetica,sans-serif; font-size:10px; mso-line-height-rule:exactly; line-height:13px; color:#666666; text-align: center;" class="MobAlignLeft">
+       <a href="https://click.email.gapcanada.ca/?qs=380c668d97e6c363f36a2e39caf6d73bd78ba738aab47dd1690a2789383e737c727c65b8819daad81434bce55da334d5b03a9635f9b34ae6bdb1bb262ef788b0" target="_blank" style="color:#0033FF; text-decoration:underline;"><span style="color:#0033FF;">UPDATE PREFERENCES</span></a> | <a href="https://click.email.gapcanada.ca/?qs=380c668d97e6c363a0aa13ffe76178ee31a7f0db2cbc872e6a66af5fa1a4ae250f7f349be24fbe5e8534a53f5a15baffdf287e9a878e475e15b3a31122f7c71b" target="_blank" style="color:#0033FF; text-decoration:underline;"><span style="color:#0033FF;">PRIVACY POLICY</span></a> | <a href="https://click.email.gapcanada.ca/?qs=380c668d97e6c3634be4e9d094d93efbff3065b63df7d6c50b263b73e288b70816272cc1b00cc81139da18763791425bfbeeac349a85babaa314136c84550d17" target="_blank" style="color:#0033FF; text-decoration:underline;"><span style="color:#0033FF;">UNSUBSCRIBE</span></a> 
+     </td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr>
+  <td align="center" style="padding-top:20px; padding-bottom:20px;" class="MspaceTop" id="legal">
+   <table border="0" cellpadding="0" cellspacing="0" width="100%" align="center">
+    <tr>
+     <td align="left" style="font-family:Arial,Helvetica,sans-serif; font-size:10px; mso-line-height-rule:exactly; line-height:13px; color:#666666;">
+      <table class="wrapper" width="640" cellspacing="0" cellpadding="0" border="0">
+   <tr>
+    <td valign="top">
+     <a><img alt="Display images to show real-time content" style="border: 0; display: block;" border="0" src="https://mi.gap.com/p/rp/d1a9458f7fb27cab.png?mi_u=249269698&amp;EV=GPCA12202020&amp;DI=&amp;CD=_GPR&amp;cvosrc=&amp;EV_segment=GPCANUNK&amp;EV_locale=English&amp;mi_card=&amp;mi_now=" class="photo" width="640"></a>
+    </td>
+   </tr>
+  </table><table class="wrapper" width="640" cellspacing="0" cellpadding="0" border="0">
+   <tr>
+    <td valign="top">
+     <a><img alt="Display images to show real-time content" style="border: 0; display: block;" border="0" src="https://mi.gap.com/p/rp/8cffb7809ab60a2b.png?mi_u=249269698&amp;EV=GPCA12202020&amp;DI=&amp;CD=_GPR&amp;cvosrc=&amp;EV_segment=GPCANUNK&amp;EV_locale=English&amp;mi_card=&amp;mi_now=" class="photo" width="640"></a>
+    </td>
+   </tr>
+  </table><table class="wrapper" width="640" cellspacing="0" cellpadding="0" border="0">
+   <tr>
+    <td valign="top">
+     <a><img alt="Display images to show real-time content" style="border: 0; display: block;" border="0" src="https://mi.gap.com/p/rp/18f3c9ce0cb7f4e5.png?mi_u=249269698&amp;EV=GPCA12202020&amp;DI=&amp;CD=_GPR&amp;cvosrc=&amp;EV_segment=GPCANUNK&amp;EV_locale=English&amp;mi_card=&amp;mi_now=" class="photo" width="640"></a>
+    </td>
+   </tr>
+  </table><table class="wrapper" width="640" cellspacing="0" cellpadding="0" border="0">
+   <tr>
+    <td valign="top">
+     <a><img alt="Display images to show real-time content" style="border: 0; display: block;" border="0" src="https://mi.gap.com/p/rp/ddbfe211479dc6d2.png?mi_u=249269698&amp;EV=GPCA12202020&amp;DI=&amp;CD=_GPR&amp;cvosrc=&amp;EV_segment=GPCANUNK&amp;EV_locale=English&amp;mi_card=&amp;mi_now=" class="photo" width="640"></a>
+    </td>
+   </tr>
+  </table><table class="wrapper" width="640" cellspacing="0" cellpadding="0" border="0">
+   <tr>
+    <td valign="top">
+     <a><img alt="Display images to show real-time content" style="border: 0; display: block;" border="0" src="https://mi.gap.com/p/rp/ea3094677c2830ad.png?mi_u=249269698&amp;EV=GPCA12202020&amp;DI=&amp;CD=_GPR&amp;cvosrc=&amp;EV_segment=GPCANUNK&amp;EV_locale=English&amp;mi_card=&amp;mi_now=" class="photo" width="640"></a>
+    </td>
+   </tr>
+  </table><table class="wrapper" width="640" cellspacing="0" cellpadding="0" border="0">
+   <tr>
+    <td valign="top">
+     <a><img alt="Display images to show real-time content" style="border: 0; display: block;" border="0" src="https://mi.gap.com/p/rp/1a433cf1f63f13dd.png?mi_u=249269698&amp;EV=GPCA12202020&amp;DI=&amp;CD=_GPR&amp;cvosrc=&amp;EV_segment=GPCANUNK&amp;EV_locale=English&amp;mi_card=&amp;mi_now=" class="photo" width="640"></a>
+    </td>
+   </tr>
+  </table><br>
+      <br>
+      
+      
+       
+      
+      <!--LDTS Banner--> 
+       
+      <!-- Begin EDFS Legal Block --> 
+      
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" style="min-width:640;" class="wrapper">
+<tr>
+<td><img alt="Display images to show real-time content" style="border: 0; display: block;" border="0" src="http://mi.gap.com/p/rp/33dd6e80f2f9bf8a.png?mi_u=249269698&amp;EV=GPCA_UNKNCPSPRP12202020&amp;DI=249269698&amp;CD=_GPR&amp;cvosrc=&amp;EV_segment=GPCANUNK&amp;EV_locale=English&amp;mi_card=" class="photo"></td>
+</tr>
+</table>
+       
+      <!-- End EDFS Legal Block --> 
+       
+      <!--/LDTS Banner--> 
+      
+      
+      If you'd rather not receive email updates from Gap, you can unsubscribe from our mailing list by clicking &quot;Unsubscribe&quot; above. If you have any questions about our privacy policy, contact our customer service center via email at <a href="mailto:custserv@gapcanada.ca" style="color:#0033FF; text-decoration:underline;"><span style="color:#0033FF;">custserv@gapcanada.ca</span></a>, or call us at 1-800-427-7895. You may also contact us by postal mail at Gap Customer Service, 13153 Coleraine Dr., Suite 1501, Bolton, Ontario L7E 3B6, Canada.<br>
+      <br>
+      If you would like to change the language in which you receive our emails, please click &quot;Update Your Email Preferences&quot; above.
+       <br>
+      <br>
+      © 2020 Gap Inc.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      
+      
+<img src="http://pixel.mathtag.com/event/img?mt_id=370002&amp;mt_adid=101970&amp;v1=GPCA&amp;v2=20201220_GPCDA_Promo_AM_TM&amp;v3=12/20/2020 5:15:47 AM&amp;s1=GPCA&amp;s2=&amp;s3=249269698" width="1" height="1">
+
+<img border="0" hspace="0" vspace="0" width="1" height="1" src="https://sr.rlcdn.com/377808.gif?s=56e242495fcf17d42005b0c14ae876c4cebcc456&amp;n=1">
+<img border="0" hspace="0" vspace="0" width="1" height="1" src="https://sr.rlcdn.com/377808.gif?s=56e242495fcf17d42005b0c14ae876c4cebcc456&amp;n=2">
+<img border="0" hspace="0" vspace="0" width="1" height="1" src="https://sr.rlcdn.com/377808.gif?s=56e242495fcf17d42005b0c14ae876c4cebcc456&amp;n=3">
+<img border="0" hspace="0" vspace="0" width="1" height="1" src="https://sr.rlcdn.com/377808.gif?s=56e242495fcf17d42005b0c14ae876c4cebcc456&amp;n=4">
+<img border="0" hspace="0" vspace="0" width="1" height="1" src="https://sr.rlcdn.com/377808.gif?s=56e242495fcf17d42005b0c14ae876c4cebcc456&amp;n=5">
+                                                                                                                                           
+
+
+
+
+
+
+<!-- context: SEND -->
+      
+     </td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+</table>
+     </td>
+    </tr>
+    <!-- End footer -->
+   </table>
+  </td>
+ </tr>
+</table>
+<!-- End container and wrapper tables -->
+<style type="text/css">
+  @media only screen and (max-width: 480px) {
+    table[class="wrapper"], .wrapper {width: 100% !important;}
+    div[class="show"] img {width: 100% !important; }    
+    *[class].flyOut {left: 30px !important; top: -22px !important}
+    #legal {padding: 0 10px}
+  }
+ </style>   
+
+   
+</body>
+<!--Inserted to Prevent Gmail Font Resizing: -->
+<div style="display:none; white-space:nowrap; font:15px courier; color:#ffffff;">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</div>
+</html>
+
+--kDutMTz9oCPx=_?:--

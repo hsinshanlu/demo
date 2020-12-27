@@ -1,0 +1,6 @@
+2020/12/25-21:55:27.953 49a Reusing MANIFEST /home/pi/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
+2020/12/25-21:55:27.954 49a Recovering log #6
+2020/12/25-21:55:27.957 49a Reusing old log /home/pi/.config/chromium/Default/Sync Data/LevelDB/000006.log 
+2020/12/27-21:58:22.121 6a4 Level-0 table #10: started
+2020/12/27-21:58:22.144 6a4 Level-0 table #10: 101715 bytes OK
+2020/12/27-21:58:22.149 6a4 Delete type=0 #6

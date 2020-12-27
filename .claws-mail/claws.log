@@ -1,0 +1,135 @@
+[22:32:54] * message: Account 'Outlook': Connecting to IMAP server: imap-mail.outlook.com:993...
+[22:34:19] *** error: SSL/TLS handshake failed
+[22:35:00] * message: Account 'Outlook': Connecting to IMAP server: imap-mail.outlook.com:993...
+[22:35:20] ** warning: IMAP error on imap-mail.outlook.com: connection refused
+[22:37:03] * message: Account 'Outlook': Connecting to IMAP server: imap-mail.outlook.com:993...
+[22:37:04] IMAP< * OK The Microsoft Exchange IMAP4 service is ready. [SABLAEEAUABSADAAMwBDAEEAMAAwADIANQAuAGEAcABjAHAAcgBkADAAMwAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A] 
+[22:37:04] * message: IMAP connection is un-authenticated
+[22:37:04] IMAP> 1 CAPABILITY 
+[22:37:04] IMAP< * CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN AUTH=XOAUTH2 SASL-IR UIDPLUS MOVE ID UNSELECT CHILDREN IDLE NAMESPACE LITERAL+ 
+[22:37:04] IMAP< 1 OK CAPABILITY completed. 
+[22:37:04] IMAP> Logging lu-visser@outlook.com to imap-mail.outlook.com using PLAIN
+[22:37:04] IMAP< CAPABILITY completed.
+[22:37:04] ** warning: IMAP error on imap-mail.outlook.com: LOGIN error
+[22:37:04] IMAP< Error logging in to imap-mail.outlook.com
+[22:37:04] IMAP> Logging lu-visser@outlook.com to imap-mail.outlook.com using plaintext
+[22:37:06] IMAP< LOGIN completed.
+[22:37:06] IMAP< Login to imap-mail.outlook.com successful
+[22:37:06] IMAP> 3 LIST "" "" 
+[22:37:06] IMAP< * LIST (\Noselect \HasChildren) "/" "" 
+[22:37:06] IMAP< 3 OK LIST completed. 
+[22:37:06] IMAP> 4 STATUS Junk (MESSAGES UIDNEXT UIDVALIDITY UNSEEN) 
+[22:37:07] IMAP< * STATUS Junk (MESSAGES 85 UIDNEXT 1543 UIDVALIDITY 223 UNSEEN 85)  
+[22:37:07] IMAP< 4 OK STATUS completed. 
+[22:37:07] IMAP> 5 SELECT Junk 
+[22:37:07] IMAP< * 85 EXISTS 
+[22:37:07] IMAP< * 55 RECENT 
+[22:37:07] IMAP< * FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent) 
+[22:37:07] IMAP< * OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags 
+[22:37:07] IMAP< * OK [UNSEEN 1] Is the first unseen message 
+[22:37:07] IMAP< * OK [UIDVALIDITY 223] UIDVALIDITY value 
+[22:37:07] IMAP< * OK [UIDNEXT 1543] The next unique identifier value 
+[22:37:07] IMAP< 5 OK [READ-WRITE] SELECT completed. 
+[22:37:07] IMAP- [fetching UIDs...]
+[22:37:07] IMAP> 6 UID FETCH 1:* (UID) 
+[22:37:08] IMAP< * 1 FETCH (UID 1456) 
+[22:37:08] IMAP< [FETCH data - 1924 bytes]
+[22:37:08] IMAP< 6 OK FETCH completed. 
+[22:37:08] IMAP> 7 UID FETCH 1491:1502,1505:1542 (UID FLAGS RFC822.SIZE BODY.PEEK[HEADER.FIELDS (Date From To Cc Subject Message-ID References In-Reply-To)]) 
+[22:37:09] IMAP< [FETCH data - 8192 bytes]
+[22:37:09] IMAP< [FETCH data - 546 bytes]
+[22:37:10] IMAP< [FETCH data - 8192 bytes]
+[22:37:10] IMAP< [FETCH data - 324 bytes]
+[22:37:12] IMAP< [FETCH data - 8192 bytes]
+[22:37:12] IMAP< [FETCH data - 467 bytes]
+[22:37:12] IMAP< [FETCH data - 2396 bytes]
+[22:37:12] IMAP> 8 UID FETCH 1486:1490 (UID FLAGS RFC822.SIZE BODY.PEEK[HEADER.FIELDS (Date From To Cc Subject Message-ID References In-Reply-To)]) 
+[22:37:13] IMAP< [FETCH data - 2743 bytes]
+[22:37:13] IMAP< 8 OK FETCH completed. 
+[22:37:13] IMAP- [fetching flags...]
+[22:37:13] IMAP> 9 UID FETCH 1:* (FLAGS UID) 
+[22:37:14] IMAP< * 1 FETCH (FLAGS () UID 1456) 
+[22:37:14] IMAP< [FETCH data - 1661 bytes]
+[22:37:14] IMAP< [FETCH data - 1404 bytes]
+[22:37:14] IMAP< 9 OK FETCH completed. 
+[22:38:03] IMAP> 10 NOOP 
+[22:38:04] IMAP< 10 OK NOOP completed. 
+[22:38:31] IMAP> 11 STATUS Inbox (MESSAGES UIDNEXT UIDVALIDITY UNSEEN) 
+[22:38:31] IMAP< * STATUS Inbox (MESSAGES 35 UIDNEXT 22489 UIDVALIDITY 14 UNSEEN 2)  
+[22:38:31] IMAP< 11 OK STATUS completed. 
+[22:38:31] IMAP> 12 SELECT Inbox 
+[22:38:31] IMAP< * 35 EXISTS 
+[22:38:31] IMAP< * 2 RECENT 
+[22:38:31] IMAP< * FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent) 
+[22:38:31] IMAP< * OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags 
+[22:38:31] IMAP< * OK [UNSEEN 34] Is the first unseen message 
+[22:38:31] IMAP< * OK [UIDVALIDITY 14] UIDVALIDITY value 
+[22:38:31] IMAP< * OK [UIDNEXT 22489] The next unique identifier value 
+[22:38:31] IMAP< 12 OK [READ-WRITE] SELECT completed. 
+[22:38:31] IMAP- [fetching UIDs...]
+[22:38:31] IMAP> 13 UID FETCH 1:* (UID) 
+[22:38:32] IMAP< * 1 FETCH (UID 4808) 
+[22:38:32] IMAP< [FETCH data - 829 bytes]
+[22:38:32] IMAP> 14 UID FETCH 22484,22487 (UID FLAGS RFC822.SIZE BODY.PEEK[HEADER.FIELDS (Date From To Cc Subject Message-ID References In-Reply-To)]) 
+[22:38:32] IMAP< [FETCH data - 862 bytes]
+[22:38:32] IMAP< 14 OK FETCH completed. 
+[22:38:32] IMAP- [fetching flags...]
+[22:38:32] IMAP> 15 UID FETCH 1:* (FLAGS UID) 
+[22:38:33] IMAP< * 1 FETCH (FLAGS (\Seen) UID 4808) 
+[22:38:33] IMAP< [FETCH data - 1349 bytes]
+[22:38:37] IMAP> 16 UID FETCH 22484 BODY.PEEK[] 
+[22:38:38] IMAP< [FETCH data - 8192 bytes]
+[22:38:38] IMAP< [FETCH data - 8192 bytes]
+[22:38:38] IMAP< dth: 480px) { 
+[22:38:38] IMAP<    table[clas
+[22:38:38] IMAP< [FETCH data - 16384 bytes]
+[22:38:38] IMAP< [FETCH data - 16384 bytes]
+[22:38:38] IMAP< [FETCH data - 16384 bytes]
+[22:38:38] IMAP< [FETCH data - 15376 bytes]
+[22:38:38] IMAP< [data - 37 bytes]
+[22:38:38] IMAP> 17 UID STORE 22484 +FLAGS.SILENT (\Seen) 
+[22:38:38] IMAP< 17 OK STORE completed. 
+[22:38:42] IMAP> 18 UID COPY 22484 Trash 
+[22:38:42] IMAP< 18 OK [COPYUID 651 22484 1] COPY completed. 
+[22:38:42] IMAP> 19 STATUS Trash (MESSAGES UIDNEXT UIDVALIDITY UNSEEN) 
+[22:38:42] IMAP< * STATUS Trash (MESSAGES 1 UIDNEXT 2 UIDVALIDITY 651 UNSEEN 0)  
+[22:38:42] IMAP< 19 OK STATUS completed. 
+[22:38:42] IMAP> 20 UID STORE 22484 +FLAGS.SILENT (\Deleted) 
+[22:38:43] IMAP< 20 OK STORE completed. 
+[22:38:43] IMAP> 21 EXPUNGE 
+[22:38:43] IMAP< * 35 EXISTS 
+[22:38:43] IMAP< * 34 EXPUNGE 
+[22:38:43] IMAP< * 34 EXISTS 
+[22:38:43] IMAP< 21 OK EXPUNGE completed. 
+[22:38:43] IMAP> 22 SELECT Trash 
+[22:38:43] IMAP< * 1 EXISTS 
+[22:38:43] IMAP< * 1 RECENT 
+[22:38:43] IMAP< * FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent) 
+[22:38:43] IMAP< * OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags 
+[22:38:43] IMAP< * OK [UIDVALIDITY 651] UIDVALIDITY value 
+[22:38:43] IMAP< * OK [UIDNEXT 2] The next unique identifier value 
+[22:38:43] IMAP< 22 OK [READ-WRITE] SELECT completed. 
+[22:38:43] IMAP> 23 UID FETCH 1 (UID FLAGS RFC822.SIZE BODY.PEEK[HEADER.FIELDS (Date From To Cc Subject Message-ID References In-Reply-To)]) 
+[22:38:44] IMAP< [FETCH data - 393 bytes]
+[22:38:44] IMAP< 23 OK FETCH completed. 
+[22:38:45] IMAP> 24 SELECT Inbox 
+[22:38:45] IMAP< * 34 EXISTS 
+[22:38:45] IMAP< * 0 RECENT 
+[22:38:45] IMAP< * FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent) 
+[22:38:45] IMAP< * OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags 
+[22:38:45] IMAP< * OK [UNSEEN 34] Is the first unseen message 
+[22:38:45] IMAP< * OK [UIDVALIDITY 14] UIDVALIDITY value 
+[22:38:45] IMAP< * OK [UIDNEXT 22489] The next unique identifier value 
+[22:38:45] IMAP< 24 OK [READ-WRITE] SELECT completed. 
+[22:38:45] IMAP> 25 UID FETCH 22487 BODY.PEEK[] 
+[22:38:46] IMAP< [FETCH data - 8192 bytes]
+[22:38:46] IMAP< [FETCH data - 8192 bytes]
+[22:38:46] IMAP< [FETCH data - 16384 bytes]
+[22:38:46] IMAP< =E6=83=85</a> 
+[22:38:46] IMAP< </div> 
+[22:38:46] IMAP< <br><
+[22:38:46] IMAP< [FETCH data - 4671 bytes]
+[22:38:46] IMAP> 26 UID STORE 22487 +FLAGS.SILENT (\Seen) 
+[22:38:46] IMAP< 26 OK STORE completed. 
+[22:39:03] IMAP> 27 NOOP 
+[22:39:04] IMAP< 27 OK NOOP completed. 

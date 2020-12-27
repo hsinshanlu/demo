@@ -1,0 +1,104 @@
+2020-12-17 00:00:34,910 - mu.logic:809(get_dialog_directory) INFO: Using path for file dialog: /home/pi/mu_code
+2020-12-17 00:00:45,901 - mu.interface.main:263(get_save_path) DEBUG: Getting save path: /home/pi/mu_code/Character Input Solution
+2020-12-17 00:00:45,902 - mu.logic:903(check_for_shadow_module) INFO: Checking path "/home/pi/mu_code/Character Input Solution" for shadow module.
+2020-12-17 00:00:45,902 - mu.logic:869(save_tab_to_file) INFO: Saving script to: /home/pi/mu_code/Character Input Solution.py
+2020-12-17 00:00:45,902 - mu.logic:870(save_tab_to_file) DEBUG: name = input("What is your name: ")
+age = int("How old are you: ")
+year = str(("2020 - age) + 100)
+print(name + " will be 100 years old in year " + age)
+2020-12-17 00:01:01,441 - mu.logic:869(save_tab_to_file) INFO: Saving script to: /home/pi/mu_code/Character Input Solution.py
+2020-12-17 00:01:01,441 - mu.logic:870(save_tab_to_file) DEBUG: name = input("What is your name: ")
+age = int("How old are you: ")
+year = str(("2020 - age) + 100)
+print(name + " will be 100 years old in year " + age)
+2020-12-17 00:01:25,610 - mu.logic:869(save_tab_to_file) INFO: Saving script to: /home/pi/mu_code/Character Input Solution.py
+2020-12-17 00:01:25,611 - mu.logic:870(save_tab_to_file) DEBUG: name = input("What is your name: ")
+age = int("How old are you: ")
+year = str(("2020 - age)+100)
+print(name + " will be 100 years old in year " + age)
+2020-12-17 00:01:25,621 - mu.logic:1176(autosave) INFO: Autosave detected and saved changes in /home/pi/mu_code/Character Input Solution.py.
+2020-12-17 00:01:50,618 - mu.logic:869(save_tab_to_file) INFO: Saving script to: /home/pi/mu_code/Character Input Solution.py
+2020-12-17 00:01:50,618 - mu.logic:870(save_tab_to_file) DEBUG: name = input("What is your name: ")
+age = int("How old are you: ")
+year = str(("2020 - age)+100)
+print(name + " will be 100 years old in year " + year)
+2020-12-17 00:01:50,631 - mu.logic:1176(autosave) INFO: Autosave detected and saved changes in /home/pi/mu_code/Character Input Solution.py.
+2020-12-17 00:01:53,320 - mu.logic:869(save_tab_to_file) INFO: Saving script to: /home/pi/mu_code/Character Input Solution.py
+2020-12-17 00:01:53,320 - mu.logic:870(save_tab_to_file) DEBUG: name = input("What is your name: ")
+age = int("How old are you: ")
+year = str(("2020 - age)+100)
+print(name + " will be 100 years old in year " + year)
+2020-12-17 00:01:55,288 - mu.logic:869(save_tab_to_file) INFO: Saving script to: /home/pi/mu_code/Character Input Solution.py
+2020-12-17 00:01:55,289 - mu.logic:870(save_tab_to_file) DEBUG: name = input("What is your name: ")
+age = int("How old are you: ")
+year = str(("2020 - age)+100)
+print(name + " will be 100 years old in year " + year)
+2020-12-17 00:02:02,986 - mu.modes.python3:201(stop_script) DEBUG: Stopping script.
+2020-12-17 00:02:05,290 - mu.logic:869(save_tab_to_file) INFO: Saving script to: /home/pi/mu_code/Character Input Solution.py
+2020-12-17 00:02:05,290 - mu.logic:870(save_tab_to_file) DEBUG: name = input("What is your name: ")
+age = int("How old are you: ")
+year = str(("2020 - age)+100)
+print(name + " will be 100 years old in year " + year)
+2020-12-17 00:02:35,833 - mu.interface.panes:651(start_process) INFO: Running script: /home/pi/mu_code/Character Input Solution.py
+2020-12-17 00:02:35,833 - mu.interface.panes:653(start_process) INFO: Running with interactive mode.
+2020-12-17 00:02:35,833 - mu.interface.panes:656(start_process) INFO: Command args: []
+2020-12-17 00:02:35,834 - mu.interface.panes:714(start_process) INFO: Working directory: /home/pi/mu_code
+2020-12-17 00:02:35,834 - mu.interface.panes:719(start_process) INFO: Python path: ['/usr/share/mu-editor', '/usr/lib/python37.zip', '/usr/lib/python3.7', '/usr/lib/python3.7/lib-dynload', '/usr/local/lib/python3.7/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3/dist-packages/IPython/extensions']
+2020-12-17 00:03:15,610 - mu.logic:869(save_tab_to_file) INFO: Saving script to: /home/pi/mu_code/Character Input Solution.py
+2020-12-17 00:03:15,611 - mu.logic:870(save_tab_to_file) DEBUG: name = input("What is your name: ")
+age = int("How old are you: ")
+year = str(("2020 -age)+100)
+print(name + " will be 100 years old in year " + year)
+2020-12-17 00:03:15,623 - mu.logic:1176(autosave) INFO: Autosave detected and saved changes in /home/pi/mu_code/Character Input Solution.py.
+2020-12-17 00:03:20,610 - mu.logic:869(save_tab_to_file) INFO: Saving script to: /home/pi/mu_code/Character Input Solution.py
+2020-12-17 00:03:20,611 - mu.logic:870(save_tab_to_file) DEBUG: name = input("What is your name: ")
+age = int("How old are you: ")
+year = str(("2020-age)+100)
+print(name + " will be 100 years old in year " + year)
+2020-12-17 00:03:20,618 - mu.logic:1176(autosave) INFO: Autosave detected and saved changes in /home/pi/mu_code/Character Input Solution.py.
+2020-12-17 00:03:45,610 - mu.logic:869(save_tab_to_file) INFO: Saving script to: /home/pi/mu_code/Character Input Solution.py
+2020-12-17 00:03:45,611 - mu.logic:870(save_tab_to_file) DEBUG: name = input("What is your name: ")
+age = int("How old are you: ")
+year = str((2020-age)+100)
+print(name + " will be 100 years old in year " + year)
+2020-12-17 00:03:45,619 - mu.logic:1176(autosave) INFO: Autosave detected and saved changes in /home/pi/mu_code/Character Input Solution.py.
+2020-12-17 00:03:50,609 - mu.logic:869(save_tab_to_file) INFO: Saving script to: /home/pi/mu_code/Character Input Solution.py
+2020-12-17 00:03:50,610 - mu.logic:870(save_tab_to_file) DEBUG: name = input("What is your name: ")
+age = int("How old are you: ")
+year = str((2020 - age)+100)
+print(name + " will be 100 years old in year " + year)
+2020-12-17 00:03:50,619 - mu.logic:1176(autosave) INFO: Autosave detected and saved changes in /home/pi/mu_code/Character Input Solution.py.
+2020-12-17 00:03:51,722 - mu.logic:869(save_tab_to_file) INFO: Saving script to: /home/pi/mu_code/Character Input Solution.py
+2020-12-17 00:03:51,723 - mu.logic:870(save_tab_to_file) DEBUG: name = input("What is your name: ")
+age = int("How old are you: ")
+year = str((2020 - age)+100)
+print(name + " will be 100 years old in year " + year)
+2020-12-17 00:04:04,754 - mu.modes.python3:201(stop_script) DEBUG: Stopping script.
+2020-12-17 00:04:05,967 - mu.interface.panes:651(start_process) INFO: Running script: /home/pi/mu_code/Character Input Solution.py
+2020-12-17 00:04:05,968 - mu.interface.panes:653(start_process) INFO: Running with interactive mode.
+2020-12-17 00:04:05,968 - mu.interface.panes:656(start_process) INFO: Command args: []
+2020-12-17 00:04:05,968 - mu.interface.panes:714(start_process) INFO: Working directory: /home/pi/mu_code
+2020-12-17 00:04:05,968 - mu.interface.panes:719(start_process) INFO: Python path: ['/usr/share/mu-editor', '/usr/lib/python37.zip', '/usr/lib/python3.7', '/usr/lib/python3.7/lib-dynload', '/usr/local/lib/python3.7/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3/dist-packages/IPython/extensions']
+2020-12-17 00:04:35,610 - mu.logic:869(save_tab_to_file) INFO: Saving script to: /home/pi/mu_code/Character Input Solution.py
+2020-12-17 00:04:35,612 - mu.logic:870(save_tab_to_file) DEBUG: name = input("What is your name: ")
+age = int(input("How old are you: ")
+year = str((2020 - age)+100)
+print(name + " will be 100 years old in year " + year)
+2020-12-17 00:04:35,620 - mu.logic:1176(autosave) INFO: Autosave detected and saved changes in /home/pi/mu_code/Character Input Solution.py.
+2020-12-17 00:04:40,610 - mu.logic:869(save_tab_to_file) INFO: Saving script to: /home/pi/mu_code/Character Input Solution.py
+2020-12-17 00:04:40,610 - mu.logic:870(save_tab_to_file) DEBUG: name = input("What is your name: ")
+age = int(input("How old are you: "))
+year = str((2020 - age)+100)
+print(name + " will be 100 years old in year " + year)
+2020-12-17 00:04:40,619 - mu.logic:1176(autosave) INFO: Autosave detected and saved changes in /home/pi/mu_code/Character Input Solution.py.
+2020-12-17 00:04:41,312 - mu.modes.python3:201(stop_script) DEBUG: Stopping script.
+2020-12-17 00:04:43,812 - mu.interface.panes:651(start_process) INFO: Running script: /home/pi/mu_code/Character Input Solution.py
+2020-12-17 00:04:43,812 - mu.interface.panes:653(start_process) INFO: Running with interactive mode.
+2020-12-17 00:04:43,812 - mu.interface.panes:656(start_process) INFO: Command args: []
+2020-12-17 00:04:43,813 - mu.interface.panes:714(start_process) INFO: Working directory: /home/pi/mu_code
+2020-12-17 00:04:43,813 - mu.interface.panes:719(start_process) INFO: Python path: ['/usr/share/mu-editor', '/usr/lib/python37.zip', '/usr/lib/python3.7', '/usr/lib/python3.7/lib-dynload', '/usr/local/lib/python3.7/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3/dist-packages/IPython/extensions']
+2020-12-17 00:07:42,297 - mu.logic:1051(quit) DEBUG: Session: {'theme': 'day', 'mode': 'python', 'paths': ['/home/pi/mu_code/Character Input Solution.py'], 'envars': [], 'minify': False, 'microbit_runtime': '', 'zoom_level': 2}
+2020-12-17 00:07:42,298 - mu.logic:1052(quit) DEBUG: Saving session to: /home/pi/.local/share/mu/session.json
+2020-12-17 00:07:42,298 - mu.logic:1066(quit) INFO: Quitting.
+
+

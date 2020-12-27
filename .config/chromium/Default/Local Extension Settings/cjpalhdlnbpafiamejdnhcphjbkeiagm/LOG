@@ -1,0 +1,26 @@
+2020/12/25-21:55:29.697 585 Reusing MANIFEST /home/pi/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2020/12/25-21:55:29.698 585 Recovering log #59
+2020/12/25-21:55:29.805 585 Reusing old log /home/pi/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000059.log 
+2020/12/27-21:48:51.221 6a4 Level-0 table #63: started
+2020/12/27-21:48:51.380 6a4 Level-0 table #63: 2023874 bytes OK
+2020/12/27-21:48:51.386 6a4 Delete type=0 #59
+2020/12/27-21:58:54.807 6a4 Level-0 table #65: started
+2020/12/27-21:58:54.933 6a4 Level-0 table #65: 1725949 bytes OK
+2020/12/27-21:58:54.938 6a4 Delete type=0 #62
+2020/12/27-22:07:58.181 6a4 Level-0 table #67: started
+2020/12/27-22:07:58.334 6a4 Level-0 table #67: 2383029 bytes OK
+2020/12/27-22:07:58.339 6a4 Delete type=0 #64
+2020/12/27-22:07:58.345 6a4 Compacting 4@0 + 4@1 files
+2020/12/27-22:07:58.618 6a4 Generated table #68@0: 17 keys, 2719902 bytes
+2020/12/27-22:07:58.918 6a4 Generated table #69@0: 14 keys, 2523596 bytes
+2020/12/27-22:07:58.938 6a4 Generated table #70@0: 4 keys, 140070 bytes
+2020/12/27-22:07:58.938 6a4 Compacted 4@0 + 4@1 files => 5383568 bytes
+2020/12/27-22:07:58.942 6a4 compacted to: files[ 0 3 1 0 0 0 0 ]
+2020/12/27-22:07:58.943 6a4 Delete type=2 #63
+2020/12/27-22:07:58.943 6a4 Delete type=2 #65
+2020/12/27-22:07:58.943 6a4 Delete type=2 #67
+2020/12/27-22:07:58.943 6a4 Delete type=2 #60
+2020/12/27-22:07:58.943 6a4 Delete type=2 #54
+2020/12/27-22:07:58.943 6a4 Delete type=2 #55
+2020/12/27-22:07:58.943 6a4 Delete type=2 #57
+2020/12/27-22:07:58.943 6a4 Delete type=2 #56

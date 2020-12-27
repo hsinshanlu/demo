@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/pi/Desktop/Coursera%20K7CAAHWQKUP2.pdf" added="2020-12-17T05:15:33Z" modified="2020-12-17T05:15:33Z" visited="2020-12-17T05:15:33Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium-browser-v7" exec="&apos;chromium-browser-v7 %u&apos;" modified="2020-12-17T05:15:33Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Desktop/Data%20Science/Tools%20for%20Data%20Science" added="2020-12-17T12:36:01Z" modified="2020-12-17T12:36:01Z" visited="2020-12-17T12:36:01Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 6.1" exec="&apos;soffice %u&apos;" modified="2020-12-17T12:36:01Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Desktop/Data%20Science/Tools%20for%20Data%20Science.odt" added="2020-12-17T12:36:03Z" modified="2020-12-17T12:36:37Z" visited="2020-12-17T12:36:03Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.oasis.opendocument.text"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 6.1" exec="&apos;soffice %u&apos;" modified="2020-12-17T12:36:37Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Desktop/Data%20Science/Data%20Science%20Tools" added="2020-12-17T12:38:21Z" modified="2020-12-17T12:38:21Z" visited="2020-12-17T12:38:22Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 6.1" exec="&apos;soffice %u&apos;" modified="2020-12-17T12:38:21Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Desktop/Data%20Science/Data%20Science%20Tools.odt" added="2020-12-17T12:38:23Z" modified="2020-12-25T13:34:09Z" visited="2020-12-17T12:38:23Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.oasis.opendocument.text"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 6.1" exec="&apos;soffice %u&apos;" modified="2020-12-24T06:01:33Z" count="19"/>
+          <bookmark:application name="chromium-browser-v7" exec="&apos;chromium-browser-v7 %u&apos;" modified="2020-12-25T13:34:09Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Desktop/Data%20Science/MAX-Object-Detector-master.zip" added="2020-12-22T15:42:35Z" modified="2020-12-22T15:42:35Z" visited="2020-12-22T15:42:35Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="xarchiver" exec="&apos;xarchiver %u&apos;" modified="2020-12-22T15:42:35Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Desktop/pexels-photo-259447.jpeg" added="2020-12-22T15:44:18Z" modified="2020-12-22T15:44:27Z" visited="2020-12-22T15:44:18Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium-browser-v7" exec="&apos;chromium-browser-v7 %u&apos;" modified="2020-12-22T15:44:27Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Desktop/Data%20Science/Packages,%20APIs,%20Data%20Sets%20and%20Models" added="2020-12-22T16:00:56Z" modified="2020-12-22T16:00:56Z" visited="2020-12-22T16:00:57Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 6.1" exec="&apos;soffice %u&apos;" modified="2020-12-22T16:00:56Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Desktop/Data%20Science/Packages,%20APIs,%20Data%20Sets%20and%20Models.odt" added="2020-12-22T16:00:58Z" modified="2020-12-24T06:01:37Z" visited="2020-12-22T16:00:58Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.oasis.opendocument.text"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 6.1" exec="&apos;soffice %u&apos;" modified="2020-12-24T06:01:37Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Desktop/Data%20Science/Data%20Science%20Languges.odt" added="2020-12-24T05:48:55Z" modified="2020-12-24T05:48:59Z" visited="2020-12-24T05:48:56Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.oasis.opendocument.text"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 6.1" exec="&apos;soffice %u&apos;" modified="2020-12-24T05:48:59Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/.ssh/id_ed25519" added="2020-12-27T14:21:01Z" modified="2020-12-27T14:21:01Z" visited="2020-12-27T14:21:02Z">
+    <desc>Charset: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2020-12-27T14:21:01Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/.ssh/id_ed25519.pub" added="2020-12-27T14:21:31Z" modified="2020-12-27T14:22:09Z" visited="2020-12-27T14:21:32Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.ms-publisher"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 6.1" exec="&apos;soffice %u&apos;" modified="2020-12-27T14:22:09Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

@@ -1,0 +1,33 @@
+2020-12-08 23:15:43,575 - root:112(run) INFO: 
+
+-----------------
+
+Starting Mu 1.0.2
+2020-12-08 23:15:43,575 - root:113(run) INFO: uname_result(system='Linux', node='raspberrypi', release='5.4.51-v7l+', version='#1333 SMP Mon Aug 10 16:51:40 BST 2020', machine='armv7l', processor='')
+2020-12-08 23:15:43,575 - root:114(run) INFO: Python path: ['/usr/share/mu-editor', '/usr/lib/python37.zip', '/usr/lib/python3.7', '/usr/lib/python3.7/lib-dynload', '/usr/local/lib/python3.7/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3/dist-packages/IPython/extensions']
+2020-12-08 23:15:43,576 - root:115(run) INFO: Language code: en_US
+2020-12-08 23:15:44,457 - mu.logic:543(__init__) INFO: Setting up editor.
+2020-12-08 23:15:44,458 - mu.logic:560(__init__) DEBUG: Creating directory: /home/pi/.local/share/mu
+2020-12-08 23:15:44,459 - mu.logic:316(get_admin_file_path) DEBUG: Creating admin file: /home/pi/.local/share/mu/settings.json
+2020-12-08 23:15:44,459 - mu.logic:562(__init__) INFO: Settings path: /home/pi/.local/share/mu/settings.json
+2020-12-08 23:15:44,460 - mu.logic:316(get_admin_file_path) DEBUG: Creating admin file: /home/pi/.local/share/mu/session.json
+2020-12-08 23:15:44,460 - mu.logic:563(__init__) INFO: Session path: /home/pi/.local/share/mu/session.json
+2020-12-08 23:15:44,460 - mu.logic:564(__init__) INFO: Log directory: /home/pi/.cache/mu/log
+2020-12-08 23:15:44,460 - mu.logic:565(__init__) INFO: Data directory: /home/pi/.local/share/mu
+2020-12-08 23:15:44,500 - mu.logic:578(setup) INFO: Available modes: python, adafruit, microbit, debugger, pygamezero
+2020-12-08 23:15:44,503 - mu.logic:582(setup) DEBUG: Creating directory: /home/pi/mu_code
+2020-12-08 23:15:44,504 - mu.logic:590(setup) DEBUG: Creating directory: /home/pi/mu_code/images
+2020-12-08 23:15:44,507 - mu.logic:597(setup) DEBUG: Creating directory: /home/pi/mu_code/fonts
+2020-12-08 23:15:44,507 - mu.logic:600(setup) DEBUG: Creating directory: /home/pi/mu_code/sounds
+2020-12-08 23:15:44,507 - mu.logic:603(setup) DEBUG: Creating directory: /home/pi/mu_code/music
+2020-12-08 23:15:44,783 - mu.logic:1148(change_mode) INFO: Workspace directory: /home/pi/mu_code
+2020-12-08 23:15:44,784 - mu.logic:625(restore_session) INFO: Restoring session from: /home/pi/.local/share/mu/session.json
+2020-12-08 23:15:44,784 - mu.logic:626(restore_session) DEBUG: {}
+2020-12-08 23:15:44,784 - mu.logic:1105(select_mode) INFO: Showing available modes: ['python', 'adafruit', 'microbit', 'debugger', 'pygamezero']
+2020-12-08 23:15:58,227 - mu.logic:678(restore_session) INFO: Starting with blank file.
+2020-12-08 23:15:58,280 - mu.logic:1148(change_mode) INFO: Workspace directory: /home/pi/mu_code
+2020-12-08 23:22:28,000 - mu.logic:1051(quit) DEBUG: Session: {'theme': 'day', 'mode': 'python', 'paths': [], 'envars': [], 'minify': False, 'microbit_runtime': '', 'zoom_level': 2}
+2020-12-08 23:22:28,000 - mu.logic:1052(quit) DEBUG: Saving session to: /home/pi/.local/share/mu/session.json
+2020-12-08 23:22:28,001 - mu.logic:1066(quit) INFO: Quitting.
+
+

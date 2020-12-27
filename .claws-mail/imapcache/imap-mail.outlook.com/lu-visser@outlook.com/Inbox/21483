@@ -1,0 +1,462 @@
+Received: from CY1NAM02HT179.eop-nam02.prod.protection.outlook.com
+ (2603:10a6:4:a3::11) by DB8PR06MB6553.eurprd06.prod.outlook.com with HTTPS
+ via DB6PR0802CA0025.EURPRD08.PROD.OUTLOOK.COM; Tue, 17 Nov 2020 10:07:18
+ +0000
+Received: from CY1NAM02FT030.eop-nam02.prod.protection.outlook.com
+ (10.152.74.59) by CY1NAM02HT179.eop-nam02.prod.protection.outlook.com
+ (10.152.75.134) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3564.22; Tue, 17 Nov
+ 2020 10:07:18 +0000
+Authentication-Results: spf=pass (sender IP is 192.174.83.12)
+ smtp.mailfrom=t.mail.coursera.org; outlook.com; dkim=pass (signature was
+ verified) header.d=t.mail.coursera.org;outlook.com; dmarc=bestguesspass
+ action=none header.from=t.mail.coursera.org;compauth=pass reason=109
+Received-SPF: Pass (protection.outlook.com: domain of t.mail.coursera.org
+ designates 192.174.83.12 as permitted sender)
+ receiver=protection.outlook.com; client-ip=192.174.83.12;
+ helo=mta-83-12.sparkpostmail.com;
+Received: from mta-83-12.sparkpostmail.com (192.174.83.12) by
+ CY1NAM02FT030.mail.protection.outlook.com (10.152.75.163) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.3564.22 via Frontend Transport; Tue, 17 Nov 2020 10:07:17 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:C6FA1DF913E66D7808F61486A93AB2B4A1683658A749DDE92372CBE7899AE15E;UpperCasedChecksum:15338D49E8852AC4C7DAC482871064259858A0AED816E91B8FC946EA3B13E6DC;SizeAsReceived:1009;Count:9
+X-MSFBL: 8K0nnrY87URSxKVvo5/efEJY7PK6+BoS5q9I2eJMG/0=|eyJyIjoibHUtdmlzc2V
+	yQG91dGxvb2suY29tIiwiY3VzdG9tZXJfaWQiOiIxIiwibWVzc2FnZV9pZCI6IjA
+	wMWNkNWEwYjM1ZjIyM2YxNGUyIiwidGVuYW50X2lkIjoiY291cnNlcmEiLCJzdWJ
+	hY2NvdW50X2lkIjoiMCJ9
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=t.mail.coursera.org;
+	s=scph0616; t=1605607637; i=@t.mail.coursera.org;
+	bh=VDGhvrsQNsC2GMLVmX9HjUBRWYhTgCceLFAxfztNpOU=;
+	h=To:Message-ID:Date:Content-Type:Subject:From;
+	b=NrPWxoBG0uJCEkvAAgJ2HC0XtN8WkXdJBX/5sLon/dfPtryQBXkHaW+gtH38FcB2/
+	 gEhFqfHauzvG2s2UJvuZD5b1lpCSDzwVqG603R8q43YIg3BLFZk9O9VhpQzmoIHBx5
+	 7OKpVRhLyLppjRNs1T0ZiZZpSxenwaRS7vEH7BME=
+To: "Shann Lu" <lu-visser@outlook.com>
+Message-ID: <41.2E.16162.5D0A3BF5@ab.mta2vrest.cc.prd.sparkpost>
+Date: Tue, 17 Nov 2020 10:07:17 +0000
+Content-Type: multipart/alternative; boundary="_----mgoxji8XNtMiOpYn5AQgeg===_01/2E-16162-5D0A3BF5"
+Subject: How to get started with Coursera 
+From: "Coursera" <no-reply@t.mail.coursera.org>
+X-IncomingHeaderCount: 9
+Return-Path: bounce@t.mail.coursera.org
+X-MS-Exchange-Organization-ExpirationStartTime: 17 Nov 2020 10:07:18.0312
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 950d5218-566e-45f5-14aa-08d88ae090d8
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ CY1NAM02FT030.eop-nam02.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 11/17/2020 9:32:42 AM
+X-MS-Office365-Filtering-Correlation-Id: 950d5218-566e-45f5-14aa-08d88ae090d8
+X-MS-TrafficTypeDiagnostic: CY1NAM02HT179:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 192.174.83.12
+X-SID-PRA: NO-REPLY@T.MAIL.COURSERA.ORG
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 0
+X-Microsoft-Antispam: BCL:0;
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 17 Nov 2020 10:07:17.7913
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 950d5218-566e-45f5-14aa-08d88ae090d8
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ CY1NAM02FT030.eop-nam02.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CY1NAM02HT179
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.1643371
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.3564.028
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000282)(90000117)(90005022)(91005020)(91035115)(9000001)(9010001)(9050020)(9100272)(5061607266)(5061608174)(4900115)(98390106)(98392012)(98393011)(4920090)(6515079)(4950131)(4990090);
+X-Message-Info:
+	5vMbyqxGkdch7tM+YMMQ1WE4bTLN3hgnBYSA+HAtrbvuun84bWyzR5uXCji3xJjqDaeMiHABViqB9mh4hd860MAdIc5WKKYcREeJ2lQPARA10612BXRaK56g4qVaoS1jFa18rHmAXIMvwsWafPHHSUmvEuWqBe84O/cghDkS57KaQWIoD8DqssIgguoxBhXFxxhxopx0FzWBrEP1E7nZhw==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?YmRyU0FqTW9TS3BndzBCeDlpcTRiZWlReWMyaXJxNEVWN1dyQXkyUGNSY0p1?=
+ =?utf-8?B?Z2YyMTh5d1hYODA3S3JVVEdsbnJwbkJWclRCN2hZM2JIaHNlaENFOGlzSHpa?=
+ =?utf-8?B?ckZubDJlR1UvampHdzJTYkZKczg1c1dpb25QTVVLR0xXY0g4TmwxTEEyNE8y?=
+ =?utf-8?B?MUxjTStJelFuem4zamxJS0FtZjkzLzNSbitVcjBZdjRDeFJuUk1jczNkcXlE?=
+ =?utf-8?B?YUpaQ09VNWhiUGhqcGF3UVhucVNnak8vVmVxMnhnNTVGU3djQS9sY0xQTmtD?=
+ =?utf-8?B?UVlHWThmcTAyV1NScWRvV0ptNC9EWVBhNDNNcGFkc0o4dU5idHJQbTBJbFlJ?=
+ =?utf-8?B?WUpiV1RqVGh3Tkd1SDA3Nlkyem1LNVpVVittN2lPRHNlZTRvRFBCT0dSREFv?=
+ =?utf-8?B?WkFPYVpvM1p3bWVEYkJ5b3NSWXo5TVFudHhZN2V3OXh1eUtHOHJxRGt6S0xW?=
+ =?utf-8?B?Y0NSSWdReE04MXhKY1JZYXdTT0t3QlVIaGRyaWYvaE1YdHN4ZXRHWGw5L1N0?=
+ =?utf-8?B?Z0ZTL3RaWmMvcG9Vc1BmVTFXWU5aeW9PZ3VkdTFDdDRwMFI2dUJ4aUxUbkZR?=
+ =?utf-8?B?cDBBQXJpNFVSK0JpMFZoMVFWR3o0aTFkZ2MyRGM3MzN2WmdDaUQzTm5BNGlw?=
+ =?utf-8?B?c1JUQmlpL1lVditVUURzNk12WEQ3SjFUWnBDK3Q5MEx3cVBjaUZXckhSS3lE?=
+ =?utf-8?B?Q0sxdDFKVWErWXh1Y3o3dkJGNmIrRTh6OWZTdzdjZ1ZXVys5ajZ4T2dZVzFx?=
+ =?utf-8?B?VGM0UGQ4RHhHeEVUMVAwYWZTRlZRTXcxWC9EUFJqQm1MNm1BaVpFK3BZZkVT?=
+ =?utf-8?B?MDU3QmRpMEVyWFY5b2VPUEdXektrVGZvcWZLMDEvYWdnNVNBTFNTUk5rZlFx?=
+ =?utf-8?B?OFdaendSOXRkaWRPWWVQOXhTaVNKVEVRSGFGeDNkdVlZY2JvTWZKTnl4b25I?=
+ =?utf-8?B?WnVNV1RLUEFHQ3R4bVk3bURKTytrR0VWNnlQcC9WSnBBVUNWQ1liUklObXdI?=
+ =?utf-8?B?YnZKa0UrdnF6U0tDK25JSnI3UWtOazh6ZjVmc3ZBankvY00zQzVmcGZqczBj?=
+ =?utf-8?B?c0FCZUJkcmpDbFh0Rk1WVy9LTUgvZUZXakVpRnNGTC9TQWh1ZDdtdHhGTmtS?=
+ =?utf-8?B?cDRLVUZaQmdnb0Z3UHUwZlk3SDdCd0FOQlRnb0V3YjJPdTVFL1NpUGZaYTBX?=
+ =?utf-8?B?S2hPS3hNQW5CS2ZkRS9OT2dvc1JBdmg2Y1NoUGl4VDY5WFIrTnFIUXpGdHc2?=
+ =?utf-8?B?UFZwNU1qZEFmVXpUNWZ0MUxtSGtoL2dSRnZHVnVNN2I4TGVIYitrOS8zNGkz?=
+ =?utf-8?Q?mrRIbWwdkEl2A=3D?=
+MIME-Version: 1.0
+
+--_----mgoxji8XNtMiOpYn5AQgeg===_01/2E-16162-5D0A3BF5
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="UTF-8"
+
+[ Welcome to Coursera ... ]=0D=0A<https://eventing.coursera.org/redirectSig=
+ned/eyJrZXkiOiJlbWFpbC5saW5rLm9wZW4iLCJ2YWx1ZSI6eyJ1cmwiOiJodHRwczovL3d3dy5=
+jb3Vyc2VyYS5vcmc_dXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW90aGVyJnV0bV9jYW1wYW=
+lnbj1ub3RpZmljYXRpb25zLmF1dG8uckJxYzBTaThFZXVCUEJLSnUyTUtrdyIsInRyYWNraW5nI=
+jp7InVzZXJJZCI6NzY3MjY2MDEsInVzZXJFbWFpbCI6Imx1LXZpc3NlckBvdXRsb29rLmNvbSIs=
+Im5vdGlmaWNhdGlvblR5cGUiOiJhY2NvdW50cy53ZWxjb21lIiwiY2FtcGFpZ25JZCI6Im5vdGl=
+maWNhdGlvbnMuYXV0by5yQnFjMFNpOEVldUJQQktKdTJNS2t3IiwibGlua3MiOltdfX0sInVzZX=
+JJZCI6NzY3MjY2MDF9.iIO2bB5iCeKn-MVzfKDWAugS1s5v24GJUAhYYpG7Iqo>=0D=0ALet=E2=
+=80=99s get started.=0D=0AOn Coursera, more than 55 million people are achi=
+eving their goals with =0D=0Aonline courses and degrees from the world=E2=
+=80=99s best universities.=0D=0AEvery learning program on Coursera is flexi=
+ble and 100% online. Make =0D=0Aprogress at your own pace with video lectur=
+es, readings, quizzes, and more.=0D=0A =0D=0AGetting started is easy.=0D=0A=
+Choose a course or Specialization that covers a subject that interests you.=
+ =0D=0AA Specialization is a series of courses that helps you master a skil=
+l =E2=80=94 you =0D=0Acan try many of them for free with a 7-day trial.=0D=
+=0A =0D=0ALet=E2=80=99s Go=0D=0A<https://eventing.coursera.org/redirectSign=
+ed/eyJrZXkiOiJlbWFpbC5saW5rLm9wZW4iLCJ2YWx1ZSI6eyJ1cmwiOiJodHRwczovL3d3dy5j=
+b3Vyc2VyYS5vcmcvYnJvd3NlP3V0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1vdGhlciZ1dG1=
+fY2FtcGFpZ249bm90aWZpY2F0aW9ucy5hdXRvLnJCcWMwU2k4RWV1QlBCS0p1Mk1La3ciLCJ0cm=
+Fja2luZyI6eyJ1c2VySWQiOjc2NzI2NjAxLCJ1c2VyRW1haWwiOiJsdS12aXNzZXJAb3V0bG9va=
+y5jb20iLCJub3RpZmljYXRpb25UeXBlIjoiYWNjb3VudHMud2VsY29tZSIsImNhbXBhaWduSWQi=
+OiJub3RpZmljYXRpb25zLmF1dG8uckJxYzBTaThFZXVCUEJLSnUyTUtrdyIsImxpbmtzIjpbXX1=
+9LCJ1c2VySWQiOjc2NzI2NjAxfQ.PMR34u_MKRPaKSOnZ20oovoC0vry6U3rdtbiEGnUO0E>=0D=
+=0A =0D=0A =0D=0A[Learner]=0D=0A=E2=80=9CCoursera gave me the extra edge I =
+needed to land a job in a highly =0D=0Acompetitive industry.=E2=80=9D=0D=0A=
+- Bhakti C.=0D=0ACoursera learner=0D=0ADownload our mobile app and learn on=
+ the go=0D=0A[iOS]=0D=0A<https://eventing.coursera.org/redirectSigned/eyJrZ=
+XkiOiJlbWFpbC5saW5rLm9wZW4iLCJ2YWx1ZSI6eyJ1cmwiOiJodHRwczovL2l0dW5lcy5hcHBs=
+ZS5jb20vYXBwL2FwcGxlLXN0b3JlL2lkNzM2NTM1OTYxP3B0PTIzMzQxNTAmY3Q9TW9iaWxlJTI=
+wUHJvbW8lMjBFbWFpbCZtdD04JnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1vdGhlciZ1dG=
+1fY2FtcGFpZ249bm90aWZpY2F0aW9ucy5hdXRvLnJCcWMwU2k4RWV1QlBCS0p1Mk1La3ciLCJ0c=
+mFja2luZyI6eyJ1c2VySWQiOjc2NzI2NjAxLCJ1c2VyRW1haWwiOiJsdS12aXNzZXJAb3V0bG9v=
+ay5jb20iLCJub3RpZmljYXRpb25UeXBlIjoiYWNjb3VudHMud2VsY29tZSIsImNhbXBhaWduSWQ=
+iOiJub3RpZmljYXRpb25zLmF1dG8uckJxYzBTaThFZXVCUEJLSnUyTUtrdyIsImxpbmtzIjpbXX=
+19LCJ1c2VySWQiOjc2NzI2NjAxfQ.LUb-ZVhucCeTtQZgZde8V5Twx-jld8fGULJK3wxOSMg> =
+=09=0D=0A[Android]=0D=0A<https://eventing.coursera.org/redirectSigned/eyJrZ=
+XkiOiJlbWFpbC5saW5rLm9wZW4iLCJ2YWx1ZSI6eyJ1cmwiOiJodHRwczovL3BsYXkuZ29vZ2xl=
+LmNvbS9zdG9yZS9hcHBzL2RldGFpbHM_aWQ9b3JnLmNvdXJzZXJhLmFuZHJvaWQmdXRtX21lZGl=
+1bT1lbWFpbCZ1dG1fc291cmNlPW90aGVyJnV0bV9jYW1wYWlnbj1ub3RpZmljYXRpb25zLmF1dG=
+8uckJxYzBTaThFZXVCUEJLSnUyTUtrdyIsInRyYWNraW5nIjp7InVzZXJJZCI6NzY3MjY2MDEsI=
+nVzZXJFbWFpbCI6Imx1LXZpc3NlckBvdXRsb29rLmNvbSIsIm5vdGlmaWNhdGlvblR5cGUiOiJh=
+Y2NvdW50cy53ZWxjb21lIiwiY2FtcGFpZ25JZCI6Im5vdGlmaWNhdGlvbnMuYXV0by5yQnFjMFN=
+pOEVldUJQQktKdTJNS2t3IiwibGlua3MiOltdfX0sInVzZXJJZCI6NzY3MjY2MDF9.2lrVe4Zny=
+3QADdWvWsWaHNxN6mNgrI3-Leyu_gWUf3Q>=0D=0AConnect with Coursera=0D=0A[FB]=0D=
+=0A<https://eventing.coursera.org/redirectSigned/eyJrZXkiOiJlbWFpbC5saW5rLm=
+9wZW4iLCJ2YWx1ZSI6eyJ1cmwiOiJodHRwczovL3d3dy5mYWNlYm9vay5jb20vQ291cnNlcmE_d=
+XRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW90aGVyJnV0bV9jYW1wYWlnbj1ub3RpZmljYXRp=
+b25zLmF1dG8uckJxYzBTaThFZXVCUEJLSnUyTUtrdyIsInRyYWNraW5nIjp7InVzZXJJZCI6NzY=
+3MjY2MDEsInVzZXJFbWFpbCI6Imx1LXZpc3NlckBvdXRsb29rLmNvbSIsIm5vdGlmaWNhdGlvbl=
+R5cGUiOiJhY2NvdW50cy53ZWxjb21lIiwiY2FtcGFpZ25JZCI6Im5vdGlmaWNhdGlvbnMuYXV0b=
+y5yQnFjMFNpOEVldUJQQktKdTJNS2t3IiwibGlua3MiOltdfX0sInVzZXJJZCI6NzY3MjY2MDF9=
+=2EbHf9LTSxK6SAOkXCsiGA_eAjcAww_wDFxViD8GA3uVw> =09=0D=0A[Twitter]=0D=0A<ht=
+tps://eventing.coursera.org/redirectSigned/eyJrZXkiOiJlbWFpbC5saW5rLm9wZW4i=
+LCJ2YWx1ZSI6eyJ1cmwiOiJodHRwczovL3R3aXR0ZXIuY29tL2NvdXJzZXJhP3V0bV9tZWRpdW0=
+9ZW1haWwmdXRtX3NvdXJjZT1vdGhlciZ1dG1fY2FtcGFpZ249bm90aWZpY2F0aW9ucy5hdXRvLn=
+JCcWMwU2k4RWV1QlBCS0p1Mk1La3ciLCJ0cmFja2luZyI6eyJ1c2VySWQiOjc2NzI2NjAxLCJ1c=
+2VyRW1haWwiOiJsdS12aXNzZXJAb3V0bG9vay5jb20iLCJub3RpZmljYXRpb25UeXBlIjoiYWNj=
+b3VudHMud2VsY29tZSIsImNhbXBhaWduSWQiOiJub3RpZmljYXRpb25zLmF1dG8uckJxYzBTaTh=
+FZXVCUEJLSnUyTUtrdyIsImxpbmtzIjpbXX19LCJ1c2VySWQiOjc2NzI2NjAxfQ.pBPc7UXgrW3=
+qbtv7N0FT5TnAoN3RhOcrbgsrxybYfFg> =09=0D=0A[LI]=0D=0A<https://eventing.cour=
+sera.org/redirectSigned/eyJrZXkiOiJlbWFpbC5saW5rLm9wZW4iLCJ2YWx1ZSI6eyJ1cmw=
+iOiJodHRwczovL3d3dy5saW5rZWRpbi5jb20vY29tcGFueS9jb3Vyc2VyYT91dG1fbWVkaXVtPW=
+VtYWlsJnV0bV9zb3VyY2U9b3RoZXImdXRtX2NhbXBhaWduPW5vdGlmaWNhdGlvbnMuYXV0by5yQ=
+nFjMFNpOEVldUJQQktKdTJNS2t3IiwidHJhY2tpbmciOnsidXNlcklkIjo3NjcyNjYwMSwidXNl=
+ckVtYWlsIjoibHUtdmlzc2VyQG91dGxvb2suY29tIiwibm90aWZpY2F0aW9uVHlwZSI6ImFjY29=
+1bnRzLndlbGNvbWUiLCJjYW1wYWlnbklkIjoibm90aWZpY2F0aW9ucy5hdXRvLnJCcWMwU2k4RW=
+V1QlBCS0p1Mk1La3ciLCJsaW5rcyI6W119fSwidXNlcklkIjo3NjcyNjYwMX0.xjF02R6BVHJJl=
+03KRKS8y0V6sVatdmwQNj1rxE4tc54>=0D=0ALearner Help Center=0D=0A<https://even=
+ting.coursera.org/redirectSigned/eyJrZXkiOiJlbWFpbC5saW5rLm9wZW4iLCJ2YWx1ZS=
+I6eyJ1cmwiOiJodHRwczovL2xlYXJuZXIuY291cnNlcmEuaGVscD91dG1fbWVkaXVtPWVtYWlsJ=
+nV0bV9zb3VyY2U9b3RoZXImdXRtX2NhbXBhaWduPW5vdGlmaWNhdGlvbnMuYXV0by5yQnFjMFNp=
+OEVldUJQQktKdTJNS2t3IiwidHJhY2tpbmciOnsidXNlcklkIjo3NjcyNjYwMSwidXNlckVtYWl=
+sIjoibHUtdmlzc2VyQG91dGxvb2suY29tIiwibm90aWZpY2F0aW9uVHlwZSI6ImFjY291bnRzLn=
+dlbGNvbWUiLCJjYW1wYWlnbklkIjoibm90aWZpY2F0aW9ucy5hdXRvLnJCcWMwU2k4RWV1QlBCS=
+0p1Mk1La3ciLCJsaW5rcyI6W119fSwidXNlcklkIjo3NjcyNjYwMX0.R12gZ0oONSsT4UFa9Hyj=
+IITjBMMpNP1Y4ISAn8aDQRY>=0D=0A=0D=0AYou received this email because you reg=
+istered for an account on Coursera.=0D=0A=0D=0A=C2=A9 2020 Coursera | 3=EF=
+=BB=BF81 E. E=EF=BB=BFvelyn A=EF=BB=BFve, M=EF=BB=BFountain V=EF=BB=BFiew, =
+C=EF=BB=BFA 9=EF=BB=BF4041 U=EF=BB=BFSA
+--_----mgoxji8XNtMiOpYn5AQgeg===_01/2E-16162-5D0A3BF5
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns=3D"http://www.w3.=
+org/1999/xhtml"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><m=
+eta name=3D"x-apple-disable-message-reformatting"><meta name=3D"viewport" c=
+ontent=3D"width=3Ddevice-width, initial-scale=3D1.0 "><meta http-equiv=3D"X=
+-UA-Compatible" content=3D"IE=3Dedge"><title> Let's Get Started. Welcome to=
+ Coursera ...</title><style type=3D"text/css">@import url('https://fonts.go=
+ogleapis.com/css?family=3DOpen+Sans:400,400i,600,600i,700,700i');=0A=
+body {=0A=
+margin: 0 !important;=0A=
+padding: 0 !important;=0A=
+width: 100% !important;=0A=
+-webkit-text-size-adjust: 100% !important;=0A=
+-ms-text-size-adjust: 100% !important;=0A=
+-webkit-font-smoothing: antialiased !important;=0A=
+}=0A=
+.ExternalClass * {line-height: 0%}=0A=
+table {border-collapse: collapse !important;  padding: 0px !important; }=0A=
+table td {border-collapse:collapse;}=0A=
+img {=0A=
+border: 0 !important;=0A=
+display: block !important;=0A=
+outline: none !important;=0A=
+}=0A=
+.text a {text-decoration:none !important;}=0A=
+.white a {text-decoration:none !important;}=0A=
+@media only screen and (max-width:480px){=0A=
+table[class=3Dwrapper]{=0A=
+width:100% !important; margin-left: 0px !important;}=0A=
+table[class=3Dwrapper_small]{=0A=
+width:70% !important; }=0A=
+table[class=3Dhide]{=0A=
+display:none !important;}=0A=
+td[class=3Dtext]{=0A=
+text-align:left !important;}=0A=
+.wrapper { width: 100% !important; margin:0px !important}=0A=
+td[class=3Dpadding_onn]{=0A=
+padding-left:15px !important;=0A=
+padding-right:15px !important;}=0A=
+span[class=3DemailHideSPAN] {=0A=
+display: none !important;=0A=
+}=0A=
+*[class=3Derase] {display: none;}=0A=
+div span[class=3Dmobile_break] {display: block;}=0A=
+}=0A=
+@media only screen and (min-width:481px) and (max-width:599px) {=0A=
+table[class=3Dwrapper]{=0A=
+width:100% !important; margin:0px !important}=0A=
+table[class=3Dwrapper_small]{=0A=
+width:70% !important;}=0A=
+table[class=3Dhide]{=0A=
+display:none !important;}=0A=
+td[class=3Dtext]{=0A=
+text-align:left !important;}=0A=
+td[class=3Dpadding_onn]{=0A=
+padding-left:24px !important;=0A=
+padding-right:24px !important;}=0A=
+span[class=3DemailHideSPAN] {=0A=
+display: none !important;=0A=
+}=0A=
+*[class=3Derase] {display: none;}=0A=
+}</style><style type=3D"text/css"></style></head><body marginwidth=3D"0" st=
+yle=3D"padding:0" marginheight=3D"0"><!--GMAIL APP MISALIGNMENT FIX: BEGIN-=
+-><table><tr><span class=3D"emailHideSPAN"><td><table border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" width=3D"350px" align=3D"center"><tr><td style=
+=3D"line-height: 1px; font-size: 1px;" height=3D"1"> </td></tr></table></td=
+></span></tr></table><!--GMAIL APP MISALIGNMENT FIX: END--><!--Whole Table =
+at 100%--><table border=3D"0" cellpadding=3D"0" width=3D"100%" cellspacing=
+=3D"0" align=3D"center"><tr><td valign=3D"top" style=3D"background-color:#f=
+fffff;" align=3D"center"><!--Start Logo--><table class=3D"wrapper" border=
+=3D"0" cellpadding=3D"0" width=3D"900" cellspacing=3D"0" style=3D"max-width=
+:900px; border-right: 5px solid #f5f7fa;border-left: 5px solid #f5f7fa;" al=
+ign=3D"center"><tr><td bgcolor=3D"#f5f7fa" style=3D"background-color: #f5f7=
+fa;" align=3D"center"><!--Start Body--><table class=3D"wrapper" border=3D"0=
+" cellpadding=3D"0" width=3D"600" cellspacing=3D"0" align=3D"center"><tr><t=
+d style=3D"padding: 30px 70px 15px 70px" align=3D"center"><a href=3D"https:=
+//eventing.coursera.org/redirectSigned/eyJrZXkiOiJlbWFpbC5saW5rLm9wZW4iLCJ2=
+YWx1ZSI6eyJ1cmwiOiJodHRwczovL3d3dy5jb3Vyc2VyYS5vcmc_dXRtX21lZGl1bT1lbWFpbCZ=
+1dG1fc291cmNlPW90aGVyJnV0bV9jYW1wYWlnbj1ub3RpZmljYXRpb25zLmF1dG8uckJxYzBTaT=
+hFZXVCUEJLSnUyTUtrdyIsInRyYWNraW5nIjp7InVzZXJJZCI6NzY3MjY2MDEsInVzZXJFbWFpb=
+CI6Imx1LXZpc3NlckBvdXRsb29rLmNvbSIsIm5vdGlmaWNhdGlvblR5cGUiOiJhY2NvdW50cy53=
+ZWxjb21lIiwiY2FtcGFpZ25JZCI6Im5vdGlmaWNhdGlvbnMuYXV0by5yQnFjMFNpOEVldUJQQkt=
+KdTJNS2t3IiwibGlua3MiOltdfX0sInVzZXJJZCI6NzY3MjY2MDF9.iIO2bB5iCeKn-MVzfKDWA=
+ugS1s5v24GJUAhYYpG7Iqo" style=3D"text-decoration:none;"><img src=3D"https:/=
+/d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera=
+-misc.s3.amazonaws.com/mailspin/prod/06_21_2017_23_54_41_Coursera-Logo-For-=
+Email_336x48.png" width=3D"168" alt=3D" Welcome to Coursera ... " style=3D"=
+display: block; width:168px;height: auto;" height=3D"auto"></a></td></tr><!=
+--Start Header--><tr><td bgcolor=3D"#4FC1E9" style=3D"background-image: url=
+(https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://=
+coursera-misc.s3.amazonaws.com/mailspin/prod/12_13_2018_00_55_37_600-x-200-=
+welcome.jpg?dpr=3D2&amp;auto=3Dformat%2Ccompress&amp;w=3D300); background-p=
+osition: top; -webkit-background-size:  600; -moz-background-size: 600; -o-=
+background-size: 600; background-size: 600; background-repeat: repeat; back=
+ground-color: #4FC1E9" align=3D"center" height=3D"200"><table class=3D"wrap=
+per" border=3D"0" cellpadding=3D"0" width=3D"540" cellspacing=3D"0" align=
+=3D"center"><tr><td class=3D"padding_onn" valign=3D"top" style=3D"font-fami=
+ly:'Open Sans', Arial, sans-serif; padding: 30px 80px 30px 15px; font-size:=
+32px; color:#444444; line-height:40px; text-align:left; font-weight:700;" a=
+lign=3D"left"> <div><span class=3D"mobile_break">Let=E2=80=99s get </span><=
+span class=3D"mobile_break">started. </span></div></td></tr></table></td></=
+tr><!--End Header--><tr><td style=3D"font-family:'Open Sans', Arial, sans-s=
+erif; background-color: #ffffff; padding-top: 30px" align=3D"center"><table=
+ class=3D"wrapper" border=3D"0" cellpadding=3D"0" width=3D"540" cellspacing=
+=3D"0" align=3D"center"><!--Start Paragraph One--><tr><td class=3D"padding_=
+onn" valign=3D"top" style=3D"font-family:'Open Sans', Arial, sans-serif; pa=
+dding: 0px 15px 15px 15px; font-size:14px; color:#444444; line-height:21px;=
+ text-align:left;" align=3D"left"> On Coursera, more than 55 million people=
+ are achieving their goals with online courses and degrees from the world=
+=E2=80=99s best universities.</td></tr><tr><td class=3D"padding_onn" valign=
+=3D"top" style=3D"font-family:'Open Sans', Arial, sans-serif; padding: 0px =
+15px 15px 15px; font-size:14px; color:#444444; line-height:21px; text-align=
+:left;" align=3D"left"> Every learning program on Coursera is flexible and =
+100% online. Make progress at your own pace with video lectures, readings, =
+quizzes, and more.</td></tr><!--End Paragraph One--><!--Space--><tr><td sty=
+le=3D"font-size:1px; line-height:1px;" height=3D"15"> &nbsp; </td></tr><!--=
+Space--><tr><td class=3D"padding_onn" valign=3D"top" style=3D"font-family:'=
+Open Sans', Arial, sans-serif; padding: 0px 15px 15px 15px; font-size:22px;=
+ color:#444444; line-height:24px; text-align:left; font-weight: 700;" align=
+=3D"left"> Getting started is easy.</td></tr><!--Start Paragraph Three--><t=
+r><td class=3D"padding_onn" valign=3D"top" style=3D"font-family:'Open Sans'=
+, Arial, sans-serif; padding: 0px 15px 15px 15px; font-size:14px; color:#44=
+4444; line-height:21px; text-align:left;" align=3D"left"> Choose a course o=
+r Specialization that covers a subject that interests you. A Specialization=
+ is a series of courses that helps you master a skill =E2=80=94 you can try=
+ many of them for free with a 7-day trial.</td></tr><!--End Paragraph Three=
+--><!--Space--><tr><td style=3D"font-size:1px; line-height:1px;" height=3D"=
+15"> &nbsp; </td></tr><!--Space--><!--Start Button--><tr><td valign=3D"midd=
+le" style=3D"padding: 0px 15px" align=3D"left"><table><tr><td valign=3D"mid=
+dle" style=3D"font-family:'Open Sans', Arial, sans-serif; padding: 16px 55p=
+x; font-size: 14px; color:#ffffff; line-height: 22px; background-color: #4A=
+89DC; font-weight: bold; border-radius: 2px;" align=3D"center"><a href=3D"h=
+ttps://eventing.coursera.org/redirectSigned/eyJrZXkiOiJlbWFpbC5saW5rLm9wZW4=
+iLCJ2YWx1ZSI6eyJ1cmwiOiJodHRwczovL3d3dy5jb3Vyc2VyYS5vcmcvYnJvd3NlP3V0bV9tZW=
+RpdW09ZW1haWwmdXRtX3NvdXJjZT1vdGhlciZ1dG1fY2FtcGFpZ249bm90aWZpY2F0aW9ucy5hd=
+XRvLnJCcWMwU2k4RWV1QlBCS0p1Mk1La3ciLCJ0cmFja2luZyI6eyJ1c2VySWQiOjc2NzI2NjAx=
+LCJ1c2VyRW1haWwiOiJsdS12aXNzZXJAb3V0bG9vay5jb20iLCJub3RpZmljYXRpb25UeXBlIjo=
+iYWNjb3VudHMud2VsY29tZSIsImNhbXBhaWduSWQiOiJub3RpZmljYXRpb25zLmF1dG8uckJxYz=
+BTaThFZXVCUEJLSnUyTUtrdyIsImxpbmtzIjpbXX19LCJ1c2VySWQiOjc2NzI2NjAxfQ.PMR34u=
+_MKRPaKSOnZ20oovoC0vry6U3rdtbiEGnUO0E" style=3D"text-decoration:none; color=
+:#ffffff">Let=E2=80=99s Go</a></td></tr></table></td></tr><!--End Button-->=
+<!--Space--><tr><td style=3D"font-size:1px; line-height:1px;" height=3D"45"=
+> &nbsp; </td></tr><!--Space--></table></td></tr><!--Space--><tr><td style=
+=3D"font-size:1px; line-height:1px;" height=3D"30"> &nbsp; </td></tr><!--Sp=
+ace--><!--Start Learner--><tr><td style=3D"background-color: #ffffff; paddi=
+ng: 15px 15px" align=3D"center"><table class=3D"wrapper" border=3D"0" cellp=
+adding=3D"0" width=3D"27%" cellspacing=3D"0" align=3D"left"><tr><td style=
+=3D"padding: 0px 15px" align=3D"center"><img src=3D"https://d3njjcbhbojbot.=
+cloudfront.net/api/utilities/v1/imageproxy/https://coursera-misc.s3.amazona=
+ws.com/mailspin/prod/12_03_2018_20_52_10_Learner-Headshot.png" width=3D"118=
+" alt=3D"Learner" style=3D"display: block; width:118px; height: auto;" heig=
+ht=3D"auto"></td></tr></table><table class=3D"wrapper" border=3D"0" cellpad=
+ding=3D"0" width=3D"69%" cellspacing=3D"0" align=3D"left"><tr><td style=3D"=
+padding: 15px 0px 0px 0px" align=3D"left"><table><tr><td class=3D"padding_o=
+nn" valign=3D"top" style=3D"font-family:'Open Sans', Arial, sans-serif; pad=
+ding: 0px 15px 15px 15px; font-size:22px; color:#444444; line-height:26px; =
+text-align:left; font-weight: 700" align=3D"left"> =E2=80=9CCoursera gave m=
+e the extra edge I needed to land a job in a highly competitive industry.=
+=E2=80=9D</td></tr><tr><td class=3D"padding_onn" valign=3D"top" style=3D"fo=
+nt-family:'Open Sans', Arial, sans-serif; padding: 0px 15px 5px 15px; font-=
+size:14px; color:#444444; line-height:19px; text-align:left; font-weight:no=
+rmal;" align=3D"left"> <b>- Bhakti C.</b><br>Coursera learner</td></tr></ta=
+ble></td></tr></table></td></tr><!--End Learner--><!--Start Footer--><tr><t=
+d style=3D"font-family:'Open Sans', Arial, sans-serif;" align=3D"center"><t=
+able class=3D"wrapper" border=3D"0" cellpadding=3D"0" width=3D"100%" cellsp=
+acing=3D"0" style=3D"max-width: 600px;" align=3D"center"><tr><td style=3D"p=
+adding-top: 30px"><table class=3D"wrapper" border=3D"0" cellpadding=3D"0" w=
+idth=3D"600" cellspacing=3D"0" align=3D"center"><tr><td style=3D"font-famil=
+y:'Open Sans', Arial, sans-serif; font-size:14px; line-height:16px; color:#=
+444444; text-align: center; padding: 15px 1px" align=3D"center">Download ou=
+r mobile app and learn on the go</td></tr><tr><td style=3D"padding-bottom: =
+25px"><table align=3D"center"><tr><td border=3D"0" width=3D"130" align=3D"c=
+enter"><a href=3D"https://eventing.coursera.org/redirectSigned/eyJrZXkiOiJl=
+bWFpbC5saW5rLm9wZW4iLCJ2YWx1ZSI6eyJ1cmwiOiJodHRwczovL2l0dW5lcy5hcHBsZS5jb20=
+vYXBwL2FwcGxlLXN0b3JlL2lkNzM2NTM1OTYxP3B0PTIzMzQxNTAmY3Q9TW9iaWxlJTIwUHJvbW=
+8lMjBFbWFpbCZtdD04JnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1vdGhlciZ1dG1fY2Ftc=
+GFpZ249bm90aWZpY2F0aW9ucy5hdXRvLnJCcWMwU2k4RWV1QlBCS0p1Mk1La3ciLCJ0cmFja2lu=
+ZyI6eyJ1c2VySWQiOjc2NzI2NjAxLCJ1c2VyRW1haWwiOiJsdS12aXNzZXJAb3V0bG9vay5jb20=
+iLCJub3RpZmljYXRpb25UeXBlIjoiYWNjb3VudHMud2VsY29tZSIsImNhbXBhaWduSWQiOiJub3=
+RpZmljYXRpb25zLmF1dG8uckJxYzBTaThFZXVCUEJLSnUyTUtrdyIsImxpbmtzIjpbXX19LCJ1c=
+2VySWQiOjc2NzI2NjAxfQ.LUb-ZVhucCeTtQZgZde8V5Twx-jld8fGULJK3wxOSMg" style=3D=
+"text-decoration: none;"><img src=3D"https://d3njjcbhbojbot.cloudfront.net/=
+api/utilities/v1/imageproxy/https://d396qusza40orc.cloudfront.net/learningh=
+ubs/images/ios_app_coursera_flat.png" width=3D"110" alt=3D"iOS"></a></td><t=
+d border=3D"0" width=3D"130" align=3D"center"><a href=3D"https://eventing.c=
+oursera.org/redirectSigned/eyJrZXkiOiJlbWFpbC5saW5rLm9wZW4iLCJ2YWx1ZSI6eyJ1=
+cmwiOiJodHRwczovL3BsYXkuZ29vZ2xlLmNvbS9zdG9yZS9hcHBzL2RldGFpbHM_aWQ9b3JnLmN=
+vdXJzZXJhLmFuZHJvaWQmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW90aGVyJnV0bV9jYW=
+1wYWlnbj1ub3RpZmljYXRpb25zLmF1dG8uckJxYzBTaThFZXVCUEJLSnUyTUtrdyIsInRyYWNra=
+W5nIjp7InVzZXJJZCI6NzY3MjY2MDEsInVzZXJFbWFpbCI6Imx1LXZpc3NlckBvdXRsb29rLmNv=
+bSIsIm5vdGlmaWNhdGlvblR5cGUiOiJhY2NvdW50cy53ZWxjb21lIiwiY2FtcGFpZ25JZCI6Im5=
+vdGlmaWNhdGlvbnMuYXV0by5yQnFjMFNpOEVldUJQQktKdTJNS2t3IiwibGlua3MiOltdfX0sIn=
+VzZXJJZCI6NzY3MjY2MDF9.2lrVe4Zny3QADdWvWsWaHNxN6mNgrI3-Leyu_gWUf3Q" style=
+=3D"text-decoration: none;"><img src=3D"https://d3njjcbhbojbot.cloudfront.n=
+et/api/utilities/v1/imageproxy/https://d396qusza40orc.cloudfront.net/learni=
+nghubs/images/google_coursera_flat.png" width=3D"110" alt=3D"Android"></a><=
+/td></tr></table></td></tr><tr><td style=3D"font-family:'Open Sans', Arial,=
+ sans-serif; font-size:14px; line-height:16px; color:#444444; text-align: c=
+enter; padding: 5px 15px" align=3D"center">Connect with Coursera</td></tr><=
+tr><td><table align=3D"center"><tr><td width=3D"50" align=3D"center"><a hre=
+f=3D"https://eventing.coursera.org/redirectSigned/eyJrZXkiOiJlbWFpbC5saW5rL=
+m9wZW4iLCJ2YWx1ZSI6eyJ1cmwiOiJodHRwczovL3d3dy5mYWNlYm9vay5jb20vQ291cnNlcmE_=
+dXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW90aGVyJnV0bV9jYW1wYWlnbj1ub3RpZmljYXR=
+pb25zLmF1dG8uckJxYzBTaThFZXVCUEJLSnUyTUtrdyIsInRyYWNraW5nIjp7InVzZXJJZCI6Nz=
+Y3MjY2MDEsInVzZXJFbWFpbCI6Imx1LXZpc3NlckBvdXRsb29rLmNvbSIsIm5vdGlmaWNhdGlvb=
+lR5cGUiOiJhY2NvdW50cy53ZWxjb21lIiwiY2FtcGFpZ25JZCI6Im5vdGlmaWNhdGlvbnMuYXV0=
+by5yQnFjMFNpOEVldUJQQktKdTJNS2t3IiwibGlua3MiOltdfX0sInVzZXJJZCI6NzY3MjY2MDF=
+9.bHf9LTSxK6SAOkXCsiGA_eAjcAww_wDFxViD8GA3uVw"><img border=3D"0" src=3D"htt=
+ps://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://cour=
+sera-misc.s3.amazonaws.com/mailspin/prod/12_03_2018_20_49_01_FB.png" width=
+=3D"40" alt=3D"FB" style=3D"display: block;"></a></td><td width=3D"50" alig=
+n=3D"center"><a href=3D"https://eventing.coursera.org/redirectSigned/eyJrZX=
+kiOiJlbWFpbC5saW5rLm9wZW4iLCJ2YWx1ZSI6eyJ1cmwiOiJodHRwczovL3R3aXR0ZXIuY29tL=
+2NvdXJzZXJhP3V0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1vdGhlciZ1dG1fY2FtcGFpZ249=
+bm90aWZpY2F0aW9ucy5hdXRvLnJCcWMwU2k4RWV1QlBCS0p1Mk1La3ciLCJ0cmFja2luZyI6eyJ=
+1c2VySWQiOjc2NzI2NjAxLCJ1c2VyRW1haWwiOiJsdS12aXNzZXJAb3V0bG9vay5jb20iLCJub3=
+RpZmljYXRpb25UeXBlIjoiYWNjb3VudHMud2VsY29tZSIsImNhbXBhaWduSWQiOiJub3RpZmljY=
+XRpb25zLmF1dG8uckJxYzBTaThFZXVCUEJLSnUyTUtrdyIsImxpbmtzIjpbXX19LCJ1c2VySWQi=
+Ojc2NzI2NjAxfQ.pBPc7UXgrW3qbtv7N0FT5TnAoN3RhOcrbgsrxybYfFg"><img border=3D"=
+0" src=3D"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy=
+/https://coursera-misc.s3.amazonaws.com/mailspin/prod/12_03_2018_23_55_49_T=
+W.png" width=3D"40" alt=3D"Twitter" style=3D"display: block;"></a></td><td =
+width=3D"50" align=3D"center"><a href=3D"https://eventing.coursera.org/redi=
+rectSigned/eyJrZXkiOiJlbWFpbC5saW5rLm9wZW4iLCJ2YWx1ZSI6eyJ1cmwiOiJodHRwczov=
+L3d3dy5saW5rZWRpbi5jb20vY29tcGFueS9jb3Vyc2VyYT91dG1fbWVkaXVtPWVtYWlsJnV0bV9=
+zb3VyY2U9b3RoZXImdXRtX2NhbXBhaWduPW5vdGlmaWNhdGlvbnMuYXV0by5yQnFjMFNpOEVldU=
+JQQktKdTJNS2t3IiwidHJhY2tpbmciOnsidXNlcklkIjo3NjcyNjYwMSwidXNlckVtYWlsIjoib=
+HUtdmlzc2VyQG91dGxvb2suY29tIiwibm90aWZpY2F0aW9uVHlwZSI6ImFjY291bnRzLndlbGNv=
+bWUiLCJjYW1wYWlnbklkIjoibm90aWZpY2F0aW9ucy5hdXRvLnJCcWMwU2k4RWV1QlBCS0p1Mk1=
+La3ciLCJsaW5rcyI6W119fSwidXNlcklkIjo3NjcyNjYwMX0.xjF02R6BVHJJl03KRKS8y0V6sV=
+atdmwQNj1rxE4tc54"><img border=3D"0" src=3D"https://d3njjcbhbojbot.cloudfro=
+nt.net/api/utilities/v1/imageproxy/https://coursera-misc.s3.amazonaws.com/m=
+ailspin/prod/12_03_2018_23_57_33_IN.png" width=3D"40" alt=3D"LI" style=3D"d=
+isplay: block;"></a></td></tr></table></td></tr><tr><td style=3D"font-famil=
+y:'Open Sans', Arial, sans-serif; font-size:14px; line-height:16px; color:#=
+444444; text-align: center; padding: 30px 15px" align=3D"center"><a href=3D=
+"https://eventing.coursera.org/redirectSigned/eyJrZXkiOiJlbWFpbC5saW5rLm9wZ=
+W4iLCJ2YWx1ZSI6eyJ1cmwiOiJodHRwczovL2xlYXJuZXIuY291cnNlcmEuaGVscD91dG1fbWVk=
+aXVtPWVtYWlsJnV0bV9zb3VyY2U9b3RoZXImdXRtX2NhbXBhaWduPW5vdGlmaWNhdGlvbnMuYXV=
+0by5yQnFjMFNpOEVldUJQQktKdTJNS2t3IiwidHJhY2tpbmciOnsidXNlcklkIjo3NjcyNjYwMS=
+widXNlckVtYWlsIjoibHUtdmlzc2VyQG91dGxvb2suY29tIiwibm90aWZpY2F0aW9uVHlwZSI6I=
+mFjY291bnRzLndlbGNvbWUiLCJjYW1wYWlnbklkIjoibm90aWZpY2F0aW9ucy5hdXRvLnJCcWMw=
+U2k4RWV1QlBCS0p1Mk1La3ciLCJsaW5rcyI6W119fSwidXNlcklkIjo3NjcyNjYwMX0.R12gZ0o=
+ONSsT4UFa9HyjIITjBMMpNP1Y4ISAn8aDQRY" style=3D"text-decoration:underline !i=
+mportant; color:#444444;">Learner Help Center</a><br><br>You received this =
+email because you registered for an account on Coursera.<br><br>=C2=A9 2020=
+ Coursera  |  3=EF=BB=BF81 E. E=EF=BB=BFvelyn A=EF=BB=BFve, M=EF=BB=BFounta=
+in V=EF=BB=BFiew, C=EF=BB=BFA 9=EF=BB=BF4041 U=EF=BB=BFSA</td></tr></table>=
+</td></tr></table></td></tr></table></td></tr></table></td></tr></table><im=
+g src=3D"https://eventing.coursera.org/img/8UTtcJPzx9CZBg0MRcmlyH2OQLMC6vT_=
+rZpZS-9mGEvSEiLgWF-XgHxlSkLfWe9kHA_nrET8IsoC3aIAgYdOcA.rZNzeyxrq1EdmZpsDjqk=
+gw.oOgmUoNtZXzQVBnnfP4e4hzXOuwhMrwS0XeXN4We--U-y-Z4OQPWOvv4qlbahK33qW5urI4L=
+s4EAtSba7EDUheSQUpalpvEppOmhB7NzASbic7INvru48dNotVuLSuNaH3Hz5pW-4DQdSEPvrSn=
+FyydtJRDDyNBZYp_LL8VkJSOYUEtiMJiZeCJTcSlRLJOo2uMWU6e0pnUMk9gPBRt58KADowoGSm=
+m4xGIqMWRk3iDrOaZw9bXBY86KizfdcBua8DZUJmY90iwhPnCmpIFoXTCH81yKkSw2hBY9ZPNwc=
+ICCyfkKhqhaHMk4ErFZBwIu" border=3D"0" width=3D"1" height=3D"1">
+<img border=3D"0" width=3D"1" height=3D"1" alt=3D"" src=3D"http://click.mai=
+l.coursera.org/q/gjwpQZ72JrTdgWKDsaX1tA~~/AAAAAQA~/RgRhliXVPlcIY291cnNlcmFC=
+CgAc1aCzXyI_FOJSFWx1LXZpc3NlckBvdXRsb29rLmNvbVgEAAAAAA~~">
+</body></html>=
+
+--_----mgoxji8XNtMiOpYn5AQgeg===_01/2E-16162-5D0A3BF5--

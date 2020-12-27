@@ -1,0 +1,16 @@
+VNC(R) Viewer 6.20.529 (r42646) ARMv6 (May 29 2020 13:32:28)
+Copyright (C) 2002-2020 RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366; EU patent 2652951.
+See https://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+https://www.realvnc.com/docs/6/foss.html
+OS: Raspbian GNU/Linux 10, Linux 5.4.51, armv7l
+<14> 2020-12-24T05:46:01.330Z raspberrypi vncviewer[1267]: AbComms: Listening on /tmp/.vnc-1000/vncviewer.AbComms
+<13> 2020-12-24T05:46:01.330Z raspberrypi vncviewer[1267]: AbApp: started
+<14> 2020-12-24T05:46:01.330Z raspberrypi vncviewer[1267]: AbModuleHosted: Getting CloudConfig.pkg from built-in resource
+<14> 2020-12-24T05:46:01.340Z raspberrypi vncviewer[1267]: AbModuleHosted: Using business identifier fabca198-9fbb-4a8f-a472-8a848c1c38c6
+<14> 2020-12-24T05:46:01.346Z raspberrypi vncviewer[1267]: GoogleAnalytics: X.509 Error: Certificate expired
+<13> 2020-12-24T05:48:09.835Z raspberrypi vncviewer[1267]: AbApp: stopped
